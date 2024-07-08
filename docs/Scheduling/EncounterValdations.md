@@ -233,7 +233,7 @@ Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) 
 2. Go the Related > Encounter Validation Failure that has been approved to be overriden.
 3. Set "Override Allowed" to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
 
-Overriden validatons display in a yellow banner on the encounter service so it is clear that this session previously failed a validation and has since been allowed to pass.
+Overridden validations display in a yellow banner on the encounter service so it is clear that this session previously failed a validation and has since been allowed to pass.
 
 ## Rerun Validation
 
