@@ -8,7 +8,9 @@ Business units are organizational units within your organization. Business units
 
 Based on how an organization is set up, there may be one business unit for all locations, or individual business units for each location. For example, an organization that has one Pacific location and one Atlantic location may set up one business unit for both locations – if their office staff is involved in the intake and scheduling for both locations. Or they may set up two business units, allowing the users within each unit to access only the data for the patients and practitioners in their location. Smaller organizations usually have one business unit for the entire organization. 
 
-Note that users’ access to records within their business unit is further defined by their individual permissions.
+:::note
+Users’ access to records within their business unit is further defined by their individual permissions.
+:::
 
 **Business Unit Information**
 
@@ -21,7 +23,7 @@ Scheduling may be affected if UTC Offset (time zone) is not configured properly.
 :::
 
 - *Rounding Rule* - determines whether a session that is exactly half of a unit (e.g. a 15 minute session, when a billable unit is 30 minutes) is rounded up to be considered a unit (which uses up an entire authorized unit out of the total authorized) or rounded down and not considered a billable unit (which means the practitioner is paid but insurance does not reimburse those minutes).
-- *Primary Biller* - a user of the system, included on the Claim for when Payers have questions regarding Claims. An email address and phone number can be configured on the user.
+- *Primary Biller* - a user of the system, included on the claim for when payers have questions regarding claims. An email address and phone number can be configured on the user.
 - *Charge Period Frequency* - select whether [charge periods](../Billing/ChargePeriods.md) will be created weekly or monthly.
 - *Primary Taxonomy Code* - select the taxonomy code for this business unit.
 - *Grace Period Days* - enter the amount of days after a session takes place that a session can still be submitted.

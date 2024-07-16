@@ -10,7 +10,7 @@ Multiple contracts can be created for a single practitioner. For example, if you
 
 ## Create a Practitioner Contract
 
-Practitioner contracts can be created from the Payroll tab on a practitioner record (from either the Clinical Area or the Payroll area of the sitemap). Click 'New Practitioner Contract' on the Practitioner Contracts subgrid.
+Practitioner contracts can be created from the Payroll tab on a practitioner record (from either the Clinical Area or the Payroll area of the site menu). Click 'New Practitioner Contract' on the Practitioner Contracts subgrid.
 
 - *Practitioner* - the practitioner you are creating the contract for.
 - *Start Date* - the start date of the contract.

@@ -32,7 +32,7 @@ This gives billers visibility to sessions that will be grouped together on a cla
 
 **How to export a Duplicates Report:**
 
-1. In the Claims App, in the Billing area, go to "Charge Items" on the sitemap to open the Charge Items view.
+1. In the Claims App, in the Billing area, go to "Charge Items" on the site menu to open the Charge Items view.
 2. Click "Export Duplicate Report" on the ribbon.
 3. Select a start date and end date within which you'd like to check for sessions that would be grouped together on claims once submitted.
 4. Click export. The excel export will include all session details as well as links to the encounter services.

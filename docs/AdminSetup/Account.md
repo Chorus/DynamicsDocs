@@ -22,7 +22,7 @@ Once the Payer record is saved, you can add [Insurance Plans](../AdminSetup/Insu
     - Practitioner on Encounter Service - Some payers request the provider who conducted the session (e.g., the behavior technician) to appear on the claim service line.
 
 ## Ghost Payers
-One generic payer account and insurance plan can be created per organization, to use in the case where an organization elects to service a patient that has not (yet) been authorized for services by their insurance. 
+One generic payer account and insurance plan ("ghost insurance") can be created per organization to use in the case where an organization elects to service a patient that has not (yet) been authorized for services by their insurance. 
 
 Since all services that are scheduled for a patient are validated against an authorization, and ‘Plan’ is a required field on an authorization, this generic plan would enable the patient to be serviced under the organization’s authorization.
 

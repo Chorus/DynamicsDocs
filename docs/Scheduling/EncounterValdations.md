@@ -230,7 +230,7 @@ This validation is optional and only runs when "Grace Period Days" on the [busin
 Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) can override validation failures to allow the practitioner to submit sessions that failed for certain reasons.
 
 1. Go to the failed encounter service.
-2. Go the Related > Encounter Validation Failure that has been approved to be overriden.
+2. Go the Related > Encounter Validation Failure that has been approved to be overridden.
 3. Set "Override Allowed" to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
 
 Overridden validations display in a yellow banner on the encounter service so it is clear that this session previously failed a validation and has since been allowed to pass.

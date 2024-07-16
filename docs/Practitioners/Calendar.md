@@ -8,13 +8,15 @@ The Calendar tab displays a calendar with the practitioner's schedule.
 
 The calendar displays all the sessions scheduled for this Practitioner. You can view the calendar by day, week or month.
 
-<img src ="/img/dayWeekMonth.jpg" width="500" height="200"/>
+When looking at the calendar, the session displays the status of the session, the service that will be provided, and the patient's name. The session's color corresponds to the color of the session status in Note.  
 
-When looking at the calendar, the session displays the service that will be provided and the patient's name. Upon clicking on the session in the calendar, a popout displays the exact time and duration of the session scheduled. 
+<img src ="/img/practitionercalendar.png" width="800" height="200"/>
 
-By clicking on 'more details' on the popout, you will be navigated to the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services). By clicking on 'delete' on the popout, the session will be deleted.
+Upon clicking on the session in the calendar, a popout displays the exact time and duration of the session scheduled. 
 
-<img src ="/img/calendarPopout.jpg" width="400" height="200"/>
+By clicking on 'More Details' on the popout, you will be navigated to the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services). By clicking on 'Delete' on the popout, the session will be deleted.
+
+<img src ="/img/calendarPopoutcolor.png" width="600" height="200"/>
 
 ## Set Practitioner Availability
 
