@@ -6,11 +6,15 @@ title: Calendar
 
 The Calendar tab displays a calendar with the patient's schedule.   
 
-The calendar displays all the Sessions scheduled for this patient. You can view the calendar by day, week or month.
+The calendar displays all the Sessions scheduled for this patient. You can view the calendar by day, week or month. When looking at the calendar, the session displays the status of the session, the service that will be provided, and the practitioner's name. The session's color corresponds to the color of the session status in Note.
 
-When looking at the calendar, the Session displays the service that will be provided and the patient's name. Upon clicking on the session in the calendar, a popout displays the exact time and duration of the session scheduled. 
+<img src ="/img/calendarcolor.png" width="800" height="200"/>
+
+Upon clicking on the session in the calendar, a popout displays the exact time and duration of the session scheduled. 
 
 By clicking on 'more details' on the popout, you will be navigated to the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services). By clicking on 'delete' on the popout, the session will be deleted.
+
+<img src ="/img/calendarPopoutcolor.png" width="600" height="200"/>
 
 ## Set Patient Availability
 
