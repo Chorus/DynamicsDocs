@@ -9,7 +9,7 @@ Your organization can choose to import a goal bank to provide a library of pre-w
 
 [Learn more about Goal and Target Libraries in Note](https://notedocs.chorus.cloud/docs/CarePlan/GoalTargetLibraries).
 
-To view the goal bank library, click 'Goal Bank Library' on the Care Plan section of the Setup area of the sitemap.
+To view the goal bank library, click 'Goal Bank Library' on the Care Plan section of the Setup area of the site menu.
 
 You will be able to view the domains imported by your organization. Each domain is given a Domain Description that is included on Assessment Reports generated from the Note app.
 

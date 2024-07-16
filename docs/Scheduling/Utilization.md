@@ -5,7 +5,7 @@ title: Authorization Utilization
 
 # Authorization Utilization
 
-To easily monitor how many authorized units were utilized per service per authorization, click 'Utilization' on the Insights section of Clinical area of the sitemap.
+To easily monitor how many authorized units were utilized per service per authorization, click 'Utilization' on the Insights section of Clinical area of the site menu.
 
 Customize the filters on the report to monitor utilizations the way your organization would like to monitor them.
 
@@ -52,7 +52,7 @@ This setting can be adjusted in Advanced Settings.
 >
 >   <img src ='/img/System-SettingsFormats-Customize.png' width='400'/> 
 >
->5.	The ‘Customize Regional Options’ dialog box will appear. Navigate to the ‘Date’ tab where you can change the ‘First Day of the Week’ to align with your organizations first day of the week. 
+>5.	The ‘Customize Regional Options’ dialog box will appear. Navigate to the ‘Date’ tab where you can change the ‘First Day of the Week’ to align with your organization's first day of the week. 
 >
 >   <img src ='/img/CustomizeRegionalOptions.png' width='400'/> 
 

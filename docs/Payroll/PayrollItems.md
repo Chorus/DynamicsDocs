@@ -5,7 +5,7 @@ title: Payroll Items
 
 # Payroll
 
-To access the payroll workflow, go to the Payroll area of the Sitemap.
+To access the payroll workflow, go to the Payroll area of the site menu.
 
 Within the Payroll area, there is easy access to a view of practitioners, payroll items, and payroll periods.
 
@@ -25,7 +25,7 @@ For group sessions, the largest duration from all encounter service payroll item
 
 ## Create a Payroll Item
 
-In addition to payroll items created when encounter services are submitted, payroll items can be created manually (e.g., for reimbursements). You can create a new payroll item from the Payroll Items main grid in the Payroll area of the sitemap, or from the payroll items subgrid on the Payroll tab of a practitioner record.
+In addition to payroll items created when encounter services are submitted, payroll items can be created manually (e.g., for reimbursements). You can create a new payroll item from the Payroll Items main grid in the Payroll area of the site menu, or from the payroll items subgrid on the Payroll tab of a practitioner record.
 
 - *Payroll Period* - select the [payroll period](#payroll-periods) this payroll item falls in (generally this will be the most recent open payroll period).
 - *Practitioner* - select the practitioner to be paid.
