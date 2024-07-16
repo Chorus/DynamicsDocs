@@ -80,6 +80,10 @@ To update the timing of encounters, choose the **encounter service** for which t
 
 - The encounter's start time will automatically update to the start time of the earliest encounter service under it, and the encounter's end time will update to the end time of the latest encounter service under it.
 
+:::note
+Submitted encounter services cannot be updated. A scheduler admin can [reopen the session](../Scheduling/UnsubmitEncounters.md) to enable editing the session. The practitioner will resubmit the session in Note to place their digital signature on the updated details.
+:::
+
 ## Encounters for Other Time Zones
 A notification banner displays when your Dynamics Time Zone settings are set to a different time zone than the patient, to inform you that you are viewing timings in a different time zone than where the session took place.
 
