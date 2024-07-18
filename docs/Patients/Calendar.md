@@ -14,7 +14,7 @@ Upon clicking on the session in the calendar, a popout displays the exact time a
 
 By clicking on 'more details' on the popout, you will be navigated to the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services). By clicking on 'delete' on the popout, the session will be deleted.
 
-<img src ="/img/calendarPopoutcolor.png" width="600" height="200"/>
+<img src ="/img/calendarpopoutcolor.png" width="600" height="200"/>
 
 ## Set Patient Availability
 
