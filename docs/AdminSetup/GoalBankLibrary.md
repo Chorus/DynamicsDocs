@@ -1,9 +1,9 @@
 ---
 id: GoalBankLibrary
-title: Goal Bank Library
+title: Clinical Setup
 ---
 
-# Goal Bank Library
+## Goal Bank Library
 
 Your organization can choose to import a goal bank to provide a library of pre-written goals and targets for your BCBAs to use when creating care plans in the Note app.
 
@@ -40,14 +40,15 @@ Edits made to the goal name, target name, and default target configurations will
 
 ## Assessment Report Templates
 
-Your organization can choose to provide report templates for initial and follow-up assessment reports. The template is a word document that is stored on the System Contact in Dynamics.
+Your organization can choose to provide report templates for initial and follow-up assessment reports, as well graph exports. The template is a word document that is stored on the System Contact in Dynamics.
 
 To view your organization's templates, or upload new ones:
 
 1. Search "System" and open the contact with the name "System."
-2. On the timeline, there are two notes: "InitialAssessment-Report-Template" and "Reassessment-Report-Template". *Do not modify the titles of the notes*.
+2. On the timeline, there are three notes: "InitialAssessment-Report-Template", "Reassessment-Report-Template", and "Graphs-Template". *Do not modify the titles of the notes*.
     - The inital assessment report template will be available from sessions in Note that are created for [healthcare services](../AdminSetup/HealthcareService.md) with service type "initial assessment".
     - The reassessment report template will be available from sessions in Note that are created for healthcare services with service type "follow-up assessment".
+    - The graphs template will be the template onto which graphs are exported when the practitioner exports graphs from a learner in Note.
 
 <img src ="/img/assessmentreport.png" width="900"/>
 
@@ -56,9 +57,18 @@ To view your organization's templates, or upload new ones:
 
 
 :::note
-In order for the Note app to insert data into the assessment report, the following placeholders have to be present in the Word document:
+In order for the Note app to insert care plan data into the assessment report, the following placeholders have to be present in the Word document:
 - {{Skill Acquisition}}
 - {{Behaviors}}
 
-Read about the data that is inserted into the report on our [Note Documentation](https://notedocs.chorus.cloud/docs/Reports/AssessmentReport#assessment-data).
+Read about the care plan data that is inserted into the report on our [Note Documentation](https://notedocs.chorus.cloud/docs/Reports/AssessmentReport#assessment-data).
+
+Other placeholders you can include in your template to automate patient information into the report:
+- *patientName* inserts the patient's first name.
+- *patientFullName* inserts the patient's full name.
+- *patientDOB* inserts the patient's date of birth.
+- *patientAge* inserts the patient's age (in years and months).
+- *patientAddress* inserts the patient's home location.
+- *authorizationPeriod* inserts the dates of the patient's current authorization.
+
 :::
