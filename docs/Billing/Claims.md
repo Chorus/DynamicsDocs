@@ -60,12 +60,13 @@ The **Submissions Summary** tab shows a list of submissions representing the ful
 - **Submitted Submission** - Claim has been submitted to the clearinghouse.
 - **Historical Submission** - Claim has since been modified and resubmitted, and this is a historical record of a previous submission.
 
-There are 4 views for configured for easy access to viewing claims based on their statuses:
+There are 6 views configured for easy access to viewing claims based on their statuses:
 1. All Claims
 2. Draft Claims
 3. Historical Claims
 4. Ready to Submit Claims
 5. Submitted Claims
+6. Inactive Claims
 
 ## Submit Claims
 
