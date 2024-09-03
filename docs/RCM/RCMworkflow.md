@@ -75,3 +75,28 @@ Alternately, you can utilize the "Orphaned Remits" view to go through all orphan
 
 <img src ='/img/orphanedremitlines.png' width='800'/>
 </details>
+
+
+## Posting Cost Share Payments
+
+Remits can be set as cost share remits to pay up the Cost Share Oustanding (cost share balance) on claims and claim lines, rather than the Total Outstanding (payer balance).
+
+Cost Share Remits can be used in the following scenarios:
+- [Create manual remits](../RCM/Remits.md/#create-a-manual-remit) to represent patient payments that pay up cost share balances.
+- Set automatically created remits that came from secondary coverage as cost share remits if they should be posted towards the cost share balance rather than the total outstanding. 
+
+The Outstanding and Paid amounts on the claim are updated when a cost share remit is posted to a claim, or when a regular remit that is posted to a claim is set as a cost share remit.
+
+<details>
+<summary>How to Post Towards Cost Share</summary>
+
+1. On the claim whose cost share balance should be updated, go to the Remits Summary tab. Click 'New Claim Payment' to create a new remit.
+
+2. Set the "Cost Share" field on the Remit to yes. Save the record.
+
+<img src ='/img/CostShareYes.png' width='800'/>
+
+3. Once saved, remit lines for all claim lines on the claim will be populated according to the information on the corresponding claim lines (procedure code, dates of service, quantity, billed amount, etc.). The Paid Amount field will be blank on all Remits and Remit Lines.
+4. Enter the Paid Amount on each Remit Line. Go back to claim and refresh or click 'Recalculate' to get the updated Cost Share Paid and Cost Share Oustanding.
+
+</details>
