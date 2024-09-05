@@ -8,6 +8,7 @@ To enable practitioners to self-schedule their sessions in the Note app, you can
 
 :::note
 Practitioners who are not given a care team assignment for a patient will not be able to self-schedule for that patient in Note- they will only see sessions that were scheduledin Autism Care.
+
 If a session is not scheduled against a care team assignment, the practitioner will only be able to edit the session to the same/shorter duration as the session was originally scheduled in Autism Care, within the same week. They will not be able to cancel the session in Note.
 ::: 
 

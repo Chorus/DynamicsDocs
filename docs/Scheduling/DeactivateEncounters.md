@@ -22,7 +22,9 @@ When an encounter service is canceled, its related charge item and payroll item 
 You can deactivate encounters, related encounter services, and related encounter participants when an encounter was scheduled in error.
 
 :::note
-If observations were already collected on the session in the Note app, the encounter service cannot be deactivated.
+If observations were already collected on the session in the Note app, the encounter service cannot be deactivated. Instead, the practitioner should first [remove the inaccurate observations](https://notedocs.chorus.cloud/docs/DataCollection/EditDataAfterSession) in Note. 
+
+Scheduler Admins have permissions to override this rule.
 :::
 
 1.  On the main grid user can select the Encounters to be deactivated.
@@ -48,7 +50,9 @@ Recurring encounters are parents to a set of related encounters that were genera
 The recurring parent cannot be deactivated. You can deactivate the related Encounter Occurrences to deactivate all the sessions generated from this recurring encounter.
 
 :::note
-If observations were already collected on any of the encounter occurrences of a recurring encounter in the Note app, the recurring encounter cannot be deactivated.
+If observations were already collected on any of the encounter occurrences of a recurring encounter in the Note app, the encounter occurrences cannot be deactivated. Instead, the practitioner should first [remove the inaccurate observations](https://notedocs.chorus.cloud/docs/DataCollection/EditDataAfterSession) in Note. 
+
+Scheduler Admins have permissions to override this rule.
 :::
 
 ### Recurrence pattern set by end date
