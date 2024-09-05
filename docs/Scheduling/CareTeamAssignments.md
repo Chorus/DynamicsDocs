@@ -7,7 +7,8 @@ title: Care Team Assignments
 To enable practitioners to self-schedule their sessions in the Note app, you can assign a practitioner a total number of hours per week/month/period of a certain service. Based on the care team assignments, practitioners will have access to schedule sessions for those patients in the Note app and the sessions will be validated against the care team assignment.
 
 :::note
-Practitioners who are not given a care team assignment for a patient will only see sessions that were scheduled for the patient in Autism Care, and will only be able to edit the session in Note to the same/shorter duration as the session was originally scheduled in Autism Care.
+Practitioners who are not given a care team assignment for a patient will not be able to self-schedule for that patient in Note- they will only see sessions that were scheduledin Autism Care.
+If a session is not scheduled against a care team assignment, the practitioner will only be able to edit the session to the same/shorter duration as the session was originally scheduled in Autism Care, within the same week. They will not be able to cancel the session in Note.
 ::: 
 
 ## Create a Care Team Assignment
