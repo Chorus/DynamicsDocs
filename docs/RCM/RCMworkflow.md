@@ -92,11 +92,11 @@ The Outstanding and Paid amounts on the claim are updated when a cost share remi
 
 1. On the claim whose cost share balance should be updated, go to the Remits Summary tab. Click 'New Claim Payment' to create a new remit.
 
-2. Set the "Cost Share" field on the Remit to yes. Save the record.
+2. Set the "Cost Share" field on the Remit to yes. Populate the total paid from all remit lines in the Paid Amount field. Select the payment (or create a new payment) so this remit can be searched by payment #. Save the record.
 
 <img src ='/img/CostShareYes.png' width='800'/>
 
-3. Once saved, remit lines for all claim lines on the claim will be populated according to the information on the corresponding claim lines (procedure code, dates of service, quantity, billed amount, etc.). The Paid Amount field will be blank on all Remits and Remit Lines.
+3. Once saved, remit lines for all claim lines on the claim will be populated according to the information on the corresponding claim lines (procedure code, dates of service, quantity, billed amount, etc.).
 4. Enter the Paid Amount on each Remit Line. Go back to claim and refresh or click 'Recalculate' to get the updated Cost Share Paid and Cost Share Oustanding.
 
 </details>
