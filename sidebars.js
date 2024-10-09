@@ -24,6 +24,10 @@ module.exports = {
   //   'ClinicalSetup/CareTeamAssignment',
   //   'ClinicalSetup/Contacts',
   // ],
+  'CRM':[
+   'CRM/Opportunities',
+   'CRM/Auth Workflows',
+  ],
   'Patients':[
     'Patients/PatientOverview',
    // 'Patients/Location',
@@ -73,9 +77,6 @@ module.exports = {
   //'RCM/Transactions',
   'RCM/Remits',
  ],
-//  'CRM':[
-//   'CRM/Lead',
-//   'CRM/Opportunity',
-//  ],
+
   },
 };

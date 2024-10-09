@@ -5,7 +5,7 @@ title: Payments
 
 # Payments
 
-Click "Payments" on the site menu of the RCM app to view all payments that have come in from payers to your clearinghouse.
+Click 'Payments' on the site menu of the RCM app to view all payments that have come in from payers to your clearinghouse.
 
 A payment can also include a Payment Adjustment (can be positive or negative amount) - when the payer wants to make an adjustment that is not related to a specific remit, or when it is for a remit not included in this payment (a past remit for example).
 

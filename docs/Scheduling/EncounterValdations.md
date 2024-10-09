@@ -237,13 +237,13 @@ Overridden validations display in a yellow banner on the encounter service so it
 
 ## Rerun Validation
 
-To rerun validation, open the encounter service you'd like to revalidate, and click "Rerun Validation." Refresh the record to see the updated validation status.
+To rerun validation, open the encounter service you'd like to revalidate, and click 'Rerun Validation.' Refresh the record to see the updated validation status.
 
 To rerun validation on multiple records:
 
 1. Go to an encounter services view.
 2. Select the encounter services you'd like to revalidate.
-3. Click "Edit".
+3. Click 'Edit'.
 4. Navigate to the "Header" tab on the form.
 5. Choose "Pending" as the validation status. Save the changes and the selected records will be revalidated.
 

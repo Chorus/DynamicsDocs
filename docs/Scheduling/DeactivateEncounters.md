@@ -4,7 +4,7 @@ title: Cancel Encounters
 ---
 # Cancel Encounters
 
-To cancel an Encounter, select the encounter you'd like to cancel from any Encounters Grid, and Click "Cancel" and choose from cancellation reasons, including:
+To cancel an Encounter, select the encounter you'd like to cancel from any Encounters Grid, and Click 'Cancel' and choose from cancellation reasons, including:
 - Provider Cancellation
 - Learner Absence
 - Learner Unavailable

@@ -51,7 +51,7 @@ Select 'Contacts' on the left navigation bar in the Clinical Area to open the Co
 
 ## Archive Practitioners
 
-When offboarding a practitioner, click "Archive Contact" so that data they collected still displays on the patient's graphs. The status reason of the Contact will become "Not Active" and the contact will not show on Active Contact views.
+When offboarding a practitioner, click 'Archive Contact' so that data they collected still displays on the patient's graphs. The status reason of the Contact will become "Not Active" and the contact will not show on Active Contact views.
 
 If the practitioner did not collect any data, the contact can be deactivated through the deactivate button.
 
