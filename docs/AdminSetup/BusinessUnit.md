@@ -24,13 +24,15 @@ Scheduling may be affected if UTC Offset (time zone) is not configured properly.
 
 - *Rounding Rule* - determines whether a session that is exactly half of a unit (e.g. a 15 minute session, when a billable unit is 30 minutes) is rounded up to be considered a unit (which uses up an entire authorized unit out of the total authorized) or rounded down and not considered a billable unit (which means the practitioner is paid but insurance does not reimburse those minutes).
 - *Primary Biller* - a user of the system, included on the claim for when payers have questions regarding claims. An email address and phone number can be configured on the user.
-- *Charge Period Frequency* - select whether [charge periods](../Billing/ChargePeriods.md) will be created weekly or monthly.
 - *Primary Taxonomy Code* - select the taxonomy code for this business unit.
-- *Grace Period Days* - enter the amount of days after a session takes place that a session can still be submitted.
-- *Block Supervision Submission* -  when set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment session is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise.
+- *Authorization Workflow Weeks* - enter the number of weeks before an authorization expires that a re-authorization workflow should be created. [Read more about authorization workflows](../CRM/AuthWF.md).
+- *Assessment Due Weeks* - enter the number of weeks after an assessment is assigned that it should be due. This will auto-populate the assessment due date when an authorization workflow is assigned. [Read more about authorization workflows](../CRM/AuthWF.md).
+- *Grace Period Days* - enter the number of days after a session takes place that a session can still be submitted. Sessions will fail validation this number of days after the date of the session if not yet submitted. [Read more about grace period encounter validation](../Scheduling/EncounterValdations.md/#encounter-service-is-not-within-grace-period).
+- *Block Supervision Submission* - when set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment session is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise. [Read more about overlapping session validations](../Scheduling/EncounterValdations.md/#overlapping-direct-care-session-was-not-yet-submitted).
 - *Business Logo* - where your business logo is stored to be inserted on [session note exports](../Patients/Overview.md/#export-patient-session-notes) and [automated emails](../Patients/Connection.md/#primary-contact-engagement-emails).
+- *Charge Period Frequency* - select whether [charge periods](../Billing/ChargePeriods.md) will be created weekly or monthly.
 
-<img src ="/img/BUblockSupervision.png" width="700"/>
+<img src ="/img/BU.png" width="900"/>
 
 **Users**
 

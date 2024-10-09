@@ -71,7 +71,7 @@ Alternately, you can utilize the "Orphaned Remits" view to go through all orphan
 2. Open a remit and go to the Remit Lines tab. Remit lines that haven't been posted to claim lines display in the "Orphaned Remit Lines" subgrid.
 3. Below the orphaned remit lines subgrid, you can review the claim lines on the claim this remit was posted to.
 4. Identify the claim line to post each orphaned remit to (based on the patient/date of service etc.). Copy the name of the claim line, and paste it into the claim line lookup field on the orphaned remit line.
-5. Click "Recalculate" on the claim to view the updated total outstanding and paid amounts based on the remit lines that were posted to the claim lines on the claim.
+5. Click 'Recalculate' on the claim to view the updated total outstanding and paid amounts based on the remit lines that were posted to the claim lines on the claim.
 
 <img src ='/img/orphanedremitlines.png' width='800'/>
 </details>

@@ -17,6 +17,7 @@ When a session is submitted from the Note app, the status of the encounter servi
     - *Duration*
 - *Modifiers* - any billing [modifiers](../AdminSetup/FeeSchedules.md/#modifiers) included on the encounter service are displayed. Additional modifiers can be entered here.
 - *Billable Units* - the amount of billable units, based on the duration of the encounter service and the duration of a billable unit for that service (as configured on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits)).
+- *Forecasted Amount* - the expected amount to be paid by insurance based on the insurance plan fee schedule and modifiers. This amount can fluxuate based on changes made to the session prior to submission. The forecasted amount allows your organization to predict Accounts Receivable for schedules set up for future months, or for past sessions that haven't been billed yet.
 - *Coverage* - the patient's [coverage](../Patients/Coverages.md).
 
 ### Charge Item Statuses
