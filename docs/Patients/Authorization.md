@@ -16,6 +16,7 @@ To create a new Authorization, click 'New Authorization' on the Authorization su
 - *Coverage* - Populated with the Active Coverage record with the latest End Date (or no End Date) for this Patient.
     - If a patient has more than one active coverage, ensure that the selected coverage is the one the authorization is covered by, otherwise select the correct coverage.
 - *Authorization Number* - Enter the authorization number. This will be included on the claims created against this authorization.
+- *Authorization Type* - Select whether this is an assessment authorization (authorizing an initial/follow-up assessment to be completed) or a service authorization. Only service authorizations will generate authorization workflows prior to expiration. [Read more about authorization workflows](../CRM/AuthWF.md).
 - *Period Start Date* - Enter the start date that the authorization is valid from.
 - *Period End Date* - The End Date is prepopulated to 6 months after the Start Date, and you can edit it as needed. This is the date the authorization is valid until. 
 - *Practitioner* - Select the practitioner on the authorization.
