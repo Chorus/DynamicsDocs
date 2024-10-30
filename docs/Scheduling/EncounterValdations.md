@@ -147,7 +147,7 @@ This validation ensures that the practitioner on the session has the required cr
 </details>
 
 ### Patient/Practitioner Overlaps with Another Encounter
-This validation ensures that sessions do not overlap with eachother to prevent billed sessions from being denied for overlapping with other billed sessions.
+This validation ensures that sessions do not overlap with each other to prevent billed sessions from being denied for overlapping with other billed sessions.
 
 **Validation fails**:
 
