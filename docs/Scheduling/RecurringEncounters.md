@@ -27,5 +27,4 @@ Creating a Recurring Encounter follows the same workflow as creating a [Single E
 ## Edit a Recurring Encounter
 The end date of recurring encounters can be moved earlier to deactivate encounter occurrences after the updated end date.
 
-- The end date of a recurring encounter can be edited one time.
 - The end date cannot be changed to a date where there are encounter occurrences after the new end date with observations already collected on them in the Note app.
