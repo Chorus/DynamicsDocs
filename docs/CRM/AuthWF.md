@@ -12,17 +12,20 @@ There are 3 workflow types:
 2. Re-auth - for existing patients received a follow-up assessment for reauthorization of services.
 3. Continuity of Care - for existing patients who do not need a new follow-up assessment, but do need a new authorization request (e.g., for switching organizations mid-authorization).
 
-The workflow type can be set in the header of the authorization workflow.
+The workflow type can be viewed or set in the header of the authorization workflow.
 
 ## Auth Workflow Creation
 An authorization workflow can be created the following ways:
 
-1. Manually- Select 'Auth Workflows' on the left navigation bar in the CRM Area to open the Auth Workflow Main Grid. Click 'New' to create a new auth workflow.
+1. Manually- Select 'Auth Workflows' on the site menu in the CRM Area to open the Auth Workflow Main Grid. Click 'New' to create a new auth workflow.
 2. Automatically-
-    - An auth workflow is automatically created when a new patient opportunity is created. The opportunity field will be automatically populated on the auth workflow.
-    - An auth workflow is automatically created a certain number of weeks before a service authorization expires. The number of weeks is set on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization. The expiring authorization will be automatically populated on the auth workflow.
+    - A 'New Auth' auth workflow is automatically created when a new patient opportunity is created. The opportunity field will be automatically populated on the auth workflow.
+    - A 'Re-auth' auth workflow is automatically created a certain number of weeks before a service authorization expires. The number of weeks is set on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization. The expiring authorization will be automatically populated on the auth workflow.
 
-The expiring authorization details and services can be viewed on the **Expiring Authorization** tab. [Read more about authorizations](../Patients/Authorization.md).
+The expiring authorization details and services can be viewed on the **Expiring Authorization** tab. Notes from the previous authorization workflow can also be viewed there. 
+[Read more about authorizations](../Patients/Authorization.md).
+
+<img src ="/img/authwfnotes.png" width="900"/>
 
 ## Auth Workflow Stages
 
@@ -88,4 +91,16 @@ The **Service Authorization** stage is for requesting an authorization from the 
 
 ## Auth Workflow Emails
 
-Coming Soon!
+New auth and Re-auth authorization workflows generate a draft email to the assessment BCBA with patient and past authorization information to streamline communication and provide the details the BCBA needs to write a report.
+
+1. On the Assessment stage of the auth workflow, select the Assessment BCBA. The assigned date will auto-populate with today's date, and the assessment due date will auto-populate with today's date plus the number of weeks populated on the [business unit](../AdminSetup/BusinessUnit.md) of the patient. You can adjust these dates if needed.
+2. Click 'Save'.
+3. Refresh the page. A draft email will appear on the auth workflow timeline.
+
+:::note
+The email template can be customized to your organization's needs. Speak to your account manager about customizing the messaging in the email.
+:::
+
+- The **Initial Assessment Email** includes relevant patient information to help the BCBA complete an initial assessment report. It also specifies the due date of the report.
+- The **Reassessment Email** includes relevant patient information to help the BCBA complete a reassessment report. The details of the previous authorization services are listed in the email. It also specifies the due date of the report.
+
