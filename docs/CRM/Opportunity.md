@@ -51,9 +51,9 @@ Patient Opportunities have 7 stages:
 6. Service Authorization
 7. Completed
 
-A patient opportunity is created at the "Prospect" stage. 
+A patient opportunity is created at the 'Prospect' stage. 
 
-Once an application has been sent to the patient to complete, enter the Application Sent Date and click 'Next Stage' to move the opportunity to the "Application Pending" stage.
+Once an application has been sent to the patient to complete, enter the Application Sent Date and click 'Next Stage' to move the opportunity to the 'Application Pending' stage.
 
 Once the application has been received and approved, the remaining stages of the opportunity take place on the authorization workflow. [Read more about authorization workflows](../CRM/AuthWF.md).
 
@@ -83,11 +83,11 @@ Practitioner Opportunities have 4 stages:
 3. Role Pending
 4. Completed
 
-A practitioner opportunity is created at the "Prospect" stage. 
+A practitioner opportunity is created at the 'Prospect' stage. 
 
-Once an application has been sent to the practitioner to complete, enter the Application Sent Date and click 'Next Stage' to move the opportunity to the "Application Pending" stage.
+Once an application has been sent to the practitioner to complete, enter the Application Sent Date and click 'Next Stage' to move the opportunity to the 'Application Pending' stage.
 
-Once the application has been received and approved, the practitioner's qualifications should be entered before completing the opportunity. Select one of the practitioner's qualifications on the "Role Pending" stage and click 'Next Stage' to complete the opportunity.
+Once the application has been received and approved, the practitioner's qualifications should be entered before completing the opportunity. Select one of the practitioner's qualifications on the 'Role Pending' stage and click 'Next Stage' to complete the opportunity.
 
 ## Search Opportunities
 
@@ -107,11 +107,11 @@ Select 'Opportunities' on the site menu in the CRM Area to open the Opportunity 
 
 ## Close Opportunities
 
-- **Patient Opportunities** are closed as "Won" when the authorization is populated on the [authorization workflow](../CRM/AuthWF.md) and the workflow is marked as Finished.
+- **Patient Opportunities** are closed as 'Won' when the authorization is populated on the [authorization workflow](../CRM/AuthWF.md) and the workflow is marked as Finished.
 
   <img src ='/img/wonopp.png' width='600'/> 
 
-- **Practitioner Opportunities** are closed as "Won" when the practitioner is given a qualification and the workflow is marked as Finished.
+- **Practitioner Opportunities** are closed as 'Won' when the practitioner is given a qualification and the workflow is marked as Finished.
 - Click 'Close as lost' to close patient/practitioner opportunities as lost. A description of why the opportunity was lost can be recorded.
 
   <img src ='/img/closeopp.png' width='600'/> 

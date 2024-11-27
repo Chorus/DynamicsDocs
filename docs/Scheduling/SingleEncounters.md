@@ -91,7 +91,7 @@ There are two options for creating sessions for practitioners in other time zone
 
 1. Schedule any Encounters for practitioners in other time zones X hours later than they really took place (so if the session took place at 9:00 AM Central, schedule the session for 10:00 AM (if your personalizations are set to EST), and it will be converted to 9:00 AM for users in the Central time zone).
 
-2. In "Personalization Settings", before creating Encounters for patients in another time zone, set your Dynamics time zone to the time zone of the practitioner. Then, the timings you see will match the timings the practitioner sees and the timings submitted on Claims. 
+2. In 'Personalization Settings', before creating Encounters for patients in another time zone, set your Dynamics time zone to the time zone of the practitioner. Then, the timings you see will match the timings the practitioner sees and the timings submitted on Claims. 
 
 <img src ='/img/personalizationSettings.png' width='180'/>
 

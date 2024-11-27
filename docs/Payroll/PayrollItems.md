@@ -36,7 +36,7 @@ In addition to payroll items created when encounter services are submitted, payr
 - *Quantity* - the amount of miles travelled, when the earning code type is Mileage.
 - *Duration* - the duration of the service, when the earning code type is Service.
 - *Rate* - the rate per hour the practitioner earns for the mileage/service, when the the earning code type is Mileage or Service.
-- *Status Reason* - payroll items created by encounter service submissions are labeled "Automated." Payroll items can also be labeled "Manual Batch" and "Manually Paid" to enable [processing payroll outside of a payroll period](../Payroll/PayrollItems.md/#manual-payroll-batches).
+- *Status Reason* - payroll items created by encounter service submissions are labeled 'Automated.' Payroll items can also be labeled 'Manual Batch' and 'Manually Paid' to enable [processing payroll outside of a payroll period](../Payroll/PayrollItems.md/#manual-payroll-batches).
 
 Receipts or other relevant communications or attachments can be added to the *timeline* on the payroll item.
 
@@ -75,6 +75,6 @@ After importing payroll to your payroll system, populate the Date Paid on the pa
 Payroll Admins can process select payroll items outside of a payroll period by adding them to a Manual Batch.
 
 1. Create or identify the payroll items that should be paid manually, outside of a payroll period.
-2. Set the status reason of the selected payroll items to "Manual Batch."
-3. When you are ready to process payroll, use the view "Manually Paid Payroll Items" and select the payroll items with status reason "Manual Batch". [Export an Excel report](../Overview/ViewsCharts#export-to-excel) of the Manual Batch payroll items to upload to your payroll system. 
-4. Update the status reason of the Manual Batch payroll items to "Manually Paid" once you have uploaded them to your payroll system.
+2. Set the status reason of the selected payroll items to 'Manual Batch.'
+3. When you are ready to process payroll, use the view 'Manually Paid Payroll Items' and select the payroll items with status reason 'Manual Batch'. [Export an Excel report](../Overview/ViewsCharts#export-to-excel) of the Manual Batch payroll items to upload to your payroll system. 
+4. Update the status reason of the Manual Batch payroll items to 'Manually Paid' once you have uploaded them to your payroll system.

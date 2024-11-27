@@ -64,7 +64,7 @@ Select 'Contacts' on the site menu in the Clinical Area to open the Contact Main
 
 ## Archive Patients
 
-When discharging a patient, click 'Archive Contact' so that practitioners who have not finished submitting sessions for them will be able to finish submitting their sessions. The status reason of the Contact will become "Not Active" and the contact will not show on Active Contact views.
+When discharging a patient, click 'Archive Contact' so that practitioners who have not finished submitting sessions for the patient will be able to finish submitting their sessions. The status reason of the Contact will become 'Not Active' and the contact will not show on Active Contact views.
 
 If the patient's sessions have all been billed already, the contact can be deactivated through the deactivate button:
 

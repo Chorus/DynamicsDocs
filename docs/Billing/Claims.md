@@ -79,6 +79,6 @@ There are 6 views configured for easy access to viewing claims based on their st
 
 ## Submit Claims
 
-To submit claims, click 'Save & Submit' on any draft claim. The claim status will become 'Ready to Submit'. All 'Ready to Submit' claims are submitted to the clearinghouse on an hourly basis.
+To submit claims, click 'Save & Submit' on any draft claim. The claim status will become 'Ready to Submit.' All 'Ready to Submit' claims are submitted to the clearinghouse on an hourly basis.
 
 To modify and resubmit a claim, see [Correcting Claims](../RCM/RCMworkflow.md/#correcting-claims)

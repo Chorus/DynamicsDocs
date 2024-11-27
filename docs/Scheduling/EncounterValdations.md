@@ -206,7 +206,7 @@ Supervision validations only run on sessions where the [Healthcare Service](../A
 ### Overlapping Direct Care Session was not yet Submitted
 This validation ensures supervision happens during a *submitted* direct care session with the same patient, either at the same location or through telecare. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise.
 
-This validation is optional and only runs when "Block Supervision Submission" on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization is set to Yes.
+This validation is optional and only runs when 'Block Supervision Submission' on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization is set to Yes.
 
 <img src ="/img/BUblockSupervision.png" width="700"/>
 
@@ -223,7 +223,7 @@ This validation is optional and only runs when "Block Supervision Submission" on
 ### Encounter Service is not Within Grace Period
 This validation ensures sessions can only be submitted within a certain amount of days after the scheduled date of the session.
 
-This validation is optional and only runs when "Grace Period Days" on the [business unit](../AdminSetup/BusinessUnit.md) is populated.
+This validation is optional and only runs when 'Grace Period Days' on the [business unit](../AdminSetup/BusinessUnit.md) is populated.
 
 
 <details>
@@ -240,7 +240,7 @@ Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) 
 
 1. Go to the failed encounter service.
 2. Go the Related > Encounter Validation Failure that has been approved to be overridden.
-3. Set "Override Allowed" to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
+3. Set 'Override Allowed' to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
 
 Overridden validations display in a yellow banner on the encounter service so it is clear that this session previously failed a validation and has since been allowed to pass.
 
@@ -250,7 +250,7 @@ Encounter validation failures can be overridden in bulk from the [Encounter Vali
 
 1. Filter by date range / authorization service / failure message etc. to identify the validation failures you'd like to override in bulk.
 2. Click Edit.
-3. Set "Override Allowed" to Yes. The validation failure records will remain active, but the related sessions will not fail validation for the overridden reasons again.
+3. Set 'Override Allowed' to Yes. The validation failure records will remain active, but the related sessions will not fail validation for the overridden reasons again.
 
 ## Rerun Validation
 
@@ -261,6 +261,6 @@ To rerun validation on multiple records:
 1. Go to an encounter services view.
 2. Select the encounter services you'd like to revalidate.
 3. Click 'Edit'.
-4. Navigate to the "Header" tab on the form.
-5. Choose "Pending" as the validation status. Save the changes and the selected records will be revalidated.
+4. Navigate to the 'Header' tab on the form.
+5. Choose 'Pending' as the validation status. Save the changes and the selected records will be revalidated.
 

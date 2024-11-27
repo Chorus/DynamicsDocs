@@ -9,7 +9,7 @@ Locations are for tracking any addresses relevant to your organization, such as 
 ## Create a Location
 
 A new Location record can be created from a few places. 
-1. Clinical Area - When on a [Patient](Patients/Overview.md) Contact record, the Profile Info tab has a section called 'Patient Addresses'. Clicking on the 3 dots on the Patient Addresses subgrid, displays a few options. Upon clicking 'New Location', the Location main form opens, and a new address can be added to the patient’s profile.
+1. Clinical Area - When on a [Patient](Patients/Overview.md) Contact record, the Profile Info tab has a section called 'Patient Addresses.' Clicking on the 3 dots on the Patient Addresses subgrid, displays a few options. Upon clicking 'New Location', the Location main form opens, and a new address can be added to the patient’s profile.
 2. Setup Area - The setup area has a group called 'Services Setup' with Locations listed. Upon clicking 'New Locations' in the main view, the Location main form opens.
 
 The **Address Information** section contains the basic information to differentiate locations. This section has the following fields. 
