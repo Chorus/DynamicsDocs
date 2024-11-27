@@ -27,6 +27,15 @@ On recurring encounters, if one or more child encounter occurrences are invalid,
 8. Supervision sessions fully overlap with *submitted* Direct or Group Treatment sessions (optional).
 9. Session is submitted within the configured grace period (optional).
 
+## Search Encounter Validation Failures
+
+Select 'Validation Failures' on the site menu in the Clinical Area to open the Encounter Validation Failures Main Grid. There are 2 Encounter Validation Failure views. Both views display the validation failure message, and relevant encounter service details: patient/practitioner, start date/time and end date/time, duration, status reason, authorization service, and [grace period](../Scheduling/EncounterValdations.md/#encounter-service-is-not-within-grace-period) due date.
+- The **Active Encounter Validation Failures** (default) view displays all the active encounter validation failures in the system. There is a record for each validation that failed (not just for each session that failed, as one session can fail multiple validations). A Scheduler Admin can [override validation failures](../Scheduling/EncounterValdations.md/#override-validation-failures) in bulk from this view.
+- The **Overridden Encounter Validation Failures** view displays all active encounter validations failures that a Scheduler Admin has overridden. This is helpful for monitoring overrides allowed by your organization.
+
+On either view, click 'Show Chart' to see a visual of how many active/overridden validation failures exist per validation. You can select a column on the chart to filter the view by that validation.
+
+  <img src ='/img/failures.png' width='900'/> 
 
 ## Resolving Encounter Validation Failures
 
@@ -234,6 +243,14 @@ Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) 
 3. Set "Override Allowed" to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
 
 Overridden validations display in a yellow banner on the encounter service so it is clear that this session previously failed a validation and has since been allowed to pass.
+
+**Bulk Override Validation Failures**
+
+Encounter validation failures can be overridden in bulk from the [Encounter Validation Failures Main Grid](../Scheduling/EncounterValdations.md/#search-encounter-validation-failures), accessible from the clinical area of the site menu. 
+
+1. Filter by date range / authorization service / failure message etc. to identify the validation failures you'd like to override in bulk.
+2. Click Edit.
+3. Set "Override Allowed" to Yes. The validation failure records will remain active, but the related sessions will not fail validation for the overridden reasons again.
 
 ## Rerun Validation
 

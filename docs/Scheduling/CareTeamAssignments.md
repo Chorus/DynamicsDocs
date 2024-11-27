@@ -53,7 +53,7 @@ If needed, update the end date on this record, and create a new Care Team Assign
 
 ## Search Care Team Assignments
 
-Select 'Care Team Assignments' on the left navigation bar in the Clinical Area of the site menu to open the Care Team Assignments Main Grid. The Care Team Assignments Main Grid has 3 different views.
+Select 'Care Team Assignments' on the site menu in the Clinical Area of the site menu to open the Care Team Assignments Main Grid. The Care Team Assignments Main Grid has 3 different views.
 - All Care Team Assignments (default)
     - The All Care Team Assignments view displays all the Care Team Assignment records in the system. The view is sorted by the Period Start Date with the newer dates displaying first. 
 - Current Care Team Assignments

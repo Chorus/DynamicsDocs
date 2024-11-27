@@ -16,7 +16,7 @@ The Contact Main Form for a Practitioner is divided into multiple tabs for an or
 - The **Profile Info** tab is for general practitioner information, usually collected upon intake. This tab is divided into a few sections:
     - *General Information* - This section displays the First Name, Last Name, Known As, Date of Birth, Gender, Marital Status, NPI Number, and Employee ID.
     - *Address Information* - This section displays the practitioner's address.
-    - *Contact Information* - This section displays the contact information for the practitioner, including Cell Phone, Home Phone, Work Phone, Email Address, and Preferred Contact Method. The Email Address here is the email address the practitioner will use to access the Note app.
+    - *Contact Information* - This section displays the contact information for the practitioner, including Cell Phone, Home Phone, Work Phone, Email Address, and Preferred Contact Method. The Email Address here is the email address the practitioner will use to access the Note app. (The Secondary Email Address can be used to store a different email the practitioner can be contacted at.)
     - *Provider Preferences* - This section does not have to be populated. The information listed here is based on what the practitioner prefers. When using the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool to find a practitioner to service a patient, the filters are populated with the patient's preferences.  
     - *Documents* - This section is for uploading and accessing practitioner documents, such as resume, photo ID, or I-9 forms.
     - *Roles* - This subgrid displays the Practioner Role for the practitioner: either BCBA or Behavior Technician. [Read more about Practitioner Roles](PractitionerRoles.md).
@@ -39,7 +39,7 @@ The Contact Main Form for a Practitioner is divided into multiple tabs for an or
 
 ## Search Contacts
 
-Select 'Contacts' on the left navigation bar in the Clinical Area to open the Contact Main Grid. The Contact Main Grid has 4 views related to Practitioner contacts. All views display the First Name, Last Name, Known As, Date of Birth, Address and Status Reason.  
+Select 'Contacts' on the site menu in the Clinical Area to open the Contact Main Grid. The Contact Main Grid has 4 views related to Practitioner contacts. All views display the First Name, Last Name, Known As, Date of Birth, Address and Status Reason.  
 - Active Practitioners
     - The Active Practitioners view displays Practitioner Contact records that are Active.
 - Active BCBAs

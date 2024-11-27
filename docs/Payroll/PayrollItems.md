@@ -68,6 +68,7 @@ After you have closed a payroll period, generate a payroll export to upload to y
     - Non-billable Pay (calculated pay amount for this practitioner and this rate)
     - Reimbursements (calculated pay amount for reimbursement payroll items)
 
+After importing payroll to your payroll system, populate the Date Paid on the payroll period to track when each payroll period was processed.
 
 ## Manual Payroll Batches
 
