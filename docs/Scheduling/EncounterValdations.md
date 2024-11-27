@@ -93,7 +93,7 @@ This validation ensures that the assigned hours per day/week/month/assignment pe
 </details>
 
 ### Exceeds MUE Limit
-This validation ensures that the total time for a service in one day doesn’t go over the MUE limit for each patient, whether it's provided by one practitioner or several. .  
+This validation ensures that the total time for a service in one day doesn’t go over the MUE limit for each patient, whether it's provided by one practitioner or several.
 *MUE - Medically Unlikely Edit* is the maximum number of units per service a patient may receive in a day. 
 
 <details>
@@ -158,6 +158,10 @@ This validation ensures that the practitioner on the session has the required cr
 ### Patient/Practitioner Overlaps with Another Encounter
 This validation ensures that sessions do not overlap with each other to prevent billed sessions from being denied for overlapping with other billed sessions.
 
+:::note
+A practitioner participant always exists on an encounter. A patient participant is automatically created on an encounter only if 'Requires Patient Present' is set to Yes on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits). Otherwise, it can be created manually.
+:::
+
 **Validation fails**:
 
 - If a practitioner on an encounter service is scheduled on another encounter service where the timing of the sessions overlap. For example, an encounter service for practitioner Robert Brown from 11:30 - 1:30 would fail validation for overlapping with an encounter service for practitioner Robert Brown 9:45 - 11:45.
@@ -168,9 +172,10 @@ This validation ensures that sessions do not overlap with each other to prevent 
     4. Adaptive Behavior Treatment with Protocol Modification with Group Behavior Treatment
 
 :::note
-Direction of Technician and Adaptive Behavior Treatment with Protocol Modification services are only allowed to overlap with Direct Treatment or Group Behavior Treatment services for the same patient when the encounters are at the same location, or over telecare.
+Direction of Technician and Adaptive Behavior Treatment with Protocol Modification services are only allowed to overlap with Direct Treatment or Group Behavior Treatment services for the same patient when the encounters are **at the same location, or over telecare**.
 Allowed overlaps are based on the service type on the [Healthcare Service](../AdminSetup/HealthcareService.md).
 :::
+
 
 <details>
 <summary> How to Resolve this Validation Failure</summary>
@@ -180,6 +185,26 @@ Allowed overlaps are based on the service type on the [Healthcare Service](../Ad
 3. Validation will rerun on the failed encounter service and it will update to 'Passed.'
 
 </details>
+
+### Patient is not a Participant of the Encounter
+This validation ensures that if a patient is required to be present at a certain service, they are listed as a participant of the encounter.
+
+:::note
+If the insurance plan benefit is set to 'Requires Patient Present', a patient participant will automatically be created for the encounter. This validation may fail if a user manually deactivates or cancels the patient participant for a service that requires patient present.
+:::
+
+<details>
+<summary> How to Resolve this Validation Failure</summary>
+
+1. If the service type on the encounter service is: 
+    - Assignment, click on the assignment, then select the authorization service to open it. Next, click on the service code to view the related [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits). 
+    - Service, click the authorization service, then click the service code to open the related insurance plan benefit. 
+2. Check the 'Requires Patient Present' field to ensure it is set up properly (this code really does require the patient to be present).
+3. Check whether the patient participant was deactivated or canceled on the encounter. Reactivate the patient participant or recreate it as needed.
+4. Save the record. Validation will rerun on the failed encounter service and it will update to 'Passed.'
+
+</details>
+
 
 ### Supervision does not Fully Overlap Direct Care 
 This validation ensures supervision happens during a direct care session with the same patient, either at the same location or through telecare. 
