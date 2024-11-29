@@ -4,7 +4,7 @@ title: Charge Items
 ---
 # Charge Items
 
-When a session is submitted from the Note app, the status of the encounter service will change to 'Submitted', and the status of the related charge item will become "New". The Charge Item is used to track all claims submitted to payers for reimbursement of its related encounter service. Charge items are grouped (by patient) into Charge Periods that cover a specific range of service dates – charge periods can be set up to span a weekly, bi-weekly, or monthly period, (or any other frequency,) according to the way your organization/billing cycle operates. 
+When a session is submitted from the Note app, the status of the encounter service will change to 'Submitted', and the status of the related charge item will become 'New.' The Charge Item is used to track all claims submitted to payers for reimbursement of its related encounter service. Charge items are grouped (by patient) into Charge Periods that cover a specific range of service dates – charge periods can be set up to span a weekly, bi-weekly, or monthly period, (or any other frequency,) according to the way your organization/billing cycle operates. 
 
 - *Charge Period* - the charge period this charge item is included on.
 - *Encounter Service* - the [encounter service](../Scheduling/SingleEncounters.md/#encounter-services) this charge item was created for. Relevant fields from the encounter service display below it:
@@ -25,7 +25,7 @@ When a session is submitted from the Note app, the status of the encounter servi
 When reviewing charge items, you can easily view the status of the charge items to identify what needs to be done for each charge item:
 
 - Charge items are created with status **Scheduled**.
-- When the related encounter service is started (and becomes "In Progress"), charge items become **Awaiting Submission**.
+- When the related encounter service is started (and becomes 'In Progress'), charge items become **Awaiting Submission**.
 - When the related encounter service is submitted, charge items become **New**.
 - Charge items that are fit to be included on Claims should be marked as **Ready to Bill** by the biller who reviewed them.
 - Charge items can be marked as **On Hold** to indicate that they should not be billed yet (e.g., if they are waiting on remaining sessions in conducted in that charge period to be submitted).
@@ -36,7 +36,7 @@ To update the status of charge items:
 
 1. Select the charge items you'd like to update on the charge items subgrid on a charge period.
 2. Click 'Set Status'
-3. Choose a Status: the only statuses available to manually update charge items to are 'On Hold' and 'Ready to Bill'. Charge items cannot be set to 'Ready to Bill' if the encounter service was not yet submitted. 
+3. Choose a Status: the only statuses available to manually update charge items to are 'On Hold' and 'Ready to Bill.' Charge items cannot be set to 'Ready to Bill' if the encounter service was not yet submitted. 
 
 At the frequency your organization chooses, the system will take all 'Ready to Bill' charge items and include them as [claim lines](../Billing/Claims.md/#claim-lines) on claims.
 

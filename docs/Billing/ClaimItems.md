@@ -26,13 +26,16 @@ Claim lines with the same Patient, Auth Number, Rendering Provider, Place of Ser
 - *Billed* - the dollar amount billed.
 
 **Diagnosis Pointers**
+- Condition code for this patient.
 
 **Claim Item Amounts**
 - *Expected Amount* - the dollar amount expected.
-- *Paid Amount* 
-- *Total Cost Share Adjustments*
-- *Total Write-Offs*
-- *Outstanding*
+- *Paid Amount* - the sum of all paid amounts on all remit lines posted to this claim line, on any version of the claim.
+- *Total Cost Share Adjustments*  - the sum of all cost share adjustments on all remit line adjustments for this claim line, on any version of the claim.
+- *Total Write-Offs*  - the sum of all write-offs created for this claim line, on any version of the claim.
+- *Outstanding* - the difference between the expected amount and the paid amount, not including the [cost share remit lines](../RCM/RCMworkflow.md/#posting-cost-share-payments).
+- *Cost Share Paid* - the sum of all paid amounts on all [cost share remit lines](../RCM/RCMworkflow.md/#posting-cost-share-payments) posted to this claim line, on any version of the claim. 
+- *Cost Share Outstanding* - the difference between the total cost share adjustments and the cost share paid.
 
 **Provider Details**
 - *Rendering Provider* - the rendering provider, based on the [claim settings](../Billing/ClaimSettings.md)

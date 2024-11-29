@@ -79,10 +79,6 @@ There are 6 views configured for easy access to viewing claims based on their st
 
 ## Submit Claims
 
-To submit claims, click 'Save & Submit' on any draft claim. The claim status will become 'Ready to Submit'. All 'Ready to Submit' claims are submitted to the clearinghouse on an hourly basis.
+To submit claims, click 'Save & Submit' on any draft claim. The claim status will become 'Ready to Submit.' All 'Ready to Submit' claims are submitted to the clearinghouse on an hourly basis.
 
-## Modify and Resubmit Claims
-
-To modify and resubmit a claim, click 'Modify & Resubmit' on any submitted claim. A new Draft Claim will be opened with all of the information from the previously submitted claim. 
-
-The previously submitted claim's status will be set to 'historical submission' and will be displayed on the submissions summary tab on future claims with that claim number.
+To modify and resubmit a claim, see [Correcting Claims](../RCM/RCMworkflow.md/#correcting-claims)

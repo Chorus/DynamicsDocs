@@ -5,7 +5,7 @@ Locations are for tracking any location relevant to your practice, such as offic
 
 ## Location Main Grid
 
-Select 'Location' on the left navigation bar in the Setup Area to open the Location Main Grid. The Location Main Grid has 2 different views which display the Location records.
+Select 'Location' on the site menu in the Setup Area to open the Location Main Grid. The Location Main Grid has 2 different views which display the Location records.
 - General Service Locations
     - The General Service Locations view displays Locations which are not related to a Patient record and the Location record is Active. The view displays the Description, Location Type, Street 1, Address City, Address State and Address Postal Code. This is helpful for Locations which can be related to more then 1 patient (e.g., a therapy center). 
 - All Service Locations

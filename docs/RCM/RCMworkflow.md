@@ -17,18 +17,18 @@ The Remits workflow happens primarily in the **RCM** app.
 4. Very often, there will be adjustments or denials that the organization can resubmit (e.g., if a claim was submitted with the wrong authorization number, if the payer unrightfully denies payment as unauthorized, if the payer claims the member is not covered, etc.). The affected claims are then modified and resubmitted and the process begins again.
 
 ## Correcting Claims
-To submit a corrected claim, click the 'Modify & Resubmit' button on the claim. This generates a copy of the claim in 'Draft' status, allowing edits to the claim and claim line information.
+To submit a corrected claim, click the 'Modify & Resubmit' button on the claim. This generates a copy of the claim in 'Draft' status with claim frequency code 'Corrected', allowing edits to the claim and claim line information.
 
 When the modified claim is ready to be submitted, click the 'Save & Submit' button. The system will run a validation check to ensure the claim has all required fields. If the claim is missing any required fields, a notification banner will display to indicate which fields are missing.
 
 If the validation passes, the status reason of the claim will be updated to 'Ready to Submit', and will be submitted with the next batch of claims being submitted to the clearinghouse.
 
 ## Session Resubmissions
-When an encounter service was reopened to allow the practitioner to make edits, if a claim line was already created, the charge item will be set to "Awaiting Resubmission".
+When an encounter service was reopened to allow the practitioner to make edits, if a claim line was already created, the charge item will be set to 'Awaiting Resubmission.'
 
-Review "Awaiting Resubmission" charge items to determine if the edits made to the session necessitate modifying and resubmitting the claim.
+Review 'Awaiting Resubmission' charge items to determine if the edits made to the session necessitate modifying and resubmitting the claim.
 
-Update charge item from "Awaiting Resubmission" to "Claim Line Created" and modify and resubmit the claim based on the updates made to the session.
+Update charge item from 'Awaiting Resubmission' to 'Claim Line Created' and modify and resubmit the claim based on the updates made to the session.
 
 ## Cases
 Create a case on a claim to effectively track historical information regarding resubmissions.
@@ -58,17 +58,17 @@ Orphaned Remits are remits that come in from your clearinghouse but are not post
 
 <img src ='/img/advanced lookup.png' width='800'/>
 
-4. Switch from the "Claim Payment Lookup View" to the "Orphaned Remits" view. Identify the remit for the claim based on the patient/date of service, etc.
+4. Switch from the 'Claim Payment Lookup View' to the 'Orphaned Remits' view. Identify the remit for the claim based on the patient/date of service, etc.
 
 </details>
 
-Alternately, you can utilize the "Orphaned Remits" view to go through all orphaned remits and populate the claim field on each remit.
+Alternately, you can utilize the 'Orphaned Remits' view to go through all orphaned remits and populate the claim field on each remit.
 
 <details>
 <summary> How to Post Orphaned Remit lines to Claim lines</summary>
 
-1. Use the "Remits with Orphaned Remit Lines" view to review remits where some of the remit lines have not been posted to claim lines.
-2. Open a remit and go to the Remit Lines tab. Remit lines that haven't been posted to claim lines display in the "Orphaned Remit Lines" subgrid.
+1. Use the 'Remits with Orphaned Remit Lines' view to review remits where some of the remit lines have not been posted to claim lines.
+2. Open a remit and go to the Remit Lines tab. Remit lines that haven't been posted to claim lines display in the 'Orphaned Remit Lines' subgrid.
 3. Below the orphaned remit lines subgrid, you can review the claim lines on the claim this remit was posted to.
 4. Identify the claim line to post each orphaned remit to (based on the patient/date of service etc.). Copy the name of the claim line, and paste it into the claim line lookup field on the orphaned remit line.
 5. Click 'Recalculate' on the claim to view the updated total outstanding and paid amounts based on the remit lines that were posted to the claim lines on the claim.
@@ -92,7 +92,7 @@ The Outstanding and Paid amounts on the claim are updated when a cost share remi
 
 1. On the claim whose cost share balance should be updated, go to the Remits Summary tab. Click 'New Claim Payment' to create a new remit.
 
-2. Set the "Cost Share" field on the Remit to yes. Populate the total paid from all remit lines in the Paid Amount field. Select the payment (or create a new payment) so this remit can be searched by payment #. Save the record.
+2. Set the 'Cost Share' field on the Remit to yes. Populate the total paid from all remit lines in the Paid Amount field. Select the payment (or create a new payment) so this remit can be searched by payment #. Save the record.
 
 <img src ='/img/CostShareYes.png' width='800'/>
 

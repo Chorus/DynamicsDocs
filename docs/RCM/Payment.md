@@ -43,7 +43,7 @@ The following fields will be recalculated on payments as you post remits to clai
 
 ## Search Payments
 
-Select 'Payments' on the left navigation bar in the RCM app to open the Payments Main Grid. The Payments Main Grid has 5 different views.
+Select 'Payments' on the site menu in the RCM app to open the Payments Main Grid. The Payments Main Grid has 5 different views.
 
 - The **All Payments** view displays all Payment records in the system. 
 - The **Recent Payments** view displays all Payment records created in the last 30 days.

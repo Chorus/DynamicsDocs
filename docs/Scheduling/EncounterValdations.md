@@ -27,6 +27,15 @@ On recurring encounters, if one or more child encounter occurrences are invalid,
 8. Supervision sessions fully overlap with *submitted* Direct or Group Treatment sessions (optional).
 9. Session is submitted within the configured grace period (optional).
 
+## Search Encounter Validation Failures
+
+Select 'Validation Failures' on the site menu in the Clinical Area to open the Encounter Validation Failures Main Grid. There are 2 Encounter Validation Failure views. Both views display the validation failure message, and relevant encounter service details: patient/practitioner, start date/time and end date/time, duration, status reason, authorization service, and [grace period](../Scheduling/EncounterValdations.md/#encounter-service-is-not-within-grace-period) due date.
+- The **Active Encounter Validation Failures** (default) view displays all the active encounter validation failures in the system. There is a record for each validation that failed (not just for each session that failed, as one session can fail multiple validations). A Scheduler Admin can [override validation failures](../Scheduling/EncounterValdations.md/#override-validation-failures) in bulk from this view.
+- The **Overridden Encounter Validation Failures** view displays all active encounter validations failures that a Scheduler Admin has overridden. This is helpful for monitoring overrides allowed by your organization.
+
+On either view, click 'Show Chart' to see a visual of how many active/overridden validation failures exist per validation. You can select a column on the chart to filter the view by that validation.
+
+  <img src ='/img/failures.png' width='900'/> 
 
 ## Resolving Encounter Validation Failures
 
@@ -84,7 +93,7 @@ This validation ensures that the assigned hours per day/week/month/assignment pe
 </details>
 
 ### Exceeds MUE Limit
-This validation ensures that the total time for a service in one day doesn’t go over the MUE limit for each patient, whether it's provided by one practitioner or several. .  
+This validation ensures that the total time for a service in one day doesn’t go over the MUE limit for each patient, whether it's provided by one practitioner or several.
 *MUE - Medically Unlikely Edit* is the maximum number of units per service a patient may receive in a day. 
 
 <details>
@@ -149,6 +158,10 @@ This validation ensures that the practitioner on the session has the required cr
 ### Patient/Practitioner Overlaps with Another Encounter
 This validation ensures that sessions do not overlap with each other to prevent billed sessions from being denied for overlapping with other billed sessions.
 
+:::note
+A practitioner participant always exists on an encounter. A patient participant is automatically created on an encounter only if 'Requires Patient Present' is set to Yes on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits). Otherwise, it can be created manually.
+:::
+
 **Validation fails**:
 
 - If a practitioner on an encounter service is scheduled on another encounter service where the timing of the sessions overlap. For example, an encounter service for practitioner Robert Brown from 11:30 - 1:30 would fail validation for overlapping with an encounter service for practitioner Robert Brown 9:45 - 11:45.
@@ -159,9 +172,10 @@ This validation ensures that sessions do not overlap with each other to prevent 
     4. Adaptive Behavior Treatment with Protocol Modification with Group Behavior Treatment
 
 :::note
-Direction of Technician and Adaptive Behavior Treatment with Protocol Modification services are only allowed to overlap with Direct Treatment or Group Behavior Treatment services for the same patient when the encounters are at the same location, or over telecare.
+Direction of Technician and Adaptive Behavior Treatment with Protocol Modification services are only allowed to overlap with Direct Treatment or Group Behavior Treatment services for the same patient when the encounters are **at the same location, or over telecare**.
 Allowed overlaps are based on the service type on the [Healthcare Service](../AdminSetup/HealthcareService.md).
 :::
+
 
 <details>
 <summary> How to Resolve this Validation Failure</summary>
@@ -171,6 +185,26 @@ Allowed overlaps are based on the service type on the [Healthcare Service](../Ad
 3. Validation will rerun on the failed encounter service and it will update to 'Passed.'
 
 </details>
+
+### Patient is not a Participant of the Encounter
+This validation ensures that if a patient is required to be present at a certain service, they are listed as a participant of the encounter.
+
+:::note
+If the insurance plan benefit is set to 'Requires Patient Present', a patient participant will automatically be created for the encounter. This validation may fail if a user manually deactivates or cancels the patient participant for a service that requires patient present.
+:::
+
+<details>
+<summary> How to Resolve this Validation Failure</summary>
+
+1. If the service type on the encounter service is: 
+    - Assignment, click on the assignment, then select the authorization service to open it. Next, click on the service code to view the related [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits). 
+    - Service, click the authorization service, then click the service code to open the related insurance plan benefit. 
+2. Check the 'Requires Patient Present' field to ensure it is set up properly (this code really does require the patient to be present).
+3. Check whether the patient participant was deactivated or canceled on the encounter. Reactivate the patient participant or recreate it as needed.
+4. Save the record. Validation will rerun on the failed encounter service and it will update to 'Passed.'
+
+</details>
+
 
 ### Supervision does not Fully Overlap Direct Care 
 This validation ensures supervision happens during a direct care session with the same patient, either at the same location or through telecare. 
@@ -197,7 +231,7 @@ Supervision validations only run on sessions where the [Healthcare Service](../A
 ### Overlapping Direct Care Session was not yet Submitted
 This validation ensures supervision happens during a *submitted* direct care session with the same patient, either at the same location or through telecare. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise.
 
-This validation is optional and only runs when "Block Supervision Submission" on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization is set to Yes.
+This validation is optional and only runs when 'Block Supervision Submission' on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization is set to Yes.
 
 <img src ="/img/BUblockSupervision.png" width="700"/>
 
@@ -214,7 +248,7 @@ This validation is optional and only runs when "Block Supervision Submission" on
 ### Encounter Service is not Within Grace Period
 This validation ensures sessions can only be submitted within a certain amount of days after the scheduled date of the session.
 
-This validation is optional and only runs when "Grace Period Days" on the [business unit](../AdminSetup/BusinessUnit.md) is populated.
+This validation is optional and only runs when 'Grace Period Days' on the [business unit](../AdminSetup/BusinessUnit.md) is populated.
 
 
 <details>
@@ -231,9 +265,17 @@ Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) 
 
 1. Go to the failed encounter service.
 2. Go the Related > Encounter Validation Failure that has been approved to be overridden.
-3. Set "Override Allowed" to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
+3. Set 'Override Allowed' to Yes. The validation failure record will remain active, but the session will not fail validation for this reason again.
 
 Overridden validations display in a yellow banner on the encounter service so it is clear that this session previously failed a validation and has since been allowed to pass.
+
+**Bulk Override Validation Failures**
+
+Encounter validation failures can be overridden in bulk from the [Encounter Validation Failures Main Grid](../Scheduling/EncounterValdations.md/#search-encounter-validation-failures), accessible from the clinical area of the site menu. 
+
+1. Filter by date range / authorization service / failure message etc. to identify the validation failures you'd like to override in bulk.
+2. Click Edit.
+3. Set 'Override Allowed' to Yes. The validation failure records will remain active, but the related sessions will not fail validation for the overridden reasons again.
 
 ## Rerun Validation
 
@@ -244,6 +286,6 @@ To rerun validation on multiple records:
 1. Go to an encounter services view.
 2. Select the encounter services you'd like to revalidate.
 3. Click 'Edit'.
-4. Navigate to the "Header" tab on the form.
-5. Choose "Pending" as the validation status. Save the changes and the selected records will be revalidated.
+4. Navigate to the 'Header' tab on the form.
+5. Choose 'Pending' as the validation status. Save the changes and the selected records will be revalidated.
 

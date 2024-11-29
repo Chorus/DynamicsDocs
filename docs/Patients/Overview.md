@@ -23,9 +23,11 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
 
     - *Related Contacts* - This is a list of any people that you are in contact with regarding the patient – parent/s, other guardian, school personnel, etc. The Patient's primary contacts display first. [Read more about how to set up a patient's related contacts](Connection.md).
     - *Patient Preferences* - This section lists a patient’s preferences. When using the [Schedule Assistance](Scheduling/ScheduleAssistance.md) tool to find a Practitioner to service a Patient, the filters are populated with the Patient's preferences, and display practitioners who fit these criteria. 
-        - Preferred Languages – Select the languages that the patient is comfortable communicating in.
+        - Service Location - Select the general location the patient requested to receive services in (home, school, community, clinic).
+        - Preferred Service Times - Select the general timing the patient requested to receive services at (morning, afternoon, evening, weekend).
+        - Preferred Languages - Select the languages that the patient is comfortable communicating in.
         - Practitioner Gender Preference – if the patient has a preference to the practitioner gender, set it here.
-        - Case Management Notes – Enter any current relevant information that can affect the patient's case, so that everyone that opens the patient’s contact record can see it at a glance. It is best to include a date here – either the date this note was entered, or specific dates this note is relevant for.
+        - Case Management Notes - Enter any current relevant information that can affect the patient's case, so that everyone that opens the patient’s contact record can see it at a glance. It is best to include a date here - either the date this note was entered, or specific dates this note is relevant for.
     - *Documents* - This section is for uploading and accessing Patient documents, such as assessment reports, diagnoses, or consent forms.
     - *Timeline* - This is a running timeline of any communications or interactions with or regarding the patient. Emails, phone calls, encounters, tasks, and notes related to this patient are all tracked here. You can also initiate emails, phone calls, and tasks directly from the timeline, and the details will be automatically populated. Click the ‘+’ button to add a communication log to the timeline.
 
@@ -52,7 +54,7 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
 
 ## Search Contacts
 
-Select 'Contacts' on the left navigation bar in the Clinical Area to open the Contact Main Grid. The Contact Main Grid has 3 views related to Patient contacts. All views display the First Name, Last Name, Known As, Date of Birth, Address and Status Reason.  
+Select 'Contacts' on the site menu in the Clinical Area to open the Contact Main Grid. The Contact Main Grid has 3 views related to Patient contacts. All views display the First Name, Last Name, Known As, Date of Birth, Address and Status Reason.  
 - Active Patients
     - The Active Patients view displays Patient Contact records that are Active.
 - Current Patients
@@ -60,13 +62,31 @@ Select 'Contacts' on the left navigation bar in the Clinical Area to open the Co
 - All Patients
     - The All Patients view displays all the Patients in the system. This includes Active and Inactive records. (This is helpful when a Patient leaves your organization and their record is deactivated but later wants to receive services from you again. You can reactivate their contact record from this view.)
 
+## Archive Patients
+
+When discharging a patient, click 'Archive Contact' so that practitioners who have not finished submitting sessions for the patient will be able to finish submitting their sessions. The status reason of the Contact will become 'Not Active' and the contact will not show on Active Contact views.
+
+If the patient's sessions have all been billed already, the contact can be deactivated through the deactivate button:
+
+1. Place end dates on any active, current care team assignments for the patient.
+2. Place an end date on the patient's episode of care to mark it as finished, or deactivate the episode of care.
+3. Click deactivate on the patient contact.
+
 ## Export Patient Session Notes
 
-A session note export can be exported from the Encounter Service subgrid on a patient contact. 
+Patient session notes can be exported from any Encounter Service view:
 
-1. Open the patient contact.
-2. Go to the Encounters tab. Scroll to the Encounter Service view at the bottom of the page.
-3. Click the 3 dots to access the 'Export Session Notes' button. Enter the date range you'd like to export session notes from, and click 'Export.'
+1. The encounter services main view on the site menu.
+2. The encounter services subgrid on the Encounters tab of a contact. 
+3. The encounter service form for any single encounter service.
+
+
+Filter the view to the services, patient, date range, and session status (e.g. only submitted sessions) you'd like to export session notes for. 
+Then, click 'Export Session Notes'.
+:::note
+A session note export can only be created for one patient's sessions at a time. Separate exports can be generated for more than one patient's sessions.
+:::
+  <img src ='/img/exportsessionnotes2.png' width='900'/> 
 
 The export displays the following:
 - Organization logo (based on the logo uploaded to the patient's [business unit](../AdminSetup/BusinessUnit.md))

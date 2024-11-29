@@ -18,8 +18,8 @@ An Opportunity refers to the potential patient or practitioner who contacted the
         - Current Situation - take notes of the patient's current care setup and other information relevant for intake.
         - Client Need - take notes of the patient's care needs and other information relevant for intake.
         - Proposed Services - take notes of proposal that was made to the patient during intake or other ideas for patient care.
-        - Service Location - select the patient's requested service location(s).
-        - Preferred Service Times - select the patient's preferred service times (morning/afternoon/evening/weekend).
+        - Service Location - select the patient's requested service location(s). This information will be stored on the patient's contact as well.
+        - Preferred Service Times - select the patient's preferred service times (morning/afternoon/evening/weekend). This information will be stored on the patient's contact as well.
 
     - *Conditions* - click 'New Condition' to create the condition for the patient. The condition you create here will be available on the patient contact profile. [Read more about how to set up a patient conditions](../Patients/Conditions.md).
 
@@ -51,9 +51,9 @@ Patient Opportunities have 7 stages:
 6. Service Authorization
 7. Completed
 
-A patient opportunity is created at the "Prospect" stage. 
+A patient opportunity is created at the 'Prospect' stage. 
 
-Once an application has been sent to the patient to complete, enter the Application Sent Date and click 'Next Stage' to move the opportunity to the "Application Pending" stage.
+Once an application has been sent to the patient to complete, enter the Application Sent Date and click 'Next Stage' to move the opportunity to the 'Application Pending' stage.
 
 Once the application has been received and approved, the remaining stages of the opportunity take place on the authorization workflow. [Read more about authorization workflows](../CRM/AuthWF.md).
 
@@ -83,15 +83,15 @@ Practitioner Opportunities have 4 stages:
 3. Role Pending
 4. Completed
 
-A practitioner opportunity is created at the "Prospect" stage. 
+A practitioner opportunity is created at the 'Prospect' stage. 
 
-Once an application has been sent to the practitioner to complete, enter the Application Sent Date and click 'Next Stage' to move the opportunity to the "Application Pending" stage.
+Once an application has been sent to the practitioner to complete, enter the Application Sent Date and click 'Next Stage' to move the opportunity to the 'Application Pending' stage.
 
-Once the application has been received and approved, the practitioner's qualifications should be entered before completing the opportunity. Select one of the practitioner's qualifications on the "Role Pending" stage and click 'Next Stage' to complete the opportunity.
+Once the application has been received and approved, the practitioner's qualifications should be entered before completing the opportunity. Select one of the practitioner's qualifications on the 'Role Pending' stage and click 'Next Stage' to complete the opportunity.
 
 ## Search Opportunities
 
-Select 'Opportunities' on the left navigation bar in the CRM Area to open the Opportunity Main Grid. The Opportunity Main Grid has 6 views.
+Select 'Opportunities' on the site menu in the CRM Area to open the Opportunity Main Grid. The Opportunity Main Grid has 6 views.
 - All Opportunities
     - The All Opportunities view displays all the opportunities in the system. This includes Active and Inactive records. (This is helpful when an opportunity is lost and their record is deactivated but later decides to reapply. You can reactivate their opportunity record from this view.)
 - Open Patient Opportunities
@@ -105,3 +105,13 @@ Select 'Opportunities' on the left navigation bar in the CRM Area to open the Op
 - My Open Opportunities
     - Opportunities created by the user viewing the records that are not completed.
 
+## Close Opportunities
+
+- **Patient Opportunities** are closed as 'Won' when the authorization is populated on the [authorization workflow](../CRM/AuthWF.md) and the workflow is marked as Finished.
+
+  <img src ='/img/wonopp.png' width='600'/> 
+
+- **Practitioner Opportunities** are closed as 'Won' when the practitioner is given a qualification and the workflow is marked as Finished.
+- Click 'Close as lost' to close patient/practitioner opportunities as lost. A description of why the opportunity was lost can be recorded.
+
+  <img src ='/img/closeopp.png' width='600'/> 

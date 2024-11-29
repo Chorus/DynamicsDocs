@@ -8,7 +8,7 @@ Authorizations are the force behind the entire scheduling and billing workflow. 
 
 ## Create an Authorization  
 
-To create a new Authorization, click 'New Authorization' on the Authorization subgrid (on a Patient Contact Form, under the "Coverages and Auths" tab) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
+To create a new Authorization, click 'New Authorization' on the Authorization subgrid (on a Patient Contact Form, under the 'Coverages and Auths' tab) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
 
 **Authorization Information**
 - *Patient* - prepopulated as the patient whose profile you are navigating from when entering the authorization.
@@ -47,11 +47,19 @@ When a practitioner is selected as a billing provider, the ‘Provider Type’ f
 - *Business Unit Billing Provider* - When the Billing Provider field is set to 'Business Unit', this field displays the Billing Provider field from the Business Unit Main Form.
 - *Billing Provider on Claim* - If the Billing Provider field is set to 'Select New Practitioner', this field displays the Billing Provider on Claim field. Any Practitioner can be selected as the Billing Provider. 
 
-Every Claim has a *Billing Provider*. This is the Practitioner with the correct credentials for the services rendered.        
+Every Claim has a *Billing Provider*. This is the Practitioner with the correct credentials for the services rendered.
+
+## Authorization Validation
+
+Once a practitioner is populated on the authorization, the authorization is validated to ensure the practitioner has all of the [required qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications) for the authorization services on the authorization that will be billed with the practitioner on the authorization as the rendering provider on the claim.
+
+  <img src ='/img/authValidation.png' width='900'/> 
+
+If an authorization service is being billed with the practitioner on the encounter service as the rendering provider on the claim, the encounter service will be validated instead. [Read more about encounter validations](../Scheduling/EncounterValdations.md/#practitioner-does-not-have-required-credentials).
 
 ## Search Authorizations
 
-Select 'Authorizations' on the left navigation bar in the Clinical Area of the site menu to open the Authorizations Main Grid. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 3 different views:
+Select 'Authorizations' on the left site menu in the Clinical Area of the site menu to open the Authorizations Main Grid. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 3 different views:
 - The **Active Authorizations** (default) view displays all the Active Authorization records in the system. The view is sorted by the Period Start Date with the newer dates displaying first. 
 - The **All Authorizations** view displays all the Authorization records in the system. The view is sorted by the Period Start Date with the newer dates displaying first.
 - The **Expiring Authorizations** view displays all the Active Authorization records in the system where the Period End Date is in the next 30 days. The view is sorted by the Period End Date with the older dates displaying first.
