@@ -14,7 +14,7 @@ There are 3 Contact Forms. The 'Contact Type' field in the header sets the form 
 The Contact Main Form for a Patient is divided into multiple tabs for an organized view of the complete patient record.
 
 - The **Profile Info** tab is for general patient information, usually collected upon intake. This tab is divided into a few sections:
-    - *General Information* - Enter the patient’s legal name in the First Name/Last Name fields, and the name they are called in the Known As field. Date of birth and gender are tracked here as well.
+    - *General Information* - Enter the patient’s legal name in the First Name/Last Name fields, and the name they are called in the Known As field. Date of birth and gender are tracked here as well. MRN is a unique identifier for the patient's record that is auto-populated.
     - *Patient Addresses* - These are the locations this patient will be serviced at, and/or an address for billing and mail communications. Addresses listed here should be specific to the patient whose profile it is added to; locations such as the organization’s office or a school would be added as a general service location in the Setup area. [Read more about addresses](AdminSetup/Location.md). 
 
     :::note

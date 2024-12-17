@@ -100,3 +100,16 @@ The Outstanding and Paid amounts on the claim are updated when a cost share remi
 4. Enter the Paid Amount on each Remit Line. Go back to claim and refresh or click 'Recalculate' to get the updated Cost Share Paid and Cost Share Oustanding.
 
 </details>
+
+## Write-Offs
+
+A write-off can be added to any claim or claim line to deduct from the outstanding balance on the corresponding claim/claim line. To deduct from the cost share outstanding, mark the write-off as a cost share write-off.
+
+1. Open a claim or claim line.
+2. Go to the Write-Offs tab. Click 'New Claim Write Off Entry' (or 'New Claim Item Write Off Entry' for claim lines).
+3. Fill in the amount you are writing off and the reason. Click save.
+
+The amount will be added to the total write-offs and deducted from either the total outstanding or the cost share outstanding on the corresponding claim/claim line.
+
+<img src ='/img/writeoff.png' width='800'/>
+
