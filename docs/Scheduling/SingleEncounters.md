@@ -44,8 +44,9 @@ An authorization service for an authorization covered by [secondary coverage](..
 - *Start Date/Time* - prepopulated with the start date/time of the Encounter you are adding the Encounter Service to.
 - *End Date/Time* - prepopulated with the end date/time of the Encounter you are adding the Encounter Service to.
 - *Mileage* - If your organization reimburses for mileage, enter the miles travelled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
-- *Payroll Modifiers* - 
-- *Telecare* - Toggle on when the session was conducted over telecare
+- *Payroll Modifiers* - add modifiers if a different rate should be applied to this session based on the payroll fee schedule on the practitioner's contract.
+- *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Read more about locations](../AdminSetup/Location.md).
+- *Telecare* - Toggle on when the session was conducted over telecare.
 - *Cancelation Reason* displays on form when Status Reason is Canceled.
 
 An Encounter Service cannot be saved if the Insurance Plan Benefit for the Authorization Service requires an assignment and the assignment field on the Encounter Service is blank.
@@ -65,16 +66,7 @@ To create an encounter participant, click 'New Encounter Practitioner' on the En
     - Practitioner
     - Related Contact
 
-### Encounter Location
-Th final step of creating an encounter is selecting the Location.
-
-The Location field is filtered to display addresses related to this Patient and general addresses (e.g. a school where multiple Patients are serviced).
-
-The Location on the Encounter will be included as the Place of Service on the Claim.
-
-[Read more about locations](../AdminSetup/Location.md).
-
-### Update Timing and Duration
+## Update Timing and Duration
 
 To update the timing of encounters, choose the **encounter service** for which the timing needs to be updated, and update the relevant fields. 
 
