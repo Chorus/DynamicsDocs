@@ -47,15 +47,11 @@ A single encounter can also be deactivated from the main form by clicking 'Deact
 
 Recurring encounters are parents to a set of related encounters that were generated based on the recurrence pattern selected.
 
-The recurring parent cannot be deactivated. You can deactivate the related Encounter Occurrences to deactivate all the sessions generated from this recurring encounter.
+The recurring parent cannot be deactivated. Instead, deactivate the encounter occurrences by following the steps below.
 
-:::note
-If observations were already collected on any of the encounter occurrences of a recurring encounter in the Note app, the encounter occurrences cannot be deactivated. Instead, the practitioner should first [remove the inaccurate observations](https://notedocs.chorus.cloud/docs/DataCollection/EditDataAfterSession) in Note. 
 
-Scheduler Admins have permissions to override this rule.
-:::
-
-### Recurrence pattern set by end date
+<details>
+<summary> How to deactivate recurring encounter - recurrence pattern set by end date </summary>
 
 1.  Update the end date on the recurrence information to one day before the first scheduled encounter.
 
@@ -65,7 +61,10 @@ Scheduler Admins have permissions to override this rule.
 
 <img src ="/img/ConfirmUpdate.png" width="500" height="200"/>
 
-### Recurrence pattern set by number of occurrences
+</details>
+
+<details>
+<summary> How to deactivate recurring encounter - recurrence pattern set by number of occurrences </summary>
 
 1.  Navigate to the encounter occurrences tab on the recurring encounter.
 
@@ -86,5 +85,15 @@ Scheduler Admins have permissions to override this rule.
 5. Only the shown encounter occurrences are deactivated. If there is more than one page to the subgrid this process has to be repeated on the following pages as well.
 
 <img src ="/img/cbfa41a3-9a64-48c7-9bf9-a47ca44e4ce6_image.png" width="500" height="200"/>
+
+</details>
+
+
+:::note
+If observations were already collected on any of the encounter occurrences of a recurring encounter in the Note app, the encounter occurrences cannot be deactivated. Instead, the practitioner should first [remove the inaccurate observations](https://notedocs.chorus.cloud/docs/DataCollection/EditDataAfterSession) in Note. 
+
+Scheduler Admins have permissions to override this rule.
+:::
+
 
           
