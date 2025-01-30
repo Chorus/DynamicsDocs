@@ -34,7 +34,10 @@ Episode of Care Validation ensures the data integrity of Encounters.
 
 The Episode of Care History exists to update the Status Reason of the Episode of Care and keep track of when the status was updated.
 
-To update the status of an episode of care, click 'New Episode of Care History' on the Status Updates subgrid (on the Episode of Care Main Form). This will open the New Episode of Care History Quick Create. The system will automatically end the previous status history and populate the end date as one day before the new status began.
+To update the status of an episode of care, click 'New Episode of Care History' on the Status Updates subgrid (on the Episode of Care Main Form). 
+<img src ="/img/EOChistory.png" width="600" height="200"/>
+
+This will open the New Episode of Care History Quick Create. The system will automatically end the previous status history and populate the end date as one day before the new status began.
 
 **Status Update Information**
 - *Status* – select the status that the Episode of Care is being updated to. Options are Planned, Waitlist, Active, or On hold.
@@ -42,3 +45,4 @@ To update the status of an episode of care, click 'New Episode of Care History' 
 - *End Date* – can either be set manually, otherwise it is prepopulated based on the start date of a new status.
 *** Upon creating a new Episode of Care History record, the End Date on the previous Episode of Care History record is set as the day before this Episode of Care History's Start Date. The previous Episode of Care History is the record with the latest Start Date and no End Date. 
 
+<img src ="/img/EOChistoryQC.png" width="600" height="200"/>
