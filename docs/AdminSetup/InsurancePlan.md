@@ -50,7 +50,17 @@ To create fee schedules specific to an insurance plan (which will override any [
 
 ## Insurance Plan Billing Requirements
 
-To control how Claims for an insurance plan are created, go to Related > Insurance Plan Billing Requirements on the Insurance Plan, and create a new Insurance Plan Billing Requirement.
+Insurance Plan Billing Requirements control how Claims for an insurance plan are created, or other insurance plan specific requirements (session note settings, etc.).
+
+<details>
+<summary> How to add an Insurance Plan Billing Requirement</summary>
+
+1. In the Setup area, go to Insurance Plans on the site menu and open the insurance plan you'd like to add a requirment to.
+2. Click 'Related' and select Insurance Plan Billing Requirements
+3. Click 'New Insurance Plan Biling Requirement'
+4. Fil out the rule by selecting from existing billing rules.
+
+</details>
 
 Select from existing billing rules:
 - Include the time portion on the claim lines
@@ -66,3 +76,4 @@ Select from existing billing rules:
 - Modifier U5 for BT services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic
 - Single claim item per session required
 - Split claim lines with different POS/Modifier combinations: claim lines that have different POS/modifier combinations will not be grouped together, even for the same service/same day.
+- EVV Required
