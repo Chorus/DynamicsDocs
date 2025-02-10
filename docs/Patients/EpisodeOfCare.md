@@ -32,17 +32,24 @@ Episode of Care Validation ensures the data integrity of Encounters.
 
 ## Episode of Care History
 
-The Episode of Care History exists to update the Status Reason of the Episode of Care and keep track of when the status was updated.
+Each Episode of Care History record updates the Status Reason of the Episode of Care and keeps track of when the status was updated.
+<details>
+<summary> How to update the status of an Episode of Care</summary>
 
-To update the status of an episode of care, click 'New Episode of Care History' on the Status Updates subgrid (on the Episode of Care Main Form). 
-<img src ="/img/EOChistory.png" width="600" height="200"/>
+1. On the Patient record, go to the Medical Info tab. Open the patient's episode of care.
+2. Click 'New Episode of Care History' on the Status Updates subgrid to open the episode of care history form. 
+ 
+ <img src ="/img/EOChistory.png" width="600" height="200"/>
+3. Select the status the episode of care should be updated to, and the start date on the new status. The previous history record's end date will be automatically populated as one day before the new status began.
 
-This will open the New Episode of Care History Quick Create. The system will automatically end the previous status history and populate the end date as one day before the new status began.
+</details>
+
 
 **Status Update Information**
-- *Status* – select the status that the Episode of Care is being updated to. Options are Planned, Waitlist, Active, or On hold.
-- *Start Date* – set the date that this status began or is set to begin.
-- *End Date* – can either be set manually, otherwise it is prepopulated based on the start date of a new status.
-*** Upon creating a new Episode of Care History record, the End Date on the previous Episode of Care History record is set as the day before this Episode of Care History's Start Date. The previous Episode of Care History is the record with the latest Start Date and no End Date. 
+- *Status* – the status that the Episode of Care was updated to (planned, waitlist, active, or on hold).
+- *Start Date* – the date that this status began or is set to begin.
+- *End Date* – when a new history record is added, end date is auto-populated as the day before the start date of the new status.
+
+The most recent Episode of Care History is the record with the latest start date and no end date. 
 
 <img src ="/img/EOChistoryQC.png" width="600" height="200"/>

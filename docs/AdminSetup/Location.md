@@ -14,15 +14,16 @@ A new Location record can be created from a few places.
 
 The **Address Information** section contains the basic information to differentiate locations. This section has the following fields. 
 - *Description* - This field can be populated to give the location a clear name for easy reference (e.g., Steven's summer home). 
-:::note
-The Location Description is displayed on a practitioner's session details view in the Note app.
-:::
 - *Location Type* - This field defines the location type – home, school, office, or other. On the claim, the location code will be based on the value in this field, for all encounters taking place at this address.
     - *Address Type* - If the Location Type is 'Home,' the address type must be specified as 'Billing Address', 'Service Address' or both. A Patient can only have 1 address as their 'Billing Address' at any time.
 - *Patient* - This field defines the patient this address is related to. This address will display as an encounter location option when an encounter is scheduled for this patient. If this Location is a general location (e.g., a school), where numerous patients are serviced, this field would be left empty. 
     - When ‘Home’ is selected as the ‘Location Type’, this field becomes required.
     - Once the record is saved, the Patient field locks and cannot be changed.
 
+:::note
+- The Location Description is displayed on a practitioner's session details view in the Note app. 
+- Only home addresses where the address type is Service Address (or service and billing) will display in the Note app.
+:::
 The **Address Details** section contains the address. The *Additional Directions* field can be used to record any directions that will help practitioners find their way easily (e.g., "first door on the right side of the house").  
 
 ## Search Locations
