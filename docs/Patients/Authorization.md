@@ -20,8 +20,6 @@ To create a new Authorization, click 'New Authorization' on the Authorization su
 - *Period Start Date* - Enter the start date that the authorization is valid from.
 - *Period End Date* - The End Date is prepopulated to 6 months after the Start Date, and you can edit it as needed. This is the date the authorization is valid until. 
 - *Practitioner* - Select the practitioner on the authorization.
-- *Status Reason* - If this authorization is pending approval from insurance, set the status reason to Pending Authorization. Charge items for pending authorizations will not be able to be billed. Once insurance approves the authorization, either set the authorization status to active, or create a new authorization and move the relevant sessions to authorization services from the new authorization.
-- *Reason Pending* - Track the reason why this authorization was not approved by the payer yet (late assessment submission, gap in coverage, gap in authorization, or coverage change).
 
 Once the Authorization is saved, [Authorization Services](../Patients/AuthorizationServices.md) can be added. 
 
@@ -50,6 +48,12 @@ When a practitioner is selected as a billing provider, the ‘Provider Type’ f
 - *Billing Provider on Claim* - If the Billing Provider field is set to 'Select New Practitioner', this field displays the Billing Provider on Claim field. Any Practitioner can be selected as the Billing Provider. 
 
 Every Claim has a *Billing Provider*. This is the Practitioner with the correct credentials for the services rendered.
+
+## Pending Authorizations
+
+If an authorization is pending approval from insurance, set the status reason to Pending Authorization. [Charge items](../Billing/ChargePeriods.md/#charge-item-statuses) for pending authorizations will not be able to be billed. Once insurance approves the authorization, either set the authorization status reason to active, or create a new authorization and move the relevant sessions to authorization services from the new authorization.
+
+- *Reason Pending* - Track the reason why this authorization was not approved by the payer yet (late assessment submission, gap in coverage, gap in authorization, or coverage change).
 
 ## Authorization Validation
 
