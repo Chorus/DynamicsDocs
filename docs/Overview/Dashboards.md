@@ -13,6 +13,7 @@ Dashboards in the system include:
 - **Authorization Workflow** - View count of authorization workflows per status.
 - **Authorizations Dashboard** - View count of authorizations per payer, business unit, or expiring month.
 - **Opportunity Dashboard** - View count of opportunities per status.
+- **Qualifications Dashboard** - View expired/expiring practitioner qualifications, qualifications per status reason, and practitioners per qualification.
 
  <img src ="/img/dashboards.png " width="650"/>
 

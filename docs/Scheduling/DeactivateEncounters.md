@@ -2,9 +2,9 @@
 id: DeactivateEncounters
 title: Cancel Encounters
 ---
-# Cancel Encounters
+# Cancel Encounter Services
 
-To cancel an Encounter, select the encounter you'd like to cancel from any Encounters Grid, and Click 'Cancel' and choose from cancellation reasons, including:
+To cancel a session, open the encounter service you'd like to cancel, click 'Cancel', and choose from cancellation reasons, including:
 - Provider Cancellation
 - Learner Absence
 - Learner Unavailable
@@ -13,13 +13,13 @@ To cancel an Encounter, select the encounter you'd like to cancel from any Encou
 - School Event/Trip
 - Holiday
 
-Alternately, you can choose to cancel an individual Encounter Service under an Encounter, while leaving the parent Encounter and the rest of its Encounter Services scheduled.
+In a group encounter, you can choose to cancel an individual encounter service under the encounter, while leaving the parent encounter and the rest of its encounter services scheduled. You can also cancel the parent encounter to cancel all encounter services it contains.
 
 When an encounter service is canceled, its related charge item and payroll item are deactivated, (unless the payroll item is already in a closed payroll period).
 
-## Deactivate Encounters
+## Deactivate Encounter Services
 
-You can deactivate encounters, related encounter services, and related encounter participants when an encounter was scheduled in error.
+You can deactivate encounter services when a session was scheduled in error.
 
 :::note
 If observations were already collected on the session in the Note app, the encounter service cannot be deactivated. Instead, the practitioner should first [remove the inaccurate observations](https://notedocs.chorus.cloud/docs/DataCollection/EditDataAfterSession) in Note. 
@@ -27,27 +27,22 @@ If observations were already collected on the session in the Note app, the encou
 Scheduler Admins have permissions to override this rule.
 :::
 
-1.  On the main grid user can select the Encounters to be deactivated.
 
-<img src ="/img/SelectToDeactivate.png" width="500" height="200"/>
-
-
-2.  Upon selecting encounters to be deactivated - click 'Deactivate' on the ribbon.
-
-<img src ="/img/ca0f52fd-b9c0-47e5-87ed-9b5e2a8b1739_image.png" width="500" height="200"/>
-
-3.  User will be prompted to confirm deactivating the selected encounters and to select a reason for deactivating.
+1.  On any encounter service view, select the encounter services you'd like to deactivate.
+2.  Click 'Deactivate' on the ribbon.
+3.  Confirm deactivation and select a reason for deactivating.
 
 <img src ="/img/399c27bd-f552-4bb9-9433-5ec75c60271e_image.png" width="500" height="200"/>
 
-4.  All related records (encounter, encounter services, encounter participant) will be deactivated
-A single encounter can also be deactivated from the main form by clicking 'Deactivate' on the form's ribbon.
+4.  All related records (encounter, encounter services, encounter participants) will be deactivated.
 
-## Deactivate Recurring Encounters
+An encounter service can also be deactivated by opening the encounter service and clicking 'Deactivate' on the form's ribbon.
 
-Recurring encounters are parents to a set of related encounters that were generated based on the recurrence pattern selected.
+## Deactivate Recurring Encounter Services
 
-The recurring parent cannot be deactivated. Instead, deactivate the encounter occurrences by following the steps below.
+Recurring encounter services are parents to a set of related encounter services that were generated based on the recurrence pattern selected.
+
+The recurring parent cannot be deactivated. Instead, deactivate the encounter service occurrences by following the steps below.
 
 
 <details>

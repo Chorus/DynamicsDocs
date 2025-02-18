@@ -2,23 +2,26 @@
 id: RecurringEncounters
 title: Recurring Encounters
 ---
-# Recurring Encounter Services
+# Recurring Encounters
 
-Recurring Encounter Services are encounter services that are set to repeat on a recurring schedule, either daily, weekly, or monthly. Each recurring encounter service consists of multiple encounter occurrences – which are the individual sessions.
+Recurring Encounters are encounter services that are set to repeat on a recurring schedule, either daily, weekly, or monthly. Each recurring encounter service consists of multiple encounter occurrences – which are the individual sessions.
 
 ## Create a Recurring Encounter Service
+Recurring Encounter Services set a single encounter service to repeat on a recurring schedule.
+
 Recurring Encounter Services can be created from [Schedule Assistance](../Scheduling/ScheduleAssistance.md), or by clicking 'New Recurring Encounter Service' on any Encounter Services grid.
 
 <img src ="/img/+recurringES.png" width="600" height="200"/>
 
-1. **Create the encounter service** template by following the same steps as when creating a [single encounter service](../Scheduling/SingleEncounters.md/#create-a-single-encounter-service). 
+1. **Create the Encounter Service** template by following the same steps as when creating a [single encounter service](../Scheduling/SingleEncounters.md/#create-a-single-encounter-service). 
 
 - When selecting the start date, enter the start date and time for the first session of the recurring schedule. The rest of the encounter occurrences will be based on the same start time as scheduled on this encounter service template.
+
 2. Click save to save the template encounter service. Click Next.
 
 <img src ="/img/RecurringES1.png" width="800" height="200"/>
 
-3. **Set up a recurrence pattern** and click save. 
+3. **Set Up Recurrence Pattern** and click save. 
 
 - *Repeat* – select the frequency of the recurrence – daily, weekly, monthly, etc.
 - *Every* – Enter the frequency at which the recurrence should repeat – Every 1 week, every 2 weeks, every 3 days, etc.
@@ -32,6 +35,13 @@ Recurring Encounter Services can be created from [Schedule Assistance](../Schedu
 <img src ="/img/RecurringES2.png" width="800" height="200"/>
 
 4. **Click Generate Occurrences**.
+
+## Create a Group Recurring Encounter
+Group Recurring Encounters set a group of encounter services (e.g., for group behavior treatment, or supervisison and direct care scheduled together, etc.) to repeat on a recurring schedule.
+
+Click 'New Group Recurring Encounter" on any Encounter Services grid to create a group recurring encounter.
+
+Follow the steps to [create an encounter](../Scheduling/SingleEncounters.md/#create-a-single-encounter), then set up a recurrence pattern and generate occurrences.
 
 ## Edit a Recurring Encounter
 The end date of recurring encounter services can be moved earlier to deactivate encounter occurrences after the updated end date, or later to create additional occurrences against the same pattern through the new end date.

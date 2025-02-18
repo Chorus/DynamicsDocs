@@ -21,14 +21,14 @@ Our solution includes several apps, each tailored to specific tasks and entities
 The site menu is the navigation bar on the left side of the screen that provides easy access to frequently used entities. 
 
 In Autism Care, the site menu is divided into 4 areas:
-- **Setup** - easy access to setting up Accounts, Locations, Healthcare Services, etc.
+- **Setup** - easy access to setting up Payers, Plans, Locations, Healthcare Services, etc.
 - **Clinical** - easy access to Practitioners, Patients, Schedule Assistance, Authorizations, etc.
 - **Payroll** - easy access to processing Payroll, Fee Schedules, etc.
 - **CRM** - easy access to Opportunities, Authorization Workflows, etc.
 
 In Claims, the site menu is divided into 2 areas:
-- **Billing**
-- **Claims**
+- **Billing** - easy access to charge items, charge periods, claims, etc.
+- **Claims** - easy access to claims, claim lines, transactions, etc.
 
 You can view recently accessed records under 'Recent'. Items under recent can be 'Pinned' for easy access in the future.
 

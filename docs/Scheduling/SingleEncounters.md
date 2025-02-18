@@ -84,7 +84,7 @@ If you'd like to schedule one encounter that contains multiple encounter service
 There are 2 ways to create encounters:
 
 1. Create a Single Encounter, manually or from [Schedule Assistance](../Scheduling/ScheduleAssistance.md)
-2. Create a [Recurring Encounter](../Scheduling/RecurringEncounters.md), manually or from [Schedule Assistance](../Scheduling/ScheduleAssistance.md)
+2. Create a [Group Recurring Encounter](../Scheduling/RecurringEncounters.md), manually or from [Schedule Assistance](../Scheduling/ScheduleAssistance.md)
 
 ### Create a Single Encounter
 Single encounters are scheduled on a one-off basis. 
