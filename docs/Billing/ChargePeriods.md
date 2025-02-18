@@ -29,6 +29,7 @@ When reviewing charge items, you can easily view the status of the charge items 
 - When the related encounter service is submitted, charge items become **New**.
 - Charge items that are fit to be included on Claims should be marked as **Ready to Bill** by the biller who reviewed them.
 - Charge items can be marked as **On Hold** to indicate that they should not be billed yet (e.g., if they are waiting on remaining sessions in conducted in that charge period to be submitted).
+- When the related encounter service is scheduled against a [pending authorization](../Patients/Authorization.md/#pending-authorizations), charge items are set to **Pending Authorization**.
 - Charge items that are included on a claim already are at status **Claim Line Created**
 - When sessions are reopened for the practitioner to make edits, charge items are reverted to **Awaiting Resubmission**. Billers can review Awaiting Resubmission charge items to verify if the session was resubmitted with edits that necessitate modifying and resubmitting the claim.
 

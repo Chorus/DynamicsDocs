@@ -15,6 +15,7 @@ An Opportunity refers to the potential patient or practitioner who contacted the
         - Primary Related Contact - click 'New Contact' in the Primary Related Contact field to create the primary related contact you are in contact with regarding the patient (parent/s, other guardian, school personnel, etc.). Enter their contact information on the related contact form.
         - Related As - select how the related contact entered above is related to the patient.
         - Referred by - select the contact that referred the patient, or create a new contact.
+        - Referral source - select the account that's responsible for the referral, or create a new account. An account can be a specific ad campaign, medical practice, school, or social media to help you collect marketing insights based on your organization's main referral sources.
         - Current Situation - take notes of the patient's current care setup and other information relevant for intake.
         - Client Need - take notes of the patient's care needs and other information relevant for intake.
         - Proposed Services - take notes of proposal that was made to the patient during intake or other ideas for patient care.

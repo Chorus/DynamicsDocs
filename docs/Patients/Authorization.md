@@ -49,6 +49,12 @@ When a practitioner is selected as a billing provider, the ‘Provider Type’ f
 
 Every Claim has a *Billing Provider*. This is the Practitioner with the correct credentials for the services rendered.
 
+## Pending Authorizations
+
+If an authorization is pending approval from insurance, set the status reason to Pending Authorization. [Charge items](../Billing/ChargePeriods.md/#charge-item-statuses) for pending authorizations will not be able to be billed. Once insurance approves the authorization, either set the authorization status reason to active, or create a new authorization and move the relevant sessions to authorization services from the new authorization.
+
+- *Reason Pending* - Track the reason why this authorization was not approved by the payer yet (late assessment submission, gap in coverage, gap in authorization, or coverage change).
+
 ## Authorization Validation
 
 Once a practitioner is populated on the authorization, the authorization is validated to ensure the practitioner has all of the [required qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications) for the authorization services on the authorization that will be billed with the practitioner on the authorization as the rendering provider on the claim.
@@ -60,8 +66,9 @@ If an authorization service is being billed with the practitioner on the encount
 ## Search Authorizations
 
 Select 'Authorizations' on the left site menu in the Clinical Area of the site menu to open the Authorizations Main Grid. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 3 different views:
-- The **Active Authorizations** (default) view displays all the Active Authorization records in the system. The view is sorted by the Period Start Date with the newer dates displaying first. 
-- The **All Authorizations** view displays all the Authorization records in the system. The view is sorted by the Period Start Date with the newer dates displaying first.
-- The **Expiring Authorizations** view displays all the Active Authorization records in the system where the Period End Date is in the next 30 days. The view is sorted by the Period End Date with the older dates displaying first.
+- The **Active Authorizations** (default) view displays all active Authorizations in the system. The view is sorted by the Period Start Date with the newer dates displaying first. 
+- The **All Authorizations** view displays all Authorizations in the system. The view is sorted by the Period Start Date with the newer dates displaying first.
+- The **Expiring Authorizations** view displays all active Authorizations in the system where the Period End Date is in the next 30 days. The view is sorted by the Period End Date with the older dates displaying first.
+- The **Pending Authorizations** view displays all active Authorizations in the system where the Status Reason is Pending Authorization. The view displays the Reason Pending. 
 
 The nested Authorization Service are sorted by the Start Date with the newer dates displaying first.

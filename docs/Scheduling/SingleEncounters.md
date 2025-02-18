@@ -78,17 +78,17 @@ There are two options for creating sessions for practitioners in other time zone
 <img src ='/img/timezone.png' width='500'/>
 
 
-## Encounters
+## Group Encounters
 If you'd like to schedule one encounter that contains multiple encounter services (group sessions, supervision and direct care, etc.), start by creating an encounter.
 
 There are 2 ways to create encounters:
 
-1. Create a Single Encounter, manually or from [Schedule Assistance](../Scheduling/ScheduleAssistance.md)
-2. Create a [Recurring Encounter](../Scheduling/RecurringEncounters.md), manually or from [Schedule Assistance](../Scheduling/ScheduleAssistance.md)
+1. Create a Group Encounter to schedule on a one-off basis
+2. Create a [Group Recurring Encounter](../Scheduling/RecurringEncounters.md) to schedule a group encounter to repeat on a schedule.
 
-### Create a Single Encounter
-Single encounters are scheduled on a one-off basis. 
-To create a new encounter, click 'New Group Encounter' on the Encounters subgrid on a patient/practitioner.
+### Create a Group Encounter
+
+Click 'New Group Encounter' on any encounter view.
 
 #### Set Timing and Duration
 Select the date, time, service, and duration of the session.
