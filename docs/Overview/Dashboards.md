@@ -4,7 +4,7 @@ title: Dashboards
 ---
 # Dashboards
 
-Dashboards are collections of easy-to-read charts and graphs that help you see how you and your team are doing with key metrics.
+Dashboards are collections of easy-to-read visualizations and lists that help you monitor progress and keep your pulse on key metrics for your organization.
 
 Dashboards can be created and personalized according to your needs. 
 
@@ -14,6 +14,7 @@ Dashboards in the system include:
 - **Authorizations Dashboard** - View count of authorizations per payer, business unit, or expiring month.
 - **Opportunity Dashboard** - View count of opportunities per status.
 - **Qualifications Dashboard** - View expired/expiring practitioner qualifications, qualifications per status reason, and practitioners per qualification.
+- [RCM Dashboards](../RCM/RCMDashboards.md)
 
  <img src ="/img/dashboards.png " width="650"/>
 
@@ -43,18 +44,6 @@ This report calculates the ratio of supervision (Direction of Technician service
 - Choose to include/exclude submitted sessions
 - Filter by patients/practitioners with less than 5/10/20 % supervision ratios
 - Filter by specific authorization to review
-- Click the link icon on any row in the results table to open the Encounter Service in a new tab.
-
-:::note
-To reset all filters you applied to the report, simply refresh your browser.
-:::
-
-## Accounts Receivable
-
-The Accounts Receivable (AR) Report gives your billing managers a bird's eye view of the cashflow in your organization.
-
-- View the Total Expected Amount from all Claims per Payer. Compare to the Total Paid by Payer, Total Paid to Practitioner, and Total Outstanding.
-- Filter results by Patient or Practitioner
 - Click the link icon on any row in the results table to open the Encounter Service in a new tab.
 
 :::note

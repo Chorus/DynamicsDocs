@@ -73,9 +73,12 @@ module.exports = {
  ],
  'RCM':[
   'RCM/RCMworkflow',
+  
   'RCM/Payment',
   //'RCM/Transactions',
   'RCM/Remits',
+  'RCM/Cases',
+  'RCM/RCMDashboards',
  ],
 
   },

@@ -38,6 +38,8 @@ To create a modifier, go to Related > Modifiers on the Fee Schedule Item, and cr
 
 Modifiers can be added to [encounter services](../Scheduling/SingleEncounters.md/#encounter-services) by schedulers, or to a charge item before the claim is submitted.
 
+Modifiers will be automatically added to charge items / claim lines if they are included on both the fee schedule item for the service code they apply to, and the [insurance plan billing requirements](../AdminSetup/InsurancePlan.md/#insurance-plan-billing-requirements).
+
 ## Payroll Fee Schedules
 
 Fee schedules where the Fee Schedule Type is Payroll are used to override a practitioner's contracted hourly rate with a specific rate per service or per patient.
