@@ -4,7 +4,7 @@ title: Dashboards
 ---
 # Dashboards
 
-Dashboards are collections of easy-to-read visualizations and lists that help you monitor progress and keep your pulse on key metrics for your organization.
+Dashboards are collections of easy-to-read visualizations and lists that put key metrics at your fingertips, so you can track progress, identify trends, and make informed decisions— helping your organization provide more effective care.
 
 Dashboards can be created and personalized according to your needs. 
 

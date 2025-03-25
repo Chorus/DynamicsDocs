@@ -9,7 +9,7 @@ Keep a pulse on your collection rates, denial reasons, and cashflow with powerfu
 <details>
 <summary>Chart Tips</summary>
 
-- When looking at data month over month, consider using a view filtered to data from the last year, to prevent over-crowding the graph. When looking a data quarter over quarter, switch to a view with a wider filter (last three years) or no filter.
+- When looking at data month over month, consider using a view filtered to data from the last 6 months, to prevent over-crowding the graph. When looking a data quarter over quarter, switch to a view with a wider filter (last three years) or no filter.
 - You can refresh, jump to the underlying data, or expand the chart to full screen from any chart. Click on any segment of the chart to drill down.
 
 <img src ="/img/chart.png" width="400"/>

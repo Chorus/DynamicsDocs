@@ -15,6 +15,7 @@ module.exports = {
     'AdminSetup/InsurancePlan',
    'AdminSetup/FeeSchedules',
     'AdminSetup/Location',
+    'AdminSetup/EVVSetup',
     'AdminSetup/QualificationDefinition',
     'AdminSetup/GoalBankLibrary',
   ],
