@@ -15,6 +15,7 @@ module.exports = {
     'AdminSetup/InsurancePlan',
    'AdminSetup/FeeSchedules',
     'AdminSetup/Location',
+    'AdminSetup/EVVSetup',
     'AdminSetup/QualificationDefinition',
     'AdminSetup/GoalBankLibrary',
   ],
@@ -73,9 +74,12 @@ module.exports = {
  ],
  'RCM':[
   'RCM/RCMworkflow',
+  
   'RCM/Payment',
   //'RCM/Transactions',
   'RCM/Remits',
+  'RCM/Cases',
+  'RCM/RCMDashboards',
  ],
 
   },

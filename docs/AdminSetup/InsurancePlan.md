@@ -58,22 +58,28 @@ Insurance Plan Billing Requirements control how Claims for an insurance plan are
 1. In the Setup area, go to Insurance Plans on the site menu and open the insurance plan you'd like to add a requirment to.
 2. Click 'Related' and select Insurance Plan Billing Requirements
 3. Click 'New Insurance Plan Biling Requirement'
-4. Fil out the rule by selecting from existing billing rules.
+4. Fill out the rule by selecting from existing billing rules.
 
 </details>
 
 Select from existing billing rules:
-- Include the time portion on the claim lines
 - Modifier 95 for services provided via telehealth
 - Modifier GT for all telehealth services
-- POS 02 for all telehealth services
-- POS 10 for all telehealth home and 02 for all other
-- Referring provider required
-- Rendering provider taxonomy code required
 - Modifier 93 audio-only telehealth
 - Modifier FQ audio-only telehealth
 - Modifier HO BCBA services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic
 - Modifier U5 for BT services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic
+- Modifier U3 for BCBA
+- Modifier U1
+- POS 02 for all telehealth services
+- POS 10 for all telehealth home and 02 for all other
+- Referring provider required
+- Rendering provider taxonomy code required
 - Single claim item per session required
+- Include the time portion on claim lines
 - Split claim lines with different POS/Modifier combinations: claim lines that have different POS/modifier combinations will not be grouped together, even for the same service/same day.
-- EVV Required
+- Don't split by POS: claim lines that have different places of service will be grouped together if they would otherwise be grouped.
+- EVV Required: sessions for insurance plans with this billing requirement will track the exact start and end time, latitude, and longitude when the practitioner presses start/end session in Note on services where the patient is required to be present and the location type is home or other.
+
+:::note
+A modifier will only be automatically added to a claim line if the insurance plan billing requirement is set up, and the modifier is added to the fee schedule item for the applicable service code on the [insurance plan fee schedule](../AdminSetup/FeeSchedules.md/#modifiers)
