@@ -57,7 +57,7 @@ Insurance Plan Billing Requirements control how Claims for an insurance plan are
 
 1. In the Setup area, go to Insurance Plans on the site menu and open the insurance plan you'd like to add a requirment to.
 2. Click 'Related' and select Insurance Plan Billing Requirements
-3. Click 'New Insurance Plan Biling Requirement'
+3. Click 'New Insurance Plan Billing Requirement'
 4. Fill out the rule by selecting from existing billing rules.
 
 </details>
