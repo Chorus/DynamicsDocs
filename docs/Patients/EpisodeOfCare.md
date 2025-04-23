@@ -20,7 +20,7 @@ To create a new Episode of Care, click 'New Episode of Care' on the Episode of C
 - *Patient*- The Patient field is prepopulated with the Patient you are navigating from and cannot be edited.
 - *Period Start Date* - Enter the start date. The Period Start Date cannot be after the Period End Date. 
 - *Period End Date*
-- *Referring Provider* - The Contact who referred the patient for services.
+- *Referring Provider* - The practitioner contact who referred the patient for services. Populate the NPI on this contact for it to be included on a claim. 
 
 ## Episode of Care Validation
 

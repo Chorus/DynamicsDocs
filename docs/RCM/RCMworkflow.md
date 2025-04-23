@@ -10,7 +10,7 @@ The Remits workflow happens primarily in the **RCM** app.
 1. A [transaction](../RCM/Transactions.md) is received from the clearinghouse to your financial dimension. 
     - The transaction can include one [payment](../RCM/Payment.md) from one payer, or multiple payments from multiple payers.
     - Each payment from a payer can include a [remit](../RCM/Remits.md) (claim payment) for a single claim, or multiple remits (claim payments) for multiple claims. 
-2. A [payment](../RCM/Payments.md) is automatically created when a payment comes into your clearinghouse. The payment is automatically posted to the claim it was paid against. The payment information fields are updated on the claim.
+2. A [payment](../RCM/Payment.md) is automatically created when a payment comes into your clearinghouse. The payment is automatically posted to the claim it was paid against. The payment information fields are updated on the claim.
     - A payment can also include a Payment Adjustment (positive or negative) - when the payer wants to make an adjustment that is not related to a specific remit, or when it is for a remit not included in this payment (a past remit for example).
 3. When the payments/remits are received, they are automatically posted to the claims they are paying up, and can be reviewed to ensure that the maximum reimbursement was received.
     - When the system does not identify a claim to post a remit to, you can manually post the "orphaned" remit to a claim. The same goes for posting orphaned remit lines to claim lines. See [Posting Orphaned Remits](../RCM/RCMworkflow.md/#posting-orphaned-remits)
