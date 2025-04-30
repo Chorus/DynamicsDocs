@@ -82,7 +82,7 @@ module.exports = {
   'RCM/RCMDashboards',
  ],
 
- 'TT':[
+ 'Tips & Tricks':[
   'TT/Tip1',
   'TT/Tip2',
   'TT/Tip3',
@@ -94,7 +94,6 @@ module.exports = {
   'TT/Tip9',
   'TT/Tip10',
   'TT/Tip11',
-  'TT/Tip12',
  ],
 
   },
