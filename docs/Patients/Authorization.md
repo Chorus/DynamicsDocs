@@ -8,7 +8,7 @@ Authorizations are the force behind the entire scheduling and billing workflow. 
 
 ## Create an Authorization  
 
-To create a new Authorization, click 'New Authorization' on the Authorization subgrid (on a Patient Contact Form, under the 'Coverages and Auths' tab) or click the 'New' button on the Authorization Main Grid to open the Authorization Main Form.
+To create a new Authorization, click 'New Authorization' on the Authorization subgrid (on a Patient Contact Form, under the 'Coverages and Auths' tab) or click the 'New' button on the Authorization main view.
 
 **Authorization Information**
 - *Patient* - prepopulated as the patient whose profile you are navigating from when entering the authorization.
@@ -22,6 +22,9 @@ To create a new Authorization, click 'New Authorization' on the Authorization su
 - *Practitioner* - Select the practitioner on the authorization.
 
 Once the Authorization is saved, [Authorization Services](../Patients/AuthorizationServices.md) can be added. 
+
+### Clone an Authorization
+When an existing patient is reauthorized by the same coverage, click 'Clone Authorization' on the existing authorization to create a copy of the authorization and its services. After cloning the authorization, be sure to update the authorization # and date range on the authorization, as well as the amount authorized and date range on each authorization service, to ensure they match what was authorized by the payer.
 
 ## Claim Settings
 

@@ -14,7 +14,7 @@ There are 3 ways to create encounter services:
 
 ### Create a Single Encounter Service
 Single encounter services are scheduled on a one-off basis. 
-To create a new encounter service, click 'New Encounter Service' on the Encounter Services subgrid on a patient/practitioner, or on the Encounter Services main grid. 
+To create a new encounter service, click 'New Encounter Service' on the Encounter Services subgrid on a patient/practitioner, on the Encounter Services main view, or on any patient/practitioner calendar. 
 
 **Encounter Service Information**
 - *Start Date/Time* - populate the start date/time of the session.
@@ -88,7 +88,7 @@ There are 2 ways to create encounters:
 
 ### Create a Group Encounter
 
-Click 'New Group Encounter' on any encounter view.
+To create a new group encounter, click 'New Group Encounter' on the Encounter Services subgrid on a patient/practitioner, or on the Encounter Services main view.
 
 #### Set Timing and Duration
 Select the date, time, service, and duration of the session.
@@ -143,4 +143,12 @@ To create an encounter participant, click 'New Encounter Practitioner' on the En
     - Related Contact
 
 
+## Search Encounter Services
 
+You can use the main Encounter Services view to locate sessions for a specific service, patient/practitioner, status reason, validation status, etc.
+
+To display the main Encounter Services view in a calendar format:
+1. Go to Encounter Services on the sitemap.
+2. In the top left corner, click Show As.
+3. Switch to Calendar View.
+4. Click Edit Filters and filter by encounter patient/practitioner to see sessions for multiple contacts on the same view.

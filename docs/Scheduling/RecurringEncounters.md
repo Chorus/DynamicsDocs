@@ -23,13 +23,14 @@ Recurring Encounter Services can be created from [Schedule Assistance](../Schedu
 
 3. **Set Up Recurrence Pattern** and click save. 
 
+- *Recurrence Start* - the day on which the recurrence should start repeating.
 - *Repeat* – select the frequency of the recurrence – daily, weekly, monthly, etc.
 - *Every* – Enter the frequency at which the recurrence should repeat – Every 1 week, every 2 weeks, every 3 days, etc.
 - *Days* - (when Repeat = 'Weekly', or 'Monthly– Same Week') – the day/s in the week or months to repeat this recurrence.
 - *Week* - (when Repeat = 'Monthly– Same Week') – the number of weeks into the month to repeat this recurrence – First, Second, Third, Fourth, Last.
 - *Day of Month* - (when Repeat = 'Monthly– Same Day') – the day of the month to repeat this recurrence.
 - *End* – select how to end this recurrence – by an end date, or a number of occurrences.
-    - *End Date* (when End is 'By End Date') – the day on which the recurrence should stop repeating.
+    - *Recurrence End Date* (when End is 'By End Date') – the day on which the recurrence should stop repeating.
     - *Total Occurrences* (when end is 'By Number of Occurrences') – the total number of occurrences to generate according to this recurrence pattern.
  
 <img src ="/img/RecurringES2.png" width="800" height="200"/>
