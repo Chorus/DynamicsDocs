@@ -82,5 +82,19 @@ module.exports = {
   'RCM/RCMDashboards',
  ],
 
+ 'Tips & Tricks':[
+  'TT/Tip1',
+  'TT/Tip2',
+  'TT/Tip3',
+  'TT/Tip4',
+  'TT/Tip5',
+  'TT/Tip6',
+  'TT/Tip7',
+  'TT/Tip8',
+  'TT/Tip9',
+  'TT/Tip10',
+  'TT/Tip11',
+ ],
+
   },
 };

@@ -82,12 +82,14 @@ The **Service Authorization** stage is for requesting an authorization from the 
 - Authorization Request Type - select the mode through which an authorization was requested from the payer (payer portal / email / phone / fax).
 - Authorization Request Date - enter the date the authorization was requested.
 - Authorization Status - enter the payer response to the authorization request (approved / partially denied / denied).
-- Authorization - click 'New Authorization' in the Authorization field to create the authorization received by the payer. [Read more about authorizations](../Patients/Authorization.md).
+- Authorization - click 'New Authorization' in the Authorization field to create the authorization received by the payer, or open the expiring authorization and click [Clone Authorization](../Patients/Authorization.md/#clone-an-authorization) to create a copy of the past authorization and update its details. [Read more about authorizations](../Patients/Authorization.md).
 - Notes - enter any notes about the approval/denial, insurance feedback, or peer review comments.
 - Resubmitted Date - enter the date the authorization request was resubmitted to the payer (if relevant).
 - Resubmitted Outcome - enter the payer response to the resubmitted authorization request (approved / partially denied / denied).
 
 </details>
+
+When the service authorization was approved and entered onto the authorization workflow, click Finish to set the status reason to Completed and deactivate the workflow.
 
 ## Auth Workflow Emails
 

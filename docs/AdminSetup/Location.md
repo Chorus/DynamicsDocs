@@ -24,7 +24,7 @@ The **Address Information** section contains the basic information to differenti
 - The Location Description is displayed on a practitioner's session details view in the Note app. 
 - Only home addresses where the address type is Service Address (or service and billing) will display in the Note app.
 :::
-The **Address Details** section contains the address. The *Additional Directions* field can be used to record any directions that will help practitioners find their way easily (e.g., "first door on the right side of the house").  
+The **Address Details** section contains the address. Search for the address to populate the fields. The *Additional Directions* field can be used to record any directions that will help practitioners find their way easily (e.g., "first door on the right side of the house").  
 
 ## Search Locations
 
