@@ -13,13 +13,23 @@ EVV requires capturing 6 data elements to verify the service being billed:
 6. Time the service begins and ends.
 :::
 
-EVV is captured on sessions that meet the following criteria:
-- The EVV Billing Requirement is set up against the insurance plan for this patient's coverage. [Read how to add an insurance plan billing requirement](../AdminSetup/InsurancePlan.md/#insurance-plan-billing-requirements).
-- The [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits) is set to Requires Patient Present.
-- The location type of the patient-specific location this session takes place at is home or other.
-- The provider is using a mobile device, allowed location access (the app requests access to their location), and pressed start/end session on the day of the session. (Currently, start/end session only shows on direct care sessions. Coming soon for all service types that require EVV!)
+## EVV through Sandata
+<detail>
+<summary> Coming Soon- How to Set Up EVV Integration with Sandata </summary>
+Before starting, request for your account manager to connect your Sandata account to Chorus.
 
-When the above criteria are met:
+1. On Business Units for practitioners who will be capturing EVV, set "EVV Enabled" to yes.
+2. On Insurance Plans for which you’d like to verify sessions through EVV, add “EVV Required” as an Insurance Plan Billing Requirement.
+3.	On the Insurance Plan:
+    - Fill out the EVV Payer ID assigned by Sandata
+    - Set the Medicaid toggle to Yes
+4.	On patient coverages for Medicaid insurance plans, fill out the patient’s Medicaid ID
+5.	On practitioner contacts, fill out the practitioner’s MMIS
+6. Notify your providers that EVV has been enabled and request that they allow location access when the Note app requests it upon pressing 'Start Session'.
+
+</detail>
+
+When EVV is set up:
 - When the practitioner presses Start Session:
     - The start time of their session is updated to match the exact time they pressed Start Session.
     - Their exact geolocation (latitude and longitude) is tracked.
@@ -27,5 +37,32 @@ When the above criteria are met:
     - The end time of their session is updated to match the exact time they pressed End Session.
     - Their exact geolocation (latitude and longitude) is tracked.
 
+This applies to sessions where:
+- The [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits) is set to Requires Patient Present.
+- The location type of the patient-specific location this session takes place at is home or other.
+- The provider is using a mobile device, allowed location access, and pressed start/end session on the day of the session.
 
-**Coming Soon:** EVV Integration with Sandata, and EVV Encounter Validations
+### Correct EVV Transmissions to Sandata
+Comnig Soon!
+
+## EVV Encounter Validation- Coming Soon!
+
+<detail>
+<summary> Coming Soon- How to Set Up EVV for Encounter Validation </summary>
+1. On Insurance Plans for which you’d like to verify sessions through EVV, add “EVV Required” as an Insurance Plan Billing Requirement.
+</detail>
+
+When EVV is set up:
+- When the practitioner presses Start Session:
+    - The start time of their session is updated to match the exact time they pressed Start Session.
+    - Their exact geolocation (latitude and longitude) is tracked.
+- When the practitioner presses End Session:
+    - The end time of their session is updated to match the exact time they pressed End Session.
+    - Their exact geolocation (latitude and longitude) is tracked.
+
+This applies to sessions where:
+- The [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits) is set to Requires Patient Present.
+- The location type of the patient-specific location this session takes place at is home or other.
+- The provider is using a mobile device, allowed location access, and pressed start/end session on the day of the session.
+
+[Learn when a session passes or fails for EVV validations.](../Scheduling/EncounterValdations.md/#visit-not-verified--evv-validations)

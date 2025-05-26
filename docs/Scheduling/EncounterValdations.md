@@ -260,6 +260,33 @@ This validation is optional and only runs when 'Grace Period Days' on the [busin
 
 </details>
 
+### Visit Not Verified- EVV Validations- Coming Soon!
+This validation ensures sessions can only be submitted with a verified start time, end time, and location. [Read more about Electronic Visit Verification](../AdminSetup/EVVSetUp.md).
+
+This validation is optional and only runs when 'EVV Required' is added as a billing requirement to the insurance plan, and only applies to the following sessions:
+- The [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits) is set to Requires Patient Present.
+- The location type of the patient-specific location this session takes place at is home or other.
+- The provider is using a mobile device, allowed location access, and pressed start/end session on the day of the session.
+
+The failure message will state the reasons why the session cannot be verified:
+
+| Validation Message                                                                 | Cause                                                                                                                                                    |
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *Exact start or end time was not tracked at time of service*                     | The provider did not click 'Start Session' or 'End Session' on the day of their session.                                                               |
+| *Location was not tracked at time of service.*                                   | The provider either did not click 'Start Session' or 'End Session' on the day of their session, or they were not using a mobile device with location access enabled. |
+| *Start or end time does not match the start or end time tracked at time of service.* | The session time was edited to be different from the time originally tracked when 'Start Session' or 'End Session' were clicked.                       |
+| *Location is too far from the approved service address.*                         | The latitude and longitude tracked at the start or end of the session were outside the allowed geofence radius configured on the Business Unit.            |
+
+
+<details>
+<summary> How to Resolve these Validation Failures</summary>
+
+
+ 1. If the practitioner has been approved to submit a session that cannot be verified, [override the validation failure](../Scheduling/EncounterValdations.md/#override-validation-failures)
+
+
+</details>
+
 ## Override Validation Failures
 Users with the Scheduling Admin [security role](../AdminSetup/SecurityRoles.md) can override validation failures to allow the practitioner to submit sessions that failed for certain reasons.
 
