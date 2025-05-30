@@ -66,7 +66,6 @@ The report is divided into 3 tabs:
 - Use the Business Unit filter when focusing on a specific department of your organization, or the service filter when reviewing utilization for a specific service.
 - When focusing on utilization rates for past weeks, consider filtering by just submitted sessions, in case providers forgot to cancel some sessions that never occurred. You can also adjust the global date filter to show authorization services for the last 6 months.
 - When focusing on the utilization rates of upcoming schedules, clear the session status filter so all future sessions are included and adjust the global date filter to show authorization services for the next 6 months.
-- 
 - To reset all filters you applied to the report, simply refresh your browser.
 :::
 
