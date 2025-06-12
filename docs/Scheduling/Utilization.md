@@ -1,9 +1,9 @@
 ---
 id: Utilization
-title: Authorization Utilization
+title: Authorization Utilization- Retiring July 2025
 ---
 
-# Authorization Utilization
+# Authorization Utilization- Retiring July 2025
 
 To easily monitor how many authorized units were utilized per service per authorization, click 'Utilization' on the Insights section of Clinical area of the site menu.
 

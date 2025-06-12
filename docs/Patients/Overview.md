@@ -52,6 +52,8 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
 
 - The **Calendar** tab displays a calendar of the patient’s encounter services  scheduled for them. [Read more about the patient's Calendar](Calendar.md).
 
+- The **Utilization** tab displays the utilized and remaining hours for the patient's authorization services. [Learn more about Utilization](../Overview/Dashboards.md/#utilization).
+
 ## Search Contacts
 
 Select 'Contacts' on the site menu in the Clinical Area to open the Contact Main Grid. The Contact Main Grid has 3 views related to Patient contacts. All views display the First Name, Last Name, Known As, Date of Birth, Address and Status Reason.  
@@ -114,5 +116,6 @@ The export displays the following:
 
     | Behavior Category | Behavior | Behavior Objective | Count |
     |-|-|-|-|
+- Rendering Provider Name, and their [Qualifications](../AdminSetup/QualificationDefinition.md) that are set to show on session notes.
 - Electronically Signed By / Date Signed (for submitted sessions)
 - Footer (page number, patient name, patient DOB, member ID from primary [coverage](../Patients/Coverages.md))

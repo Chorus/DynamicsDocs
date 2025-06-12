@@ -3,7 +3,7 @@ id: SecurityRoles
 title: Security Roles
 ---
 
-# Security Roles
+## Security Roles
 
 Assigning users to security roles gives you control over who can view and edit the records and entities in your environment.
 
@@ -28,6 +28,16 @@ Our system comes with built-in security roles that are common to the administrat
 - *Clinical Manager*
 - *Clinical Admin*
 
+**Billing Roles** have access to view and edit charge items, generate claims, and access the full RCM workflow (payments, remits, cases, etc.).
+- *Billing Manager*
+- *Billing Admin*
+
+**Coming Soon:** *Payroll Admin/Manager, Basic Access for all Roles*
 
 
-**Coming Soon:** *Payroll Admin/Manager, Billing Admin/Manager, Basic Access for all Roles*
+## Special Permissions
+
+- **EVV Manager** has access to view, correct, and resubmit [transmissions to Sandata](../AdminSetup/EVVSetUp.md#correct-evv-transmissions-to-sandata).
+- **Assignments Admin** has access to edit the date range and assigned units on a care team assignment.
+- **Authorizations Admin** has access to edit the date range and authorized units on an authorization service.
+- **Scheduler Admin** has access to [override a validation failure](../Scheduling/EncounterValdations.md/#override-validation-failures), [reopen a submitted session](../Scheduling/UnsubmitEncounters.md), and [deactivate a session with observations](../Scheduling/DeactivateEncounters.md/#deactivate-encounter-services).

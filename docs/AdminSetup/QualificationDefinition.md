@@ -10,4 +10,5 @@ These qualification definitions will also be added to [insurance plan benefits](
 
 - *Type* – select the qualification type – license, insurance credential, etc.
 - *Code* – choose a qualification code. Additional qualification codes can be set up for your organization by support. 
+- *Show on Session Notes* - choose whether this is a qualification that should be mentioned next to a practitioner's signature in [session note exports](../Patients/Overview.md/#export-patient-session-notes) for sessions rendered by this practitioner. 
 
