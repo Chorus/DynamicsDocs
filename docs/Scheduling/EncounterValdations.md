@@ -141,7 +141,9 @@ This validation ensures that a session lasts at least the minimum duration requi
 
 
 ### Practitioner Does not have Required Credentials
-This validation ensures that the practitioner on the session has the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)).
+This validation ensures that the practitioner on the session has the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)). This validation only runs on a session if the [claim settings](../Patients/Authorization.md/#claim-settings) specify to bill under the practitioner on encounter service.
+
+A practitoner's credentials are tracked through their [practitioner qualifications](../Practitioners/Qualifications.md).
 
 <details>
 <summary> How to Resolve this Validation Failure</summary>

@@ -17,7 +17,7 @@ The Remits workflow happens primarily in the **RCM** app.
 4. Very often, there will be adjustments or denials that the organization can resubmit (e.g., if a claim was submitted with the wrong authorization number, if the payer unrightfully denies payment as unauthorized, if the payer claims the member is not covered, etc.). The affected claims are then modified and resubmitted and the process begins again.
 
 ## Correcting Claims
-To submit a corrected claim, click the 'Modify & Resubmit' button on the claim. This generates a copy of the claim in 'Draft' status with claim frequency code 'Corrected', allowing edits to the claim and claim line information.
+To submit a corrected claim, click the 'Modify & Resubmit' button on the claim. This generates a copy of the claim in 'Draft' status with claim frequency code 'Corrected', allowing edits to the claim and claim line information. Claim Notes can be added to specify why the claim was corrected- these will be included in box 19 on the CMS-1500 Claim Form.
 
 When the modified claim is ready to be submitted, click the 'Save & Submit' button. The system will run a validation check to ensure the claim has all required fields. If the claim is missing any required fields, a notification banner will display to indicate which fields are missing.
 

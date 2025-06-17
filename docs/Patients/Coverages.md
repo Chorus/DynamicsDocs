@@ -15,7 +15,8 @@ Create a new Coverage by clicking 'New Coverage' on the Coverages subgrid (on a 
 - *Coverage Level* - Set whether this is the patient’s primary or secondary coverage.
 - *Member* (Patient) - prepopulated as the patient whose profile you’re on when adding this record.
 - *Member ID* - Enter the Member ID as it appears on the patient’s insurance card. The member ID is transferred to the claim. It also enables you to run eligibility checks from within the Autism Care app and receive accurate responses.
-- *Relationship* - Select the option that best describes the relationship of the member/patient to the policy holder. 
+- *Medicaid ID* - For coverages from Medicaid plans, enter the patient's Medicaid ID. Medicaid ID is used when [sending EVV Transmissions to Sandata](../AdminSetup/EVVSetUp.md/#evv-through-sandata).
+- *Relationship* - Select the option that best describes the relationship of the member/patient to the policy holder (e.g., Self). 
 - *Policy Holder* - Select the contact record of the person that is the policy holder. If the relationship is ‘Self’; the ‘Policy Holder’ should be the patient him/herself, otherwise select one of the patient’s [related contacts](Connection.md).
 - *Start Date* - Enter the start date for this coverage.
 - *End Date* - Enter the end date for this coverage.
