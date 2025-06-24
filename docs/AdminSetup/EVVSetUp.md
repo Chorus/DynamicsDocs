@@ -57,8 +57,8 @@ On the EVV Transmission Dashboard, an EVV Manager can review EVV transmissions a
 | Encounter Services Pending EVV Review     | Use this view to go through encounter services that need corrections.                               |
 | Pending Review Visit Transmission Items   | No geolocation was tracked for this session, or the session was edited and resubmitted.            |
 | Pending Review Contact Transmission Items | The Medicaid ID for the patient, or the MMIS for the practitioner, is missing or invalid.           |
-| Failed Visit Transmission Items           | The visit transmission was rejected by Sandata, contact Sandata for details.                                                    |
-| Failed Contact Transmission Items         | The contact transmission was rejected by Sandata, contact Sandata for details.                                                  |
+| Failed Visit Transmission Items           | The visit transmission was rejected by Sandata, see error message on transmission item for details.                                             |
+| Failed Contact Transmission Items         | The contact transmission was rejected by Sandata, see error message on transmission item for details.                                                  |
 
  
 <details>
