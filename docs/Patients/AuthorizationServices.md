@@ -26,5 +26,32 @@ To create a new Authorization Service, click 'New Authorization Service' on the 
 - *Rendering Provider* - This field determines which practitioner should be populated as the Rendering Provider on the claims for this service. By default, the rendering provider is populated based on the settings on the authorization and payer account. However, if needed, it can overridden here for an individual service. 
 - *Authorization Rendering Provider* - This field displays the Rendering Provider field from the Authorization Main Form, so it is easy to see what the setting is on the Authorization. 
 
+## Edit an Authorization Service
 
+Once there are related Encounter Services created against an Authorization Service, the following fields are locked to prevent the Encounter Service from becoming invalid.
 
+- Service Code
+- Start Date
+- Amount Authorized
+- Authorized As
+
+If needed, update the end date on this record, and create a new Authorization Service with the updated information.
+
+A user with the [Authorization Admin](../AdminSetup/SecurityRoles.md/#special-permissions) security role will have edit access to these fields. 
+<details>
+<summary> Authorization Admins should consider the following when editing Authorization Services:</summary>
+
+- Editing the start date: 
+    - Revalidate related encounter services from before the updated start date. 
+    - Consider moving sessions from before the updated start date to a different authorization service if one applies. 
+    - If there were sessions outside of the authorized date range that were already submitted, notify the billing team to take the relevant steps to correct or void the claim.
+
+- Editing the service code: 
+    - The service code will be unlocked for Auth Admins if all sessions for this authorization service are still scheduled. Keep in mind that updating the service code will affect all sessions for this authorization service. Revalidate related encounter services so they are validated against the new service code's requirements.
+    - Once there are sessions past scheduled, the service code will be locked to prevent changing the service code on a session that the practitioner already started. If needed, update the end date on this authorization service, and create a new one with the updated information.
+
+- Editing the authorized units:
+    - Revalidate related encounter services.
+    - If there were sessions that are now over the authorized units that were already submitted, notify the billing team to take the relevant steps to correct or void the claim.
+
+</details>

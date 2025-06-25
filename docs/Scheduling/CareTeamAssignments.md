@@ -43,13 +43,35 @@ The Related Encounters tab displays 2 sub grids, 1 for recurring enounters and 1
 
 When a care team assignment is created, the practitioner is added to the ‘Care Team Participants’ sub-grid.
 
-Once there are related Encounter Services created against a Care Team Assignment, following fields are locked to prevent the Encounter Service from becoming invalid.
+## Edit Care Team Assignments
+
+Once there are related Encounter Services created against a Care Team Assignment, the following fields are locked to prevent the Encounter Service from becoming invalid.
 - *Authorization Service*
 - *Period Start Date*
 - *Amount of Hours*
 - *Frequency*
 
 If needed, update the end date on this record, and create a new Care Team Assignment with the updated information.
+
+A user with the [Assignment Admin](../AdminSetup/SecurityRoles.md/#special-permissions) security role will have edit access to these fields. This user should keep in mind the following considerations when editing an care team assignment:
+
+<details>
+<summary> Assignment Admins should consider the following when editing Care Team Assignments:</summary>
+
+- Editing the start date: 
+    - Revalidate related encounter services from before the updated start date. 
+    - Consider moving sessions from before the updated start date to a different care team assignment if one applies. 
+    - If there were sessions outside of the assigned date range that were already submitted, notify your billers to take the relevant steps to correct or void the claim.
+
+- Editing the authorization service: 
+    - The authorization service will be unlocked for Assignment Admins if all sessions for this care team assignment are still scheduled. After editing the authorization service here, select the related encounter services, and bulk edit the authorization service field to match the updated authorization service on the care team assignment.
+    - Once there are sessions past scheduled, the service code will be locked to prevent changing the authorization service on a session that the practitioner already started. If needed, update the end date on this care team assignment, and create a new one with the updated information.
+
+- Editing the assigned units:
+    - Revalidate related encounter services.
+    - If there were sessions that are now over the assigned units that were already submitted, notify your billers to take the relevant steps to correct or void the claim.
+
+</details>
 
 ## Search Care Team Assignments
 
