@@ -61,6 +61,12 @@ The **Additional Claim Info** tab contains other information sometimes relevant 
 
 The **Submissions Summary** tab shows a list of submissions representing the full story of the claim (how and when it was submitted, modified, resubmitted, etc.).
 
+The **Remits Summary** tab shows [remits](../RCM/Remits.md) that were posted to this claim. Switch between remits that were posted to this submission of the the claim, or all submissions of this claim.
+
+The **Write-Offs** tab shows [write-offs](../RCM/RCMworkflow.md/#write-offs) and write-off lines that were written towards this claim's outstanding balance or cost-share outstanding balance.
+
+The **Cases** tab shows [cases](../RCM/Cases.md) that were opened against this claim.  Switch between cases that were opened for this submission of the claim, or all submissions of this claim.
+
 
 ## Claim Statuses
 
