@@ -50,6 +50,8 @@ or:
 
 - *Payer* - the payer on the claim(s) this case was created for.
 - *Patient* - the patient on the claim(s) this case was created for.
+
+**Case Details**
 - *Subject* - the reason for the denial that is being disputed (authorization exceeded, service not covered, duplicate charges, patient responsibility, etc.).
 - *Tags*
 - *CARC Codes* - the claim adjustment remit codes (CARC) for the denial that is being disputed (OA-18, CO-16 etc.).
@@ -61,6 +63,11 @@ or:
 - *Owner* - the user or team member accountable for recovering payment for the affected claims.
 
 Track emails, phone calls, notes, and tasks on the case timeline for historical tracking of actions taken against this case.
+
+**Bulk Case Claims**
+- *Total Outstanding*
+- *Total Cost Share Outstanding*
+- Review the claims linked to this case. You can remove claims from this case or add other claims to this case from here.
 
 ## Case Stages
 
@@ -88,6 +95,8 @@ There are 6 views configured for easy access to viewing cases based on their sta
 4. Cases In Progress
 5. Cases Awaiting Payment
 6. Resolved Cases
+
+<img src ="/img/caseview.png" width="800"/>
 
 
 ## Case Dashboards
