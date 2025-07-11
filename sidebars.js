@@ -96,5 +96,14 @@ module.exports = {
   'TT/Tip11',
  ],
 
+  'Release Notes':[
+  'Release Notes/RCM 4.0.4',
+  'Release Notes/AC 4.0.3',
+  'Release Notes/AC 4.0.2',
+  'Release Notes/RCM 4.0.1',
+  'Release Notes/AC 4.0.1',
+  'Release Notes/AC 4.0.0',
+ ],
+
   },
 };
