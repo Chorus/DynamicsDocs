@@ -26,6 +26,7 @@ Once the Authorization is saved, [Authorization Services](../Patients/Authorizat
 ### Clone an Authorization
 When an existing patient is reauthorized by the same coverage, click 'Clone Authorization' on the existing authorization to create a copy of the authorization and its services. After cloning the authorization, be sure to update the authorization # and date range on the authorization, as well as the amount authorized on each authorization service, to ensure they match what was authorized by the payer.
 
+
 ## Claim Settings
 
 This section displays fields related to billing Claims.
