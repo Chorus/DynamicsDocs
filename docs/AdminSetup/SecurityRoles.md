@@ -41,3 +41,4 @@ Our system comes with built-in security roles that are common to the administrat
 - **Assignments Admin** has access to edit the date range and assigned units on a [care team assignment](../Scheduling/CareTeamAssignments.md/#edit-care-team-assignments).
 - **Authorizations Admin** has access to edit the date range and authorized units on an [authorization service](../Patients/AuthorizationServices.md/#edit-an-authorization-service).
 - **Scheduler Admin** has access to [override a validation failure](../Scheduling/EncounterValdations.md/#override-validation-failures), [reopen a submitted session](../Scheduling/UnsubmitEncounters.md), and [deactivate a session with observations](../Scheduling/DeactivateEncounters.md/#deactivate-encounter-services).
+- **PII Access - SSN** has access to input, view, and edit the practitioner's SSN.

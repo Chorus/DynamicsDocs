@@ -14,7 +14,7 @@ The 'Contact Type' fied in the header sets the form as either Patient, Practitio
 The Contact Main Form for a Practitioner is divided into multiple tabs for an organized view of the complete practitioner record.
 
 - The **Profile Info** tab is for general practitioner information, usually collected upon intake. This tab is divided into a few sections:
-    - *General Information* - This section displays the First Name, Last Name, Known As, Date of Birth, Gender, Marital Status, NPI Number, Employee ID, and MMIS (8 digit number assigned by the state).
+    - *General Information* - This section displays the First Name, Last Name, Known As, Date of Birth, Gender, Marital Status, NPI Number, SSN, Employee ID, and MMIS (8 digit number assigned by the state).
     - *Address Information* - This section displays the practitioner's address.
     - *Contact Information* - This section displays the contact information for the practitioner, including Cell Phone, Home Phone, Work Phone, Email Address, and Preferred Contact Method. The Email Address here is the email address the practitioner will use to access the Note app. (The Secondary Email Address can be used to store a different email the practitioner can be contacted at.)
         - *A practitioner must sign out and back in to the Note app any time the email address on their practitioner contact is updated, to ensure they continue syncing against the correct contact.*
