@@ -38,10 +38,17 @@ This is the list of products – service codes – that you will be providing to
 Additional product codes can be set up for your organization by support. 
 
 
-## Required Qualifications{#RequiredQualifications}
-These are the qualification requirements for each service. Once they are set up here, the system will validate that any time an encounter is scheduled for this service – the practitioner on the encounter has the required credentials and they are not expired. 
+### Required Qualifications{#RequiredQualifications}
+In each Insurance Plan Benefit, add Required Qualifications- the credentials that are required by this plan for this service. On each required qualification, you can choose from [qualification definitions](../AdminSetup/QualificationDefinition.md) in your system, and choose whether that qualification is required to perform the session (Encounter), or required in order to be listed on the claim as the rendering provider (Claim). To streamline compliance, add claim required qualifications to every insurance plan benefit, and encounter required qualifications when relevant.
 
-Each required qualification should be added individually. If a required qualification can be interchanged with another qualification, they can be added as one required qualification and the system will validate that the practitioner has either one of the qualifications selected. 
+<img src ="/img/ReqType.png" width="800"/>
+
+Each required qualification should be added individually. If a required qualification can be interchanged with another qualification (i.e. BCBA and BCaBA), they can be added as one required qualification, which will be read as requiring either one or the other of the qualifications listed.
+
+[Encounters are validated](../Scheduling/EncounterValdations.md/#practitioner-does-not-have-required-credentials) to ensure the practitioner has the required encounter qualifications for this service code.
+
+**Coming Soon**: Claims will be validated to ensure the practitioner has the required claim qualifications for this service code.
+
 
 ## Insurance Plan Fee Schedules
 

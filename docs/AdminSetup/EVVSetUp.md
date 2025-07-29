@@ -81,10 +81,10 @@ On the EVV Transmission Dashboard, an EVV Manager can review EVV transmissions a
 
 </details>
 
-## EVV Encounter Validation- Coming Soon!
+## EVV Encounter Validation
 
 <details>
-<summary> Coming Soon- How to Set Up EVV for Encounter Validation </summary>
+<summary> How to Set Up EVV for Encounter Validation </summary>
 
 1. On Insurance Plans for which you’d like to verify sessions through EVV, add “EVV Required” as an [Insurance Plan Billing Requirement](../AdminSetup/InsurancePlan.md/#insurance-plan-billing-requirements).
 

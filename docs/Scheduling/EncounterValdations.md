@@ -262,7 +262,7 @@ This validation is optional and only runs when 'Grace Period Days' on the [busin
 
 </details>
 
-### Visit Not Verified- EVV Validations- Coming Soon!
+### Visit Not Verified- EVV Validations
 This validation ensures sessions can only be submitted with a verified start time, end time, and location. [Read more about Electronic Visit Verification](../AdminSetup/EVVSetUp.md).
 
 This validation is optional and only runs when 'EVV Required' is added as a billing requirement to the insurance plan, and only applies to the following sessions:

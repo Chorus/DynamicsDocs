@@ -22,9 +22,10 @@ Create a case to track information regarding resubmissions or outreach to payers
 
 1. On a claim, go to the Cases tab.
 2. Switch from the 'All Submissions view of cases' to the 'This submission' view so the case will be created for this version of the claim.
-3. Click 'Add Existing Case', then click 'New'
+3. Click 'Add Existing Case', then click 'New' and click 'Cases'
 4. Fill in the relevant details on the case.
 5. Click 'Save and Close'
+6. Click 'Add" to add the new case to the claim.
 
 </details>
 
