@@ -26,8 +26,56 @@ Once the Authorization is saved, [Authorization Services](../Patients/Authorizat
 ### Clone an Authorization
 When an existing patient is reauthorized by the same coverage, click 'Clone Authorization' on the existing authorization to create a copy of the authorization and its services. After cloning the authorization, be sure to update the authorization # and date range on the authorization, as well as the amount authorized on each authorization service, to ensure they match what was authorized by the payer.
 
+### Edit an Authorization
+If a patient's coverage changes mid-authorization, rather than editing the authorization, place an end date on the current authorization and create a new authorization against the new coverage. This will allow you to create new authorization services for the insurance plan benefits on the insurance plan of the new coverage. 
 
-## Claim Settings
+- If there were already care team assignments created for the old authorization, end the care team assignments as of when the coverage changed, and create a new care team assignment for the new authorization service.
+
+- If there were already sessions scheduled against the old authorization service or care team assignment, you can move them to the corresponding authorization service on the new authorization.
+
+<details>
+<summary> How to move encounter services to a different authorization service / car team assignment </summary>
+
+1. Open the new authorization and copy the name of the authorization service you are moving sessions to.
+2. Open the old authorization, and open the authorization service you are moving sessions away from.
+3. Go to Related > Encounter Services. Filter to the date of sessions that should be billed against the new authorization.
+4. Select all, and click 'Edit'.
+5. Paste the name of the new authorization service in the authorization service field. Click 'Save'. Sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
+
+If there are care team assignments for this authorization service:
+
+6. While still on the old authorization service, go to Related > Care Plan Activities, and select a care team assignment.
+7. Go to Related > Encounter Services. Filter to the date of sessions that should be billed against the new authorization.
+8. Select all, and click 'Edit'.
+9. Paste the name of the new authorization service in the Authorization Service field, and the new care team assignment in the Assignment field. Click 'Save'. Sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
+
+</details>
+
+## Rendering Provider Assignments
+
+**Coming Soon:** 
+- When a claim is generated, the rendering provider will be the practitioner on the session, unless that practitioner does not have the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications) for the service code.
+- If the practitioner on the session does not have the required qualifications for the claim, the rendering provider will be populated with the practitioner on the Rendering Provider Assignment on the authorization (provided that the assignment date range includes the date of the session).
+- The manual [claim settings](../Patients/Authorization.md/#claim-settings--retiring-august-2025) on authorizations will be removed.
+
+**Live Now: Set Up Your Rendering Provider Assignments to Prepare for the Transition**
+
+Designate a Rendering Provider for claims based on existing care team assignments, helping your team handle mid-auth restaffing and ensuring rendering providers performed services. Here’s how:
+
+1. Open an Authorization.
+2. Go to the Care Team Assignments tab.
+3. Select the care team assignment for the practitioner who should be listed on the claim.
+4. Click “Set as Claim Rendering Provider.” (only [Authorization Admins](../AdminSetup/SecurityRoles.md/#special-permissions) have this permission)
+
+<img src ="/img/SetAsRenderingProvider.png" width="800"/>
+
+You’ll see the Rendering Provider Assignments on the main page of the authorization, and a banner if that practitioner is missing any required claim qualifications.
+
+With this set-up, if there is a mid-auth change to who should be the rendering provider on the claim, simply place an end date on the previous care team assignment and set the care team assignment for the new practitioner to be a Rendering Provider Assignment as well.
+
+<img src ="/img/RenderingProviderAuth.png" width="800"/>
+
+## Claim Settings- Retiring August 2025
 
 This section displays fields related to billing Claims.
 
