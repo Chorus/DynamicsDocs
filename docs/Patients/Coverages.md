@@ -45,7 +45,7 @@ On some authorization services, the service code will be locked for edit, since 
 
 1. Create a new authorization service, using a service code on the coverage's new plan. Copy the name of the new authorization service.
 2. On the old authorization service, go to Related > Encounter Services. Select all, and click 'Edit'.
-3. Paste the name of the new authorization service in the authorization service field. Click ' Save'. Sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
+3. Paste the name of the new authorization service in the authorization service field. Click ' Save'. Charge items for sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
 4. On the old authorization service, go to Related > Care Plan Activities. Select all, and click 'Edit'.
 5. Paste the name of the new authorization service in the authorization service field. Click ' Save'.
 6. Deactivate the old authorization service.
