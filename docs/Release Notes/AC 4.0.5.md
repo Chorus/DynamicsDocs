@@ -2,7 +2,7 @@
 id: AC 4.0.5
 title: Autism Care 4.0.5
 ---
-# Autism Care 4.0.5 - August 2025
+# Autism Care 4.0.5 - July 2025
 
 - You can now choose whether a qualification is needed for performing the session or for billing the claim — or both. **What You Need to Do**:
     - Review each [insurance plan benefit’s Required Qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications). Set the Requirement Type to:
