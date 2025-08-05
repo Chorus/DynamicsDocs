@@ -64,8 +64,8 @@ The report is divided into 3 tabs:
 
 :::note Filter Tips
 - Use the Business Unit filter when focusing on a specific department of your organization, or the service filter when reviewing utilization for a specific service.
-- Use the authorization filter to narrow down your resukts to just current authorizations, or just future authorizations.
-- When focusing on the utilization rates of upcoming schedules, clear the session status filter so all future sessions are included and adjust the global date filter to show authorization services for the next 6 months.
+- Use the authorization filter to narrow down your results to just current authorizations, or just future authorizations.
+- When focusing on the utilization rates of upcoming schedules, or to include sessions that were not submitted yet, clear the session status filter so all future sessions are included.
 - To reset all filters you applied to the report, simply refresh your browser.
 :::
 
