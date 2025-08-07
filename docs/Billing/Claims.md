@@ -57,7 +57,7 @@ The **Additional Claim Info** tab contains other information sometimes relevant 
 - *Billing Provider*
 - *NPI*
 - *Tax ID*
-- *Facility*
+- *Facility* - If the session occurred at a home or school, the Facility will reflect the address of that location. For all other cases, the Facility will display the address of the Business Unit associated with the authorization.
 
 The **Submissions Summary** tab shows a list of submissions representing the full story of the claim (how and when it was submitted, modified, resubmitted, etc.).
 
