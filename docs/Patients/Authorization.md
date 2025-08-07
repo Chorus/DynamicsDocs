@@ -38,7 +38,7 @@ If a patient's coverage changes mid-authorization, rather than editing the autho
 
 1. Open the new authorization and copy the name of the authorization service you are moving sessions to.
 2. Open the old authorization, and open the authorization service you are moving sessions away from.
-3. Go to Related > Encounter Services. Filter to the date of sessions that should be billed against the new authorization.
+3. Go to Related > Encounter Services. Switch to the view 'Active Encounter Services.' Filter to the date of sessions that should be billed against the new authorization.
 4. Select all, and click 'Edit'.
 5. Paste the name of the new authorization service in the authorization service field. Click 'Save'. Charge items for sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
 

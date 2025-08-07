@@ -53,7 +53,7 @@ Once you add an end date to a payroll period, a new payroll period is created, w
 After you have closed a payroll period, generate a payroll export to upload to your payroll system.
 
 1. On the Payroll Periods Main Grid, select the payroll period(s) you'd like to generate a report for.
-2. Click 'Payroll Export' on the ribbon.
+2. Click 'Export Payroll' on the ribbon.
 3. An excel file will be generated with the following columns:
     - Practitioner First and Last Name
     - Employee ID
