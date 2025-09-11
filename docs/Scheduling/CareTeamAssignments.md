@@ -52,6 +52,18 @@ Once there are related Encounter Services created against a Care Team Assignment
 - *Frequency*
 
 If needed, update the end date on this record, and create a new Care Team Assignment with the updated information.
+If there are sessions after the end date that should be connected to the new care team assignment, edit the care team assignment on those sessions.
+
+<details>
+<summary>How to move sessions to a new care team assignment</summary>
+
+1. Open the new care team assignment and copy the name of the care team assignment you are moving sessions to.
+2. Open the old care team assignmen you are moving sessions away from.
+3. Go to Related > Encounter Services. Switch to the view 'Active Encounter Services.' Filter to the date of sessions that should be scheduled against the new care team assignment.
+4. Select all, and click 'Edit'.
+5. Paste the name of the new care team assignment in the Assignment field. Click 'Save'. Charge items for sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
+
+</details>
 
 A user with the [Assignment Admin](../AdminSetup/SecurityRoles.md/#special-permissions) security role will have edit access to these fields. This user should keep in mind the following considerations when editing an care team assignment:
 
@@ -60,7 +72,7 @@ A user with the [Assignment Admin](../AdminSetup/SecurityRoles.md/#special-permi
 
 - Editing the start date: 
     - Revalidate related encounter services from before the updated start date. 
-    - Consider moving sessions from before the updated start date to a different care team assignment if one applies. 
+    - Consider moving sessions from before the updated start date to a different care team assignment if one applies.
     - If there were sessions outside of the assigned date range that were already submitted, notify your billers to take the relevant steps to correct or void the claim.
 
 - Editing the authorization service: 

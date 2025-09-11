@@ -47,7 +47,7 @@ If there are care team assignments for this authorization service:
 6. While still on the old authorization service, go to Related > Care Plan Activities, and select a care team assignment.
 7. Go to Related > Encounter Services. Filter to the date of sessions that should be billed against the new authorization.
 8. Select all, and click 'Edit'.
-9. Paste the name of the new authorization service in the Authorization Service field, and the new care team assignment in the Assignment field. Click 'Save'. Charge items for sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
+9. Paste the name of the new care team assignment in the Assignment field. Click 'Save'. Charge items for sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
 
 </details>
 
