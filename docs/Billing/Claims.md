@@ -94,6 +94,7 @@ Claims will be set to status Draft if they are missing any information that woul
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Patient: Date of Birth                                | Click on the patient contact on the claim, enter the date of birth, and save.                                                                                                                               |
 | Patient: Address Line 1, City, State, Zip             | **To correct for this claim**: click on the patient contact on the claim, enter the address, and save. **To prevent for future claims**: open the patient's profile in Autism Care and set a home address as 'Billing Address'. [Learn more about locations](../AdminSetup/Location.md). |
+| Diagnosis Code             | **To correct for this claim**: add the appropriat diagnosis code(s) to the claim. **To prevent for future claims**: open the patient's profile in Autism Care and add a condition for the appropriate diagnosis code. [Learn more about conditions](../Patients/Conditions.md). |
 | Policy Holder                                         | Click on the coverage on the claim, and enter a policy holder.                                                                                                                                               |
 | Policy Holder Name, DOB, Address, Gender              | Click on the coverage on the claim. Clear the policy holder and choose the correct one, or click on the policy holder to enter the missing information on their contact profile.                             |
 | Rendering Provider                                    | Enter the rendering provider on the claim. [Learn more about how rendering provider is set on claims](../Patients/Authorization.md/#rendering-provider-assignments).                                                                                      |
@@ -101,9 +102,9 @@ Claims will be set to status Draft if they are missing any information that woul
 | Rendering Provider: Primary Taxonomy Code             | Click on the rendering provider on the claim, enter the primary taxonomy code and save, or clear the rendering provider and choose a different practitioner.                                                |
 | Referring Provider                                    | **To correct for this claim**: enter the referring provider on the claim. **To prevent for future claims**: open the patient's profile in Autism Care, Medical Info tab, episode of care, and enter the referring provider. |
 | Referring Provider NPI                                | Click on the referring provider on the claim, enter the NPI Number and save, or clear the referring provider and choose a different practitioner.                                                           |
-| Billing Provider
-Facility
-Diagnosis Code
+| Payer: Trading Partner                               | Click on the payer on the claim, enter the trading partner (or create a new one to enter on the payer), and save.                                                          |
+| Payer: CPID                             | Click on the payer on the claim, then click the trading partner. Enter the CPID and save.                                                           |
+
 
 </details>
 
