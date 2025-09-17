@@ -69,24 +69,31 @@ Insurance Plan Billing Requirements control how Claims for an insurance plan are
 
 </details>
 
-Select from existing billing rules:
-- Modifier 95 for services provided via telehealth
-- Modifier GT for all telehealth services
-- Modifier 93 audio-only telehealth
-- Modifier FQ audio-only telehealth
-- Modifier HO BCBA services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic
-- Modifier U5 for BT services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic
-- Modifier U3 for BCBA
-- Modifier U1
-- POS 02 for all telehealth services
-- POS 10 for all telehealth home and 02 for all other
-- Referring provider required
-- Rendering provider taxonomy code required
-- Single claim item per session required
-- Include the time portion on claim lines
-- Split claim lines with different POS/Modifier combinations: claim lines that have different POS/modifier combinations will not be grouped together, even for the same service/same day.
-- Don't split by POS: claim lines that have different places of service will be grouped together if they would otherwise be grouped.
-- EVV Required: sessions for insurance plans with this billing requirement will track the exact start and end time, latitude, and longitude when the practitioner presses start/end session in Note on services where the patient is required to be present and the location type is home or other.
-
 :::note
-A modifier will only be automatically added to a claim line if the insurance plan billing requirement is set up, and the modifier is added to the fee schedule item for the applicable service code on the [insurance plan fee schedule](../AdminSetup/FeeSchedules.md/#modifiers)
+A modifier will only be automatically added to a claim line if the insurance plan billing requirement is set up, **and the modifier is added to the fee schedule item for the applicable service code** on the [insurance plan fee schedule](../AdminSetup/FeeSchedules.md/#modifiers)
+:::
+
+Select from existing billing rules:
+
+| **Billing Rule**                                                                                           | **Description**                                                                                                                                                                                                                           |
+|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Modifier 95 for services provided via telehealth                                                                  | 95 modifier is added for services conducted via telehealth.                                                                                                                                           |
+| Modifier GT for all telehealth services                                                                           | GT modifier is added for services conducted via telehealth.                                                                                                                                               |
+| Modifier HO for BCBA services and HM for BT services | HO modifier is added for services done by a practitioner with BCBA qualification. HM modifier is added for services done by a practitioner with Behavior Technician qualification. |
+| Modifier HO BCBA services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic                      | HO modifier is added for services done by a practitioner with BCBA qualification. GT modifier is added for services conducted via telehealth. U7 modifier is added for services done at a non-office location. U6 modifier is added for services done at an office location.                                                                                              |
+| Modifier U5 for BT services with GT via telehealth, U7 for out-of-clinic and U6 for in-clinic                     | U5 modifier is added for services done by a practitioner with Behavior Technician qualification. GT modifier is added for services conducted via telehealth. U7 modifier is added for services done at a non-office location. U6 modifier is added for services done at an office location.                                                                                                   |
+| Modifier U3 for BCBA                                                                                              | U3 modifier is added for services done by a practitioner with BCBA qualification.                                                                                                                                                                 |
+| Modifier HN for BCaBA | HN modifier is added for services done by a practitioner with BCaBA qualification. |
+| Modifier XP for BCaBA | XP modifier is added for services done by a practitioner with BCaBA qualification. |
+| Modifier U1                                                                                                       | U1 modifier is added.                                                                                                                                                                        |
+| POS 02 for all telehealth services                                                                                | Place of service 02 for all service conducted via telehealth.                                                                                                                                         |
+| POS 10 for all telehealth home and 02 for all other                                                               | Place of service 10 for services conducted via telehealth at a home location, and place of service 02 for services conducted via telehealth at a non-home location.                                                                                                                       |
+| Referring provider required                                                                                       | Referring provider must be included on the claim.                                                                                                                                                  |
+| Rendering provider taxonomy code required                                                                         | Rendering provider taxonomy code must be included on the claim.                                                                                                                                    |
+| Single claim item per session required                                                                            | Only one claim item per session is allowed.                                                                                                                                                        |
+| Include the time portion on claim lines                                                                           | Claim lines will include service date and time.                                                                                                                                                         |
+| Split claim lines with different POS/Modifier combinations                                                        | Claim lines for the same patient, rendering provider, date, service, and place of service, but different modifiers, will not be included on the same claim.                                                                             |
+| Don't split by POS                                                                                                | Claim lines for the same patient, rendering provider, date, and service, but different places of service will be included on the same claim.                                                                                          |
+| EVV Required                                                                                                      | Sessions will track exact start/end time, latitude, and longitude when practitioner presses start/end session in Note for services requiring patient present and location type is home or other.    |
+
+

@@ -75,7 +75,7 @@ With this set-up, if there is a mid-auth change to who should be the rendering p
 
 <img src ="/img/RenderingProviderAuth.png" width="800"/>
 
-## Claim Settings- Retiring August 2025
+## Claim Settings- Retiring October 2025
 
 This section displays fields related to billing Claims.
 
