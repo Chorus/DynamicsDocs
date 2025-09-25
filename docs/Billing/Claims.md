@@ -83,8 +83,37 @@ There are 6 views configured for easy access to viewing claims based on their st
 5. Submitted Claims
 6. Inactive Claims
 
+## Claim Validations
+
+Claims will be set to status Draft if they are missing any information that would cause them to be rejected by the clearinghouse.
+
+<details>
+<summary>How to correct draft claims</summary>
+
+| **Failed Validation**                                   | **How to Correct**                                                                                                                                                                                                                                 |
+|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Patient: Date of Birth                                | Click on the patient contact on the claim, enter the date of birth, and save.                                                                                                                               |
+| Patient: Address Line 1, City, State, Zip             | **To correct for this claim**: click on the patient contact on the claim, enter the address, and save. **To prevent for future claims**: open the patient's profile in Autism Care and set a home address as 'Billing Address'. [Learn more about locations](../AdminSetup/Location.md). |
+| Diagnosis Code             | **To correct for this claim**: add the appropriat diagnosis code(s) to the claim. **To prevent for future claims**: open the patient's profile in Autism Care and add a condition for the appropriate diagnosis code. [Learn more about conditions](../Patients/Conditions.md). |
+| Policy Holder                                         | Click on the coverage on the claim, and enter a policy holder.                                                                                                                                               |
+| Policy Holder Name, DOB, Address, Gender              | Click on the coverage on the claim. Clear the policy holder and choose the correct one, or click on the policy holder to enter the missing information on their contact profile.                             |
+| Rendering Provider                                    | Enter the rendering provider on the claim. [Learn more about how rendering provider is set on claims](../Patients/Authorization.md/#rendering-provider-assignments).                                                                                      |
+| Rendering Provider: Qualification Identifier (NPI)    | Click on the rendering provider on the claim, enter the NPI Number and save, or clear the rendering provider and choose a different practitioner.                                                           |
+| Rendering Provider: Primary Taxonomy Code             | Click on the rendering provider on the claim, enter the primary taxonomy code and save, or clear the rendering provider and choose a different practitioner.                                                |
+| Referring Provider                                    | **To correct for this claim**: enter the referring provider on the claim. **To prevent for future claims**: open the patient's profile in Autism Care, Medical Info tab, episode of care, and enter the referring provider. |
+| Referring Provider NPI                                | Click on the referring provider on the claim, enter the NPI Number and save, or clear the referring provider and choose a different practitioner.                                                           |
+| Payer: Trading Partner                               | Click on the payer on the claim, enter the trading partner (or create a new one to enter on the payer), and save.                                                          |
+| Payer: CPID                             | Click on the payer on the claim, then click the trading partner. Enter the CPID and save.                                                           |
+
+
+</details>
+
+Correct the missing information, then click 'Save & Submit' to rerun validation. The session will be set to 'Ready to Submit' if there is no more missing information. All 'Ready to Submit' claims are submitted to the clearinghouse on an hourly basis.
+
+
 ## Submit Claims
 
 To submit claims, click 'Save & Submit' on any draft claim. The claim status will become 'Ready to Submit.' All 'Ready to Submit' claims are submitted to the clearinghouse on an hourly basis.
 
 To modify and resubmit a claim, see [Correcting Claims](../RCM/RCMworkflow.md/#correcting-claims)
+

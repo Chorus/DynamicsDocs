@@ -87,6 +87,8 @@ On the EVV Transmission Dashboard, an EVV Manager can review EVV transmissions a
 <summary> How to Set Up EVV for Encounter Validation </summary>
 
 1. On Insurance Plans for which you’d like to verify sessions through EVV, add “EVV Required” as an [Insurance Plan Billing Requirement](../AdminSetup/InsurancePlan.md/#insurance-plan-billing-requirements).
+2. Notify providers that they will now need to use a mobile device, allow precise location access, and press start/end session on the day of their session for session to pass validation. Edits made to the session timing after pressing start/end will cause the session to fail validation.
+
 
 </details>
 
@@ -101,6 +103,5 @@ When EVV is set up:
 This applies to sessions where:
 - The [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits) is set to Requires Patient Present.
 - The patient's location that the session is scheduled at has location type "home" or "other".
-- The provider is using a mobile device, allowed location access, and pressed start/end session on the day of the session.
 
 [Learn when a session passes or fails for EVV validations.](../Scheduling/EncounterValdations.md/#visit-not-verified--evv-validations)

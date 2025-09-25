@@ -141,7 +141,7 @@ This validation ensures that a session lasts at least the minimum duration requi
 
 
 ### Practitioner Does not have Required Credentials
-This validation ensures that the practitioner on the session has the required credentials for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)). This validation only runs on a session if the [claim settings](../Patients/Authorization.md/#claim-settings) specify to bill under the practitioner on encounter service.
+This validation ensures that the practitioner on the session has the required encounter qualifications for this service (as configured on the [Insurance Plan Benefit](../AdminSetup/InsurancePlan.md/#RequiredQualifications)).
 
 A practitoner's credentials are tracked through their [practitioner qualifications](../Practitioners/Qualifications.md).
 
@@ -151,7 +151,7 @@ A practitoner's credentials are tracked through their [practitioner qualificatio
 1. If the Service Type on the encounter service is: 
     - Assignment, click on the assignment, then select the authorization service to open it. Next, click on the service code to view the related insurance plan benefit. 
     - Service, click the authorization service, then click the service code to open the related insurance plan benefit. 
-2. Review the Required Qualifications set on this insurance plan benefit
+2. Review the Required Encounter Qualifications set on this insurance plan benefit
 3. Go to the Qualifications tab on the practitioner contact. Add a new practitioner qualification as needed, or update the expiration date of the existing one.
 4. Go back to the failed encounter service and [Rerun Validation](../Scheduling/EncounterValdations.md/#rerun-validation), and it will update to 'Passed.'
 
