@@ -12,7 +12,8 @@ A remit can also include a Remit Adjustment (can be positive or negative amount)
 ## Create a Manual Remit
 
 1. On a claim, go to the Remits Summary tab. Click 'New Claim Payment' to create a new claim payment for this claim. Claim information will be populated based on the claim it is created from. 
-    - Fill out the relevant remit information (claim filing indicator, claim status code, etc.)
+    - Fill out the relevant remit information (claim status code, paid amount)
+    <img src ="/img/manualRemit.png" width="700"/>  
     - In the [Payment](../RCM/Payment.md) lookup field, select an existing payment record, or create a new one. To create a new Payment record, click 'Add New Payment'. Payment type will default to Manual, and allow you to enter the following fields: payment reference number, payment date, payer, paid amount. Click Save and Close on this Quick Create form.
     - When you are done entering the Remit information, click Save. 
 2. Once saved, remit lines for all claim lines on the claim will be populated according to the information on the corresponding claim lines (procedure code, dates of service, quantity, billed amount, etc.). The Paid Amount field will be blank on all Remits and Remit Lines.
