@@ -21,6 +21,7 @@ To create a new Practitioner Qualification, click 'New Practitioner Qualificatio
 On existing practitioner qualifications, use the timeline, status reason, and application fields to track the workflow for getting this qualification credentialed by insurance:
 - *Status Reasons*:
     - Active (default)
+    - Pending (use this status when the practitioner does not have the required qualification if you'd like to create a view of providers who *are not* qualiied with a certain payer)
     - Application Sent to Provider
     - Provider Application Received
     - Credentialed Effectively

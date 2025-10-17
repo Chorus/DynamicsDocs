@@ -13,7 +13,7 @@ Dashboards in the system include:
 - **Authorization Workflow** - View count of authorization workflows per status.
 - **Authorizations Dashboard** - View count of authorizations per payer, business unit, or expiring month.
 - **Opportunity Dashboard** - View count of opportunities per status.
-- **Qualifications Dashboard** - View expired/expiring practitioner qualifications, qualifications per status reason, and practitioners per qualification.
+- **Qualifications Dashboard** - View expired/expiring practitioner qualifications, qualifications per status reason, practitioners per qualification, and insurance plan benefit required qualifications.
 - [RCM Dashboards](../RCM/RCMDashboards.md)
 
  <img src ="/img/dashboards.png " width="650"/>

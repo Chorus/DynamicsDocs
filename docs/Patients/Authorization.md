@@ -104,10 +104,11 @@ If there are care team assignments for this authorization service:
 
 ## Search Authorizations
 
-Select 'Authorizations' on the left site menu in the Clinical Area of the site menu to open the Authorizations Main Grid. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 3 different views:
+Select 'Authorizations' on the left site menu in the Clinical Area of the site menu to open the Authorizations Main Grid. The Authorizations Main Grid is a nested grid; upon clicking on the arrow on the Authorization record, the children Authorization Service records will display. The Authorizations Main Grid has 5 different views:
 - The **Active Authorizations** (default) view displays all active Authorizations in the system. The view is sorted by the Period Start Date with the newer dates displaying first. 
 - The **All Authorizations** view displays all Authorizations in the system. The view is sorted by the Period Start Date with the newer dates displaying first.
 - The **Expiring Authorizations** view displays all active Authorizations in the system where the Period End Date is in the next 30 days. The view is sorted by the Period End Date with the older dates displaying first.
 - The **Pending Authorizations** view displays all active Authorizations in the system where the Status Reason is Pending Authorization. The view displays the Reason Pending. 
+- The **Service Authorizations without Rendering Provider Assignments** view displays authorzations that do not have any rendering provider assignments set up, so an [authorizations admin](../AdminSetup/SecurityRoles.md/#special-permissions) can easily review and [set up rendering provider assignments](../Patients/Authorization.md/#claim-settings) for these authorizations.
 
 The nested Authorization Service are sorted by the Start Date with the newer dates displaying first.
