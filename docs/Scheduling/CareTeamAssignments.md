@@ -31,6 +31,7 @@ An authorization service for an authorization covered by [secondary coverage](..
 **Assigned Practitioner**
 - *Practitioner* - select the practitioner you are assigning these hours to. This field is locked after the Care Team Assignment is saved.
 - *Practitioner Role* - auto-populated as the active practitioner role for the practitioner selected above and can be changed if necessary.
+- *Claim Rendering Provider* - this field can be set by an [authorizations admin](../AdminSetup/SecurityRoles.md/#special-permissions) if the practitioner on this assignment should be considered the rendering provider on the claim for the date range of the assignment in the scenario that the practitioner who performed the session does not have the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications).
 
 **Assignment Hours**
 - *Amount of Hours* - enter the number of hours being assigned to this practitioner for this service.
@@ -41,7 +42,7 @@ An authorization service for an authorization covered by [secondary coverage](..
 The Related Encounters tab displays 2 sub grids, 1 for recurring enounters and 1 for single encounters. [Read more about Encounters](SingleEncounters).
 
 
-When a care team assignment is created, the practitioner is added to the ‘Care Team Participants’ sub-grid.
+When a care team assignment is created, a [care team participant](../Patients/CareTeamParticipants.md) is automatically created for the patient/practitioner pair.
 
 ## Edit Care Team Assignments
 
