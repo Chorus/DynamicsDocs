@@ -17,7 +17,7 @@ The Remits workflow happens primarily in the **RCM** app.
 4. Very often, there will be adjustments or denials that the organization can resubmit (e.g., if a claim was submitted with the wrong authorization number, if the payer unrightfully denies payment as unauthorized, if the payer claims the member is not covered, etc.). The affected claims are then modified and resubmitted and the process begins again.
 
 ## Correcting Claims
-To submit a corrected claim, click the 'Modify & Resubmit' button on the claim. This generates a copy of the claim in 'Draft' status with claim frequency code 'Corrected', allowing edits to the claim and claim line information. Claim Notes can be added to specify why the claim was corrected- these will be included in box 19 on the CMS-1500 Claim Form.
+To submit a corrected claim, click 'Modify & Resubmit' on the claim. This generates a copy of the claim in 'Draft' status with claim frequency code 'Corrected', allowing edits to the claim and claim line information. Claim Notes can be added to specify why the claim was corrected- these will be included in box 19 on the CMS-1500 Claim Form.
 
 When the modified claim is ready to be submitted, click the 'Save & Submit' button. The system will run a validation check to ensure the claim has all required fields. If the claim is missing any required fields, a notification banner will display to indicate which fields are missing.
 
@@ -33,12 +33,23 @@ To send a voided claim:
 
 </details>
 
-## Session Resubmissions
+### Session Resubmissions
 When an encounter service was reopened to allow the practitioner to make edits, if a claim line was already created, the charge item will be set to 'Awaiting Resubmission.'
 
 Review 'Awaiting Resubmission' charge items to determine if the edits made to the session necessitate modifying and resubmitting the claim.
 
 Update charge item from 'Awaiting Resubmission' to 'Claim Line Created' and modify and resubmit the claim based on the updates made to the session.
+
+## Submitting Claims to Secondary Coverage
+To submit a claim to the patient's secondary [coverage](../Patients/Coverages.md), click 'Submit to Secondary' on the claim. This generates a copy of the claim in 'Draft' status, allowing edits to the claim and claim line information. The payer and member ID will automatically update based on the patient's secondary coverage. The coordination of benefits section will appear on the claim and claim lines.
+
+:::note
+If you attempt to submit a claim to secondary before there is a remit from the primary payer, you’ll need to enter Coordination of Benefits details manually.
+:::
+
+<img src ='/img/cob.png' width='800'/>
+
+When the claim is ready to be submitted, click the 'Save & Submit' button. If all [claim validations](../Billing/Claims.md/#claim-validations) pass, the status reason of the claim will be updated to 'Ready to Submit', and will be submitted with the next batch of claims being submitted to the clearinghouse.
 
 ## Posting Orphaned Remits
 
