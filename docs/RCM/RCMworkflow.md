@@ -17,7 +17,7 @@ The Remits workflow happens primarily in the **RCM** app.
 4. Very often, there will be adjustments or denials that the organization can resubmit (e.g., if a claim was submitted with the wrong authorization number, if the payer unrightfully denies payment as unauthorized, if the payer claims the member is not covered, etc.). The affected claims are then modified and resubmitted and the process begins again.
 
 ## Correcting Claims
-To submit a corrected claim, click the 'Modify & Resubmit' button on the claim. This generates a copy of the claim in 'Draft' status with claim frequency code 'Corrected', allowing edits to the claim and claim line information. Claim Notes can be added to specify why the claim was corrected- these will be included in box 19 on the CMS-1500 Claim Form.
+To submit a corrected claim, click 'Modify & Resubmit' on the claim. This generates a copy of the claim in 'Draft' status with claim frequency code 'Corrected', allowing edits to the claim and claim line information. Claim Notes can be added to specify why the claim was corrected- these will be included in box 19 on the CMS-1500 Claim Form.
 
 When the modified claim is ready to be submitted, click the 'Save & Submit' button. The system will run a validation check to ensure the claim has all required fields. If the claim is missing any required fields, a notification banner will display to indicate which fields are missing.
 
@@ -33,18 +33,29 @@ To send a voided claim:
 
 </details>
 
-## Session Resubmissions
+### Session Resubmissions
 When an encounter service was reopened to allow the practitioner to make edits, if a claim line was already created, the charge item will be set to 'Awaiting Resubmission.'
 
 Review 'Awaiting Resubmission' charge items to determine if the edits made to the session necessitate modifying and resubmitting the claim.
 
 Update charge item from 'Awaiting Resubmission' to 'Claim Line Created' and modify and resubmit the claim based on the updates made to the session.
 
+## Submitting Claims to Secondary Coverage
+To submit a claim to the patient's secondary [coverage](../Patients/Coverages.md), click 'Submit to Secondary' on the claim. This generates a copy of the claim in 'Draft' status, allowing edits to the claim and claim line information. The payer and member ID will automatically update based on the patient's secondary coverage. The coordination of benefits section will appear on the claim and claim lines.
+
+:::note
+If you attempt to submit a claim to secondary before there is a remit from the primary payer, you’ll need to enter Coordination of Benefits details manually.
+:::
+
+<img src ='/img/cob.png' width='800'/>
+
+When the claim is ready to be submitted, click the 'Save & Submit' button. If all [claim validations](../Billing/Claims.md/#claim-validations) pass, the status reason of the claim will be updated to 'Ready to Submit', and will be submitted with the next batch of claims being submitted to the clearinghouse.
+
 ## Posting Orphaned Remits
 
 Orphaned Remits are remits that come in from your clearinghouse but are not posted to any specific claim. 
 - Posting orphaned remits to the right claims will help you identify which claim lines the orphaned remit lines should be posted to. 
-- Posting orphaned remit lines (lines on a remit that were not posted to any claim lines) to claim lines will give you accurate tracking of the outstanding and paid amounts on every claim, as well as on a line by line basis.
+- Posting orphaned remit lines (lines on a remit that were not posted to any claim lines) to claim lines will give you accurate tracking of the outstanding and paid amounts on every claim, as well as on a line-by-line basis.
 
 <details>
 <summary> How to Post Orphaned Remits to Claims</summary>
@@ -76,7 +87,7 @@ Alternately, you can utilize the 'Orphaned Remits' view to go through all orphan
 
 ## Posting Cost Share Payments
 
-Remits can be set as cost share remits to pay up the Cost Share Oustanding (cost share balance) on claims and claim lines, rather than the Total Outstanding (payer balance).
+Remits can be set as cost share remits to pay up the Cost Share Outstanding (cost share balance) on claims and claim lines, rather than the Total Outstanding (payer balance).
 
 Cost Share Remits can be used in the following scenarios:
 - [Create manual remits](../RCM/Remits.md/#create-a-manual-remit) to represent patient payments that pay up cost share balances.
@@ -94,7 +105,7 @@ The Outstanding and Paid amounts on the claim are updated when a cost share remi
 <img src ='/img/CostShareYes.png' width='800'/>
 
 3. Once saved, remit lines for all claim lines on the claim will be populated according to the information on the corresponding claim lines (procedure code, dates of service, quantity, billed amount, etc.).
-4. Enter the Paid Amount on each Remit Line. Go back to claim and refresh or click 'Recalculate' to get the updated Cost Share Paid and Cost Share Oustanding.
+4. Enter the Paid Amount on each Remit Line. Go back to claim and refresh or click 'Recalculate' to get the updated Cost Share Paid and Cost Share Outstanding.
 
 </details>
 
@@ -102,11 +113,17 @@ The Outstanding and Paid amounts on the claim are updated when a cost share remi
 
 A write-off can be added to any claim or claim line to deduct from the outstanding balance on the corresponding claim/claim line. To deduct from the cost share outstanding, mark the write-off as a cost share write-off.
 
+:::note
+To write off the entire outstanding amount / cost share outstanding amount on a claim, use a claim write off, and claim line write offs will automatically be created for all claim lines.
+For anything less than the entire outstanding amount, use claim line write offs and choose how much to write off for each claim line.
+:::
+
 1. Open a claim or claim line.
 2. Go to the Write-Offs tab. Click 'New Claim Write Off Entry' (or 'New Claim Item Write Off Entry' for claim lines).
 3. Fill in the amount you are writing off and the reason. Click save.
 
 The amount will be added to the total write-offs and deducted from either the total outstanding or the cost share outstanding on the corresponding claim/claim line.
+
 
 <img src ='/img/writeoff.png' width='800'/>
 

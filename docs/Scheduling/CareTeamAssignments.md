@@ -13,7 +13,7 @@ If a session is not scheduled against a care team assignment, the practitioner w
 ::: 
 
 ## Create a Care Team Assignment
-To create a new Care Team Assignments:
+To create a new Care Team Assignment:
 1. Click the 'New' button on the Care Team Assignments Main Grid to open the Care Team Assignment Main Form.
 2. Click 'New Care Plan Activity' on the Care Team Assignments subgrid (on a Patient Contact Form) to open the Care Team Assignment Quick Create form.
 
@@ -23,14 +23,15 @@ To create a new Care Team Assignments:
 - *Episode of Care* - prepopulated with current Episode of Care for this Patient.
 - *Authorization Service* - select the authorization service this assignment is based on. This will ensure that the assignment (together with all other assignments for this authorization service) is not going over the maximum authorized hours.
 :::note
-An authorization service for an authorization covered by [secondary coverage](../Patients/Coverages.md) cannot be selected on a care team assignment. This is to ensure sessions are always billed to primary coverage before they are resubmitted to secondary.
+An authorization service for an authorization covered by [secondary coverage](../Patients/Coverages.md) cannot be selected on a care team assignment. This is to ensure sessions are always billed to primary coverage before they are [resubmitted to secondary](../RCM/RCMworkflow.md/#submitting-claims-to-secondary-coverage).
 :::
-- *Period Start Date* - prepopulated with Authorization Service Start Date and can be changed if necessary.. The Period Start Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.
+- *Period Start Date* - prepopulated with Authorization Service Start Date and can be changed if necessary. The Period Start Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.
 - *Period End Date* - prepopulated with Authorization Service End Date and can be changed if necessary. The Period End Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.
 
 **Assigned Practitioner**
 - *Practitioner* - select the practitioner you are assigning these hours to. This field is locked after the Care Team Assignment is saved.
 - *Practitioner Role* - auto-populated as the active practitioner role for the practitioner selected above and can be changed if necessary.
+- *Claim Rendering Provider* - this field can be set by an [authorizations admin](../AdminSetup/SecurityRoles.md/#special-permissions) if the practitioner on this assignment should be considered the rendering provider on the claim for the date range of the assignment in the scenario that the practitioner who performed the session does not have the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications).
 
 **Assignment Hours**
 - *Amount of Hours* - enter the number of hours being assigned to this practitioner for this service.
@@ -38,10 +39,10 @@ An authorization service for an authorization covered by [secondary coverage](..
 
 **Related Encounters** 
 
-The Related Encounters tab displays 2 sub grids, 1 for recurring enounters and 1 for single encounters. [Read more about Encounters](SingleEncounters).
+The Related Encounters tab displays 2 sub grids, 1 for recurring encounters and 1 for single encounters. [Read more about Encounters](SingleEncounters).
 
 
-When a care team assignment is created, the practitioner is added to the ‘Care Team Participants’ sub-grid.
+When a care team assignment is created, a [care team participant](../Patients/CareTeamParticipants.md) is automatically created for the patient/practitioner pair.
 
 ## Edit Care Team Assignments
 
@@ -65,7 +66,7 @@ If there are sessions after the end date that should be connected to the new car
 
 </details>
 
-A user with the [Assignment Admin](../AdminSetup/SecurityRoles.md/#special-permissions) security role will have edit access to these fields. This user should keep in mind the following considerations when editing an care team assignment:
+A user with the [Assignment Admin](../AdminSetup/SecurityRoles.md/#special-permissions) security role will have edit access to these fields. This user should keep in mind the following considerations when editing a care team assignment:
 
 <details>
 <summary> Assignment Admins should consider the following when editing Care Team Assignments:</summary>

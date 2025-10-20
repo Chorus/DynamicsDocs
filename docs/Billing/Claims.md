@@ -26,8 +26,12 @@ The **Patient & Coverage Details** section of a claim display information from t
 - *Payer*
 
 **Rendering Provider Details**
-- *Rendering Provider* - populated based on the claim settings for either the [business unit](../AdminSetup/BusinessUnit.md/#claim-settings), [payer](../AdminSetup/Account.md/#claim-settings), or [authorization](../Patients/Authorization.md/#claim-settings). 
+- *Rendering Provider* - populated based on the practitioner who performed the session if they have the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications). If they do not, rendering provider is populated based on the [rendering provider assignment](../Patients/Authorization.md/#claim-settings) on the authorization.
 - *NPI* - NPI of the practitioner populated as the Rendering Provider.
+
+:::note
+- If there are multiple rendering provider assignments on the authorization, and both date ranges include the dates of this claim, the rendering provider will be left empty on the claim so the biller can fill it out.
+:::
 
 **Referring Provider Details**
 - *Referring Provider* - the referring provider on the [episode of care](../Patients/EpisodeOfCare.md)
@@ -38,13 +42,13 @@ The **Paid Amount Details** section displays on a claim when a remit was already
 - *Total Paid - All Submissions* - the sum of the payment amounts on any remits posted to any submissions of this claim.
 - *Total Cost Share Paid* - the sum of the payment amounts on any cost share remits posted to any submissions of this claim.
 
-The **Oustanding Amount Details** section displays on a claim when a remit was already posted to the claim.
+The **Outstanding Amount Details** section displays on a claim when a remit was already posted to the claim.
 - *Total Expected* - the expected amount based on quantity of units billed and the fee schedule for this service.
 - *Total Paid* - the sum of the payment amounts on any remits posted to any submissions of this claim.
 - *Total Cost Share Adjustments* - the sum of the adjusted amount on any cost share adjustments on any remit lines or remits on any submission of this claim.
 - *Total Write-Offs* - the sum of the write-off amount on any [write-offs](../RCM/RCMworkflow.md/#write-offs) posted to this claim or any lines of this claim, on any submissions of this claim.
 - *Total Outstanding* - the difference between the Total Expected and the Total Paid. Write-offs and Cost Share Adjustments are deducted from this total so that it presents the balance due from the payer.
-- *Total Cost Share Oustanding* - the difference between the Total Cost Share Adjustments and the Total Cost Share Paid, with cost share write-offs deducted. This represents the cost share balance.
+- *Total Cost Share Outstanding* - the difference between the Total Cost Share Adjustments and the Total Cost Share Paid, with cost share write-offs deducted. This represents the cost share balance.
 
 The **Submission Details** section displays on a claim when the claim has been modified and resubmitted.
 - *Claim Frequency Code*
@@ -61,7 +65,7 @@ The **Additional Claim Info** tab contains other information sometimes relevant 
 
 The **Submissions Summary** tab shows a list of submissions representing the full story of the claim (how and when it was submitted, modified, resubmitted, etc.).
 
-The **Remits Summary** tab shows [remits](../RCM/Remits.md) that were posted to this claim. Switch between remits that were posted to this submission of the the claim, or all submissions of this claim.
+The **Remits Summary** tab shows [remits](../RCM/Remits.md) that were posted to this claim. Switch between remits that were posted to this submission of the claim, or all submissions of this claim.
 
 The **Write-Offs** tab shows [write-offs](../RCM/RCMworkflow.md/#write-offs) and write-off lines that were written towards this claim's outstanding balance or cost-share outstanding balance.
 
@@ -100,6 +104,7 @@ Claims will be set to status Draft if they are missing any information that woul
 | Rendering Provider                                    | Enter the rendering provider on the claim. [Learn more about how rendering provider is set on claims](../Patients/Authorization.md/#rendering-provider-assignments).                                                                                      |
 | Rendering Provider: Qualification Identifier (NPI)    | Click on the rendering provider on the claim, enter the NPI Number and save, or clear the rendering provider and choose a different practitioner.                                                           |
 | Rendering Provider: Primary Taxonomy Code             | Click on the rendering provider on the claim, enter the primary taxonomy code and save, or clear the rendering provider and choose a different practitioner.                                                |
+| Rendering Provider lacks required qualifications | Review the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications) for this insurance plan benefit. Clear the rendering provider on the claim and choose a different practitioner who has the required claim qualifications. |
 | Referring Provider                                    | **To correct for this claim**: enter the referring provider on the claim. **To prevent for future claims**: open the patient's profile in Autism Care, Medical Info tab, episode of care, and enter the referring provider. |
 | Referring Provider NPI                                | Click on the referring provider on the claim, enter the NPI Number and save, or clear the referring provider and choose a different practitioner.                                                           |
 | Payer: Trading Partner                               | Click on the payer on the claim, enter the trading partner (or create a new one to enter on the payer), and save.                                                          |

@@ -21,6 +21,7 @@ To create a new Practitioner Qualification, click 'New Practitioner Qualificatio
 On existing practitioner qualifications, use the timeline, status reason, and application fields to track the workflow for getting this qualification credentialed by insurance:
 - *Status Reasons*:
     - Active (default)
+    - Pending (use this status when the practitioner does not have the required qualification if you'd like to create a view of providers who *are not* qualiied with a certain payer)
     - Application Sent to Provider
     - Provider Application Received
     - Credentialed Effectively
@@ -34,7 +35,7 @@ Applications can be uploaded to the timeline on the right side of the practition
 
 ## Qualifications on Insurance Plan Benefits
 
-The Insurance Plan Benefit (related to the Encounter Service) has a list of the qualifications a Practitioner must have to receieve payment for rendering the service. 
+The Insurance Plan Benefit (related to the Encounter Service) has a list of the qualifications a Practitioner must have to receive payment for rendering the service. 
 
 :::note
 It is important that the qualification and the dates are accurate. When scheduling a Session with a Practitioner, the system checks that the Practitioner has the required qualification for the service being provided.

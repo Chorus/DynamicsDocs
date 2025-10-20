@@ -61,7 +61,18 @@ To update the timing of encounters, choose the **encounter service** for which t
 - The encounter's start time will automatically update to the start time of the earliest encounter service under it, and the encounter's end time will update to the end time of the latest encounter service under it.
 
 :::note
-Submitted encounter services cannot be updated. A scheduler admin can [reopen the session](../Scheduling/UnsubmitEncounters.md) to enable editing the session. The practitioner will resubmit the session in Note to place their digital signature on the updated details.
+Submitted encounter services cannot be updated. A [scheduler admin](../AdminSetup/SecurityRoles.md/#special-permissions) can [reopen the session](../Scheduling/UnsubmitEncounters.md) to enable editing the session. The practitioner will resubmit the session in Note to place their digital signature on the updated details. If updating the submitted session to canceled, deactivate the observations if the data is not valid.
+
+<details>
+<summary> How to deactivate observations </summary>
+
+1. On the encounter service, go to Related > Observations.
+2. Select all of the observations.
+3. Click 'Deactivate' on the observations view.
+
+<img src ="/img/deactivateobs.png" width="700" />
+</details>
+
 :::
 
 ### Encounter Services for Other Time Zones
