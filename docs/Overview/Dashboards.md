@@ -58,7 +58,7 @@ The Utilization Dashboard gives you a streamlined way to track the utilized and 
 
 The report is divided into 3 tabs:
 
-1. **Total** (default): this tab display the percent utilized for all authorization services, no matter how they are authorized. For example, a service authorized as 10 hours per week would still show on this tab, and the percent utilized will be based on the hours utilized out of 10 hours * the amount of weeks in the authorization period.
+1. **Total** (default): this tab displays the percent utilized for all authorization services, no matter how they are authorized. For example, a service authorized as 10 hours per week would still show on this tab, and the percent utilized will be based on the hours utilized out of 10 hours * the amount of weeks in the authorization period.
 2. **Weekly**: this tab gives you a focused view of utilization for every individual week, for authorization services authorized per week. This empowers you to flag weeks with low utilizations, and make scheduling adjustments as needed.
 3. **Monthly**: this tab gives you a focused view of utilization for every individual month, for authorization services authorized per week. This empowers you to flag weeks with low utilizations, and make scheduling adjustments as needed.
 

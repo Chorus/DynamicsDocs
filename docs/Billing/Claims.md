@@ -42,13 +42,13 @@ The **Paid Amount Details** section displays on a claim when a remit was already
 - *Total Paid - All Submissions* - the sum of the payment amounts on any remits posted to any submissions of this claim.
 - *Total Cost Share Paid* - the sum of the payment amounts on any cost share remits posted to any submissions of this claim.
 
-The **Oustanding Amount Details** section displays on a claim when a remit was already posted to the claim.
+The **Outstanding Amount Details** section displays on a claim when a remit was already posted to the claim.
 - *Total Expected* - the expected amount based on quantity of units billed and the fee schedule for this service.
 - *Total Paid* - the sum of the payment amounts on any remits posted to any submissions of this claim.
 - *Total Cost Share Adjustments* - the sum of the adjusted amount on any cost share adjustments on any remit lines or remits on any submission of this claim.
 - *Total Write-Offs* - the sum of the write-off amount on any [write-offs](../RCM/RCMworkflow.md/#write-offs) posted to this claim or any lines of this claim, on any submissions of this claim.
 - *Total Outstanding* - the difference between the Total Expected and the Total Paid. Write-offs and Cost Share Adjustments are deducted from this total so that it presents the balance due from the payer.
-- *Total Cost Share Oustanding* - the difference between the Total Cost Share Adjustments and the Total Cost Share Paid, with cost share write-offs deducted. This represents the cost share balance.
+- *Total Cost Share Outstanding* - the difference between the Total Cost Share Adjustments and the Total Cost Share Paid, with cost share write-offs deducted. This represents the cost share balance.
 
 The **Submission Details** section displays on a claim when the claim has been modified and resubmitted.
 - *Claim Frequency Code*
@@ -65,7 +65,7 @@ The **Additional Claim Info** tab contains other information sometimes relevant 
 
 The **Submissions Summary** tab shows a list of submissions representing the full story of the claim (how and when it was submitted, modified, resubmitted, etc.).
 
-The **Remits Summary** tab shows [remits](../RCM/Remits.md) that were posted to this claim. Switch between remits that were posted to this submission of the the claim, or all submissions of this claim.
+The **Remits Summary** tab shows [remits](../RCM/Remits.md) that were posted to this claim. Switch between remits that were posted to this submission of the claim, or all submissions of this claim.
 
 The **Write-Offs** tab shows [write-offs](../RCM/RCMworkflow.md/#write-offs) and write-off lines that were written towards this claim's outstanding balance or cost-share outstanding balance.
 

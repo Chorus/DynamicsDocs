@@ -35,7 +35,7 @@ Applications can be uploaded to the timeline on the right side of the practition
 
 ## Qualifications on Insurance Plan Benefits
 
-The Insurance Plan Benefit (related to the Encounter Service) has a list of the qualifications a Practitioner must have to receieve payment for rendering the service. 
+The Insurance Plan Benefit (related to the Encounter Service) has a list of the qualifications a Practitioner must have to receive payment for rendering the service. 
 
 :::note
 It is important that the qualification and the dates are accurate. When scheduling a Session with a Practitioner, the system checks that the Practitioner has the required qualification for the service being provided.

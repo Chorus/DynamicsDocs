@@ -13,7 +13,7 @@ If a session is not scheduled against a care team assignment, the practitioner w
 ::: 
 
 ## Create a Care Team Assignment
-To create a new Care Team Assignments:
+To create a new Care Team Assignment:
 1. Click the 'New' button on the Care Team Assignments Main Grid to open the Care Team Assignment Main Form.
 2. Click 'New Care Plan Activity' on the Care Team Assignments subgrid (on a Patient Contact Form) to open the Care Team Assignment Quick Create form.
 
@@ -23,9 +23,9 @@ To create a new Care Team Assignments:
 - *Episode of Care* - prepopulated with current Episode of Care for this Patient.
 - *Authorization Service* - select the authorization service this assignment is based on. This will ensure that the assignment (together with all other assignments for this authorization service) is not going over the maximum authorized hours.
 :::note
-An authorization service for an authorization covered by [secondary coverage](../Patients/Coverages.md) cannot be selected on a care team assignment. This is to ensure sessions are always billed to primary coverage before they are resubmitted to secondary.
+An authorization service for an authorization covered by [secondary coverage](../Patients/Coverages.md) cannot be selected on a care team assignment. This is to ensure sessions are always billed to primary coverage before they are [resubmitted to secondary](../RCM/RCMworkflow.md/#submitting-claims-to-secondary-coverage).
 :::
-- *Period Start Date* - prepopulated with Authorization Service Start Date and can be changed if necessary.. The Period Start Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.
+- *Period Start Date* - prepopulated with Authorization Service Start Date and can be changed if necessary. The Period Start Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.
 - *Period End Date* - prepopulated with Authorization Service End Date and can be changed if necessary. The Period End Date of the Care Team Assignment cannot be before the Start Date on the related Authorization Service.
 
 **Assigned Practitioner**
@@ -39,7 +39,7 @@ An authorization service for an authorization covered by [secondary coverage](..
 
 **Related Encounters** 
 
-The Related Encounters tab displays 2 sub grids, 1 for recurring enounters and 1 for single encounters. [Read more about Encounters](SingleEncounters).
+The Related Encounters tab displays 2 sub grids, 1 for recurring encounters and 1 for single encounters. [Read more about Encounters](SingleEncounters).
 
 
 When a care team assignment is created, a [care team participant](../Patients/CareTeamParticipants.md) is automatically created for the patient/practitioner pair.
@@ -66,7 +66,7 @@ If there are sessions after the end date that should be connected to the new car
 
 </details>
 
-A user with the [Assignment Admin](../AdminSetup/SecurityRoles.md/#special-permissions) security role will have edit access to these fields. This user should keep in mind the following considerations when editing an care team assignment:
+A user with the [Assignment Admin](../AdminSetup/SecurityRoles.md/#special-permissions) security role will have edit access to these fields. This user should keep in mind the following considerations when editing a care team assignment:
 
 <details>
 <summary> Assignment Admins should consider the following when editing Care Team Assignments:</summary>

@@ -55,7 +55,7 @@ When the claim is ready to be submitted, click the 'Save & Submit' button. If al
 
 Orphaned Remits are remits that come in from your clearinghouse but are not posted to any specific claim. 
 - Posting orphaned remits to the right claims will help you identify which claim lines the orphaned remit lines should be posted to. 
-- Posting orphaned remit lines (lines on a remit that were not posted to any claim lines) to claim lines will give you accurate tracking of the outstanding and paid amounts on every claim, as well as on a line by line basis.
+- Posting orphaned remit lines (lines on a remit that were not posted to any claim lines) to claim lines will give you accurate tracking of the outstanding and paid amounts on every claim, as well as on a line-by-line basis.
 
 <details>
 <summary> How to Post Orphaned Remits to Claims</summary>
@@ -87,7 +87,7 @@ Alternately, you can utilize the 'Orphaned Remits' view to go through all orphan
 
 ## Posting Cost Share Payments
 
-Remits can be set as cost share remits to pay up the Cost Share Oustanding (cost share balance) on claims and claim lines, rather than the Total Outstanding (payer balance).
+Remits can be set as cost share remits to pay up the Cost Share Outstanding (cost share balance) on claims and claim lines, rather than the Total Outstanding (payer balance).
 
 Cost Share Remits can be used in the following scenarios:
 - [Create manual remits](../RCM/Remits.md/#create-a-manual-remit) to represent patient payments that pay up cost share balances.
@@ -105,7 +105,7 @@ The Outstanding and Paid amounts on the claim are updated when a cost share remi
 <img src ='/img/CostShareYes.png' width='800'/>
 
 3. Once saved, remit lines for all claim lines on the claim will be populated according to the information on the corresponding claim lines (procedure code, dates of service, quantity, billed amount, etc.).
-4. Enter the Paid Amount on each Remit Line. Go back to claim and refresh or click 'Recalculate' to get the updated Cost Share Paid and Cost Share Oustanding.
+4. Enter the Paid Amount on each Remit Line. Go back to claim and refresh or click 'Recalculate' to get the updated Cost Share Paid and Cost Share Outstanding.
 
 </details>
 

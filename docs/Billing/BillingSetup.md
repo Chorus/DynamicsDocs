@@ -44,7 +44,7 @@ This gives billers visibility to sessions that will be grouped together on a cla
 
 If your organization uses an external billing system, when you are ready to bill for the charge items in a charge period, generate a billing export to upload to your billing system.
 
-1. On tny Charge Items or Charge Periods view, click 'Billing Export'. 
+1. On any Charge Items or Charge Periods view, click 'Billing Export'. 
 2. Choose a start and end date of services you'd like to include in the billing export.
 3. An csv file will be generated with the following columns:
     - Charge Item Name
@@ -64,6 +64,6 @@ If your organization uses an external billing system, when you are ready to bill
     - Billing Unit Type (on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits))
     - Procedure Code (on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits))
     - Authorization #
-    - Rendering Provider (based on the practititioner who performed the session if they are [qualified](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications), or the [rendering provider assignment](../Patients/Authorization.md/#claim-settings) if they are not.)
+    - Rendering Provider (based on the practitioner who performed the session if they are [qualified](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications), or the [rendering provider assignment](../Patients/Authorization.md/#claim-settings) if they are not.)
     - Rendering Provider NPI
 4. You will be prompted whether you'd like to mark the exported charge items as 'billed externally' to track that these charge items have been exported for billing through an external system.

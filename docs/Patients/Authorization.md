@@ -58,7 +58,7 @@ If there is not yet a claim for the session, Supervising BCBA will be the practi
 
 **Billing Provider**
 
-- *Billing Provider* - This field determines which practitioner or group practice should be set as the Billing Provider on the claim. By default, the billing provider is set to be the billing provider set up on the business unit. However, in some scenarios, you may want to have a different practitioner serve as the billing provider for some authorizations. Here you have the ability to select either the practitioner on the authorization, or a different practitioner to be the billing provider on all claims for this authorization. 
+- *Billing Provider* - This field determines which practitioner or group practice should be set as the Billing Provider on the claim. By default, the billing provider is set to be the billing provider set up on the business unit. However, in some scenarios, you may want to have a different practitioner serve as the billing provider for some authorizations. Here, you can select either the practitioner on the authorization, or a different practitioner to be the billing provider on all claims for this authorization. 
 
 :::note
 When a practitioner is selected as a billing provider, the ‘Provider Type’ field on their profile should be populated to ensure the claims are generated properly. 
@@ -109,6 +109,6 @@ Select 'Authorizations' on the left site menu in the Clinical Area of the site m
 - The **All Authorizations** view displays all Authorizations in the system. The view is sorted by the Period Start Date with the newer dates displaying first.
 - The **Expiring Authorizations** view displays all active Authorizations in the system where the Period End Date is in the next 30 days. The view is sorted by the Period End Date with the older dates displaying first.
 - The **Pending Authorizations** view displays all active Authorizations in the system where the Status Reason is Pending Authorization. The view displays the Reason Pending. 
-- The **Service Authorizations without Rendering Provider Assignments** view displays authorzations that do not have any rendering provider assignments set up, so an [authorizations admin](../AdminSetup/SecurityRoles.md/#special-permissions) can easily review and [set up rendering provider assignments](../Patients/Authorization.md/#claim-settings) for these authorizations.
+- The **Service Authorizations without Rendering Provider Assignments** view displays authorizations that do not have any rendering provider assignments set up, so an [authorizations admin](../AdminSetup/SecurityRoles.md/#special-permissions) can easily review and [set up rendering provider assignments](../Patients/Authorization.md/#claim-settings) for these authorizations.
 
 The nested Authorization Service are sorted by the Start Date with the newer dates displaying first.
