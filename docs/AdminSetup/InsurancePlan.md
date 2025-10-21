@@ -45,10 +45,10 @@ In each Insurance Plan Benefit, add Required Qualifications- the credentials tha
 
 Each required qualification should be added individually. If a required qualification can be interchanged with another qualification (i.e. BCBA and BCaBA), they can be added as one required qualification, which will be read as requiring either one or the other of the qualifications listed.
 
-- [Encounters are validated](../Scheduling/EncounterValdations.md/#practitioner-does-not-have-required-credentials) to ensure the practitioner has the required encounter qualifications for this service code.
-- [Claims are validated](../Billing/Claims.md/#claim-validations) to ensure the practitioner has the required claim qualifications for this service code.
+[Encounters are validated](../Scheduling/EncounterValdations.md/#practitioner-does-not-have-required-credentials) to ensure the practitioner has the required encounter qualifications for this service code.
 
-You can review all of your insurance plan benefit required qualifications on one view on the [Qualifications Dashboard](../Overview/Dashboards.md)
+**Coming Soon**: Claims will be validated to ensure the practitioner has the required claim qualifications for this service code.
+
 
 ## Insurance Plan Fee Schedules
 

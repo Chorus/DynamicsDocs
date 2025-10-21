@@ -16,6 +16,11 @@ The following fields and settings on an account should be set:
 
 Once the Payer record is saved, you can add [Insurance Plans](../AdminSetup/InsurancePlan.md).
 
+## Claim Settings
+- *Rendering Provider* – This is a general setting to specify which provider should be entered as the rendering provider (Box 24J) for each service line on all claims with this payer. (The setting can be overridden on an individual authorization or authorization service if necessary.) 
+    - Practitioner on Authorization - Some payers request the BCBA that is overseeing the Behavior Technician and responsible for the patient in general to appear on each claim service line.
+    - Practitioner on Encounter Service - Some payers request the provider who conducted the session (e.g., the behavior technician) to appear on the claim service line.
+
 ## Ghost Payers
 One generic payer account and insurance plan ("ghost insurance") can be created per organization to use in the case where an organization elects to service a patient that has not (yet) been authorized for services by their insurance. 
 

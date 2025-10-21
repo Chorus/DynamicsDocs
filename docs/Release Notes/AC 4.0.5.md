@@ -23,7 +23,7 @@ title: Autism Care 4.0.5
 1. Open an Authorization.
 2. Go to the Care Team Assignments tab.
 3. Select the care team assignment for the practitioner who should be listed on the claim.
-4. Click 'Set as Claim Rendering Provider.' (only Authorization Admins have this permission)
+4. Click “Set as Claim Rendering Provider.” (only Authorization Admins have this permission)
 
 You’ll see the Rendering Provider Assignments on the main page of the authorization, and a banner if that practitioner is missing any required claim qualifications.
 

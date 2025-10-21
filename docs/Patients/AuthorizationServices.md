@@ -22,6 +22,10 @@ To create a new Authorization Service, click 'New Authorization Service' on the 
 - *Amount Authorized* - Enter the number or hours/units authorized for this service, according to the 'Authorized As' selected above.
 - *Validate Encounters* - Select how you want the validations for this service to be calculated. They can either be validated as authorized, meaning that sessions exceeding the amount of hours/units for the frequency selected will be rejected. Or, they can be validated by total units for the authorization period, meaning that sessions exceeding the amount of hours/units for the frequency selected will only be rejected if it exceeds the total amount of hours/units for the entire authorization period. The selection here affects how the authorization service utilization report calculates and displays utilization.
 
+**Claim Settings** - This section displays fields related to billing Claims. 
+- *Rendering Provider* - This field determines which practitioner should be populated as the Rendering Provider on the claims for this service. By default, the rendering provider is populated based on the settings on the authorization and payer account. However, if needed, it can overridden here for an individual service. 
+- *Authorization Rendering Provider* - This field displays the Rendering Provider field from the Authorization Main Form, so it is easy to see what the setting is on the Authorization. 
+
 ## Edit an Authorization Service
 
 Once there are related Encounter Services created against an Authorization Service, the following fields are locked to prevent the Encounter Service from becoming invalid.

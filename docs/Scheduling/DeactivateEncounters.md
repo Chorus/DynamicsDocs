@@ -21,24 +21,12 @@ When an encounter service is canceled, its related charge item and payroll item 
 
 You can deactivate encounter services when a session was scheduled in error.
 
-
 :::note
 If observations were already collected on the session in the Note app, the encounter service cannot be deactivated. Instead, the practitioner should first [remove the inaccurate observations](https://notedocs.chorus.cloud/docs/DataCollection/EditDataAfterSession) in Note. 
 
-[Scheduler Admins](../AdminSetup/SecurityRoles.md/#special-permissions) have permissions to override this rule if there is an exception and the provider cannot remove the data on their own. The Scheduler admin should deactivate the observations if the data is not valid.
-
-<details>
-<summary> How to deactivate observations </summary>
-
-1. On the encounter service, go to Related > Observations.
-2. Select all of the observations.
-3. Click 'Deactivate' on the observations view.
-
-<img src ="/img/deactivateobs.png" width="700" />
-
-</details>
-
+Scheduler Admins have permissions to override this rule.
 :::
+
 
 1.  On any encounter service view, select the encounter services you'd like to deactivate.
 2.  Click 'Deactivate' on the ribbon.
