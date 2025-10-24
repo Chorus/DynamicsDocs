@@ -5,7 +5,7 @@ title: Insurance Plans
 # Insurance Plans
 Insurance Plans are the various options each insurance provider offers. Add one insurance plan for each of the different plans that you will be accepting for that payer. Each insurance plan can have its own fee schedule to reflect the billing differences for that plan.
 
-The insurance plans set up here, will be the available options when setting up your patients’ coverage records.
+The insurance plans you create will show when setting up patient [coverages](../Patients/Coverages.md).
 
 - *Payer* – The payer of this plan
 - *Name* – The plan name
@@ -52,7 +52,17 @@ You can review all of your insurance plan benefit required qualifications on one
 
 ## Insurance Plan Fee Schedules
 
-To create fee schedules specific to an insurance plan (which will override any [business unit fee schedules](../AdminSetup/FeeSchedules.md) for that service code), go to Related > Insurance Plan Fee Schedules on the Insurance Plan, and create a new Insurance Plan Fee Schedule.
+Insurance Plan Fee Schedules connect an insurance plan to a fee schedule for each service code (which will override any [business unit fee schedules](../AdminSetup/FeeSchedules.md) for that service code).
+
+1. On the insurance plan, go to Related > Insurance Plan Fee Schedules.
+2. Click 'New Insurance Plan Fee Schedule'.
+3. Choose an existing fee schedule, or type enter then click '+ New' to create a new fee schedule.
+4. Enter the Start Date of the Fee Schedule. The end date can be left blank until the payer's rates are updated.
+
+:::note
+Claim billing and expected amounts will be calculated based on the insurance plan fee schedule whose date range covers the date of service on the claim.
+If placing an end date on an insurance plan fee schedule, be sure to add a new insurance plan fee schedule to cover sessions after the ended fee schedule.
+:::
 
 
 ## Insurance Plan Billing Requirements

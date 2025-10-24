@@ -51,13 +51,40 @@ To save a view for regular access:
 
  <img src ="/img/fa2aea69-eb74-4f0e-953e-571a74a93114_image.png " width="350" height="400"/>
 
-2. Select 'Save as New View'.
+2. Select 'Save as new view'.
 
  <img src ="/img/15bb1e5b-f668-41bf-af59-ddd40d13726b_image.png " width="350" height="400"/>
 
 3. Save.
 
  <img src ="/img/33e97668-5337-46ef-9583-917dd06387df_image.png " width="350" height="400"/>
+
+:::note
+On the view selector, views created by users display a person icon, indicating they are personal views, rather than system views. You can check who created each view by hovering on the info icon on the view name.
+
+ <img src ="/img/personalview.png " width="800"/>
+:::
+
+### Share a View
+
+To share a saved view with other users:
+
+1. On the view you'd like to share, click the share button in the top right corner. Then click 'Manage access'. 
+
+ <img src ="/img/manageaccess.png " width="800"/>
+
+2. Search for a user/team to share the view with. 
+
+3. Select the permissions the user should have to the view.
+ 
+ <img src ="/img/shareview.png " width="800"/>
+
+4. Click Share.
+
+You can easily copy the link to the specific view you shared by clicking 'Share' in the top right corner.
+
+ <img src ="/img/copylink.png " width="800"/>
+
 
 ## Advanced Find
 
@@ -88,7 +115,7 @@ After configuring filters and columns so the view suits your needs, you can expo
 Bulk edits can be made on any view.
 
 1. Filter the view to records that you'd like to update:
-    - Click 'Edit Filters' on the right hand side of the view.
+    - Click 'Edit Filters' on the top right corner of the view.
     <img src ="/img/9dd4c9e7-8534-4664-a267-5307e068bebc_image.png " width="350" height="400"/>
 
     - Update the filters as needed and click 'Apply'.
