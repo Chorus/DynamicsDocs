@@ -105,7 +105,7 @@ The export displays the following:
     - Conducted over Telecare (when telecare is indicated on the encounter service)
     - Service rendered (procedure code and service name)
     - Rendering Provider (practitioner on encounter service)
-    - Supervising BCBA / NPI number (rendering provider on [claim](../Billing/Claims.md), or practitioner on [authorization](../Patients/Authorization.md) when claim has not been generated yet)
+    - Supervising BCBA / NPI number (rendering provider on the [claim](../Billing/Claims.md), or the rendering provider assignment on the [authorization](../Patients/Authorization.md/#claim-settings) when the claim has not been generated yet)
     - Other individuals present (name of encounter participants from overlapping encounters)
 - Notes (session narrative written in the Note app)
 - Primary Targets addressed in this session
