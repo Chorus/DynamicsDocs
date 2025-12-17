@@ -11,12 +11,14 @@ module.exports = {
       'AdminSetup/BusinessUnit',
     'AdminSetup/SecurityRoles',
     'AdminSetup/Account', 
-    'AdminSetup/HealthcareService',
     'AdminSetup/InsurancePlan',
+    'AdminSetup/HealthcareService',
    'AdminSetup/FeeSchedules',
-    'AdminSetup/Location',
-    'AdminSetup/EVVSetup',
+   //'AdminSetup/RequiredDocuments',
+       'AdminSetup/Location',
+     //  'AdminSetup/Definitions',
     'AdminSetup/QualificationDefinition',
+    'AdminSetup/EVVSetup',
     'AdminSetup/GoalBankLibrary',
   ],
   // 'Clinical Setup':[
@@ -26,6 +28,7 @@ module.exports = {
   //   'ClinicalSetup/Contacts',
   // ],
   'CRM':[
+ //   'CRM/Leads',
    'CRM/Opportunities',
    'CRM/Auth Workflows',
   ],
@@ -97,8 +100,9 @@ module.exports = {
  ],
 
   'Release Notes':[
-        'Release Notes/AC 4.0.6',
-    'Release Notes/AC 4.0.5',
+  'Release Notes/RCM 4.0.7',
+  'Release Notes/AC 4.0.6',
+  'Release Notes/AC 4.0.5',
   'Release Notes/RCM 4.0.4',
   'Release Notes/AC 4.0.3',
   'Release Notes/AC 4.0.2',

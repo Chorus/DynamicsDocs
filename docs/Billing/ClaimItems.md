@@ -49,3 +49,13 @@ Claim lines with the same Patient, Auth Number, Rendering Provider, Place of Ser
 
 The **Remit Lines** tab lists all remit lines for this claim line.
 
+## Claim Line Views
+
+- The **Submitted Claim Lines** view displays all claim lines on submitted claims.
+- The **Denied Claim Lines** view displays claim lines on claims that were received a remit, but nothing was paid on the remit.
+- The **Partially Denied Claim Lines** view displays claim lines that received a remit, but only a portion of the expected amount was paid.
+- The **Open Balance - Payer** view displays claim lines on submitted claims with an outstanding amount greater than zero.
+- The **Open Balance - Cost Share** view displays claim lines on submitted claims with a cost share outstanding amount greater than zero.
+- The **Open Balance - Case Details** view displays claim lines on submitted claims with either an outstanding amount or a cost share outstanding amount greater than zero, and an active [case](../RCM/Cases.md) on the claim. This view shows the description, follow up by date, and subject from the case.
+- The **Overpaid Claim Lines** view displays claim lines on submitted claims with a negative outstanding amount (where the paid amount and write off amounts together exceeds the expected amount).
+

@@ -50,6 +50,6 @@ Got questions? We’ve got answers — right inside Autism Care! Our Self Help f
 
  <img src ="/img/whatfix2.png " width="600"/>
 
-4. Refresh Autism Care and click 'Self Help'
+4. Refresh Autism Care and click the lightbulb icon on the right side of the screen.
 
  <img src ="/img/whatfix3.png " width="600"/>

@@ -66,8 +66,13 @@ or:
 Track emails, phone calls, notes, and tasks on the case timeline for historical tracking of actions taken against this case.
 
 **Bulk Case Claims**
-- *Total Outstanding*
-- *Total Cost Share Outstanding*
+- *Billable Start* - earliest date of service from the claims linked to this case.
+- *Billable End* - latest date of service from the claims linked to this case.
+- *Total Outstanding* - sum of outstanding amounts from the claims linked to this case.
+- *Total Cost Share Outstanding* - sum of cost share outstanding amounts from the claims linked to this case.
+- *Total Paid* - sum of paid amounts from the claims linked to this case.
+- *Total Expected* - sum of expected amounts from the claims linked to this case.
+
 - Review the claims linked to this case. You can remove claims from this case or add other claims to this case from here.
 
 ## Case Stages

@@ -59,7 +59,7 @@ If there are sessions after the end date that should be connected to the new car
 <summary>How to move sessions to a new care team assignment</summary>
 
 1. Open the new care team assignment and copy the name of the care team assignment you are moving sessions to.
-2. Open the old care team assignmen you are moving sessions away from.
+2. Open the old care team assignment you are moving sessions away from.
 3. Go to Related > Encounter Services. Switch to the view 'Active Encounter Services.' Filter to the date of sessions that should be scheduled against the new care team assignment.
 4. Select all, and click 'Edit'.
 5. Paste the name of the new care team assignment in the Assignment field. Click 'Save'. Charge items for sessions that were already billed will be set to Awaiting Resubmission for the biller to review and resubmit to the correct insurance plan.
