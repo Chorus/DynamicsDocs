@@ -19,6 +19,7 @@ When a session is submitted from the Note app, the status of the encounter servi
 - *Billable Units* - the amount of billable units, based on the duration of the encounter service and the duration of a billable unit for that service (as configured on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits)).
 - *Forecasted Amount* - the expected amount to be paid by insurance based on the insurance plan fee schedule and modifiers. This amount can fluctuate based on changes made to the session prior to submission. The forecasted amount allows your organization to predict Accounts Receivable for schedules set up for future months, or for past sessions that haven't been billed yet.
 - *Coverage* - the patient's [coverage](../Patients/Coverages.md).
+- *Notes* - add notes to help you track billing decisions (e.g., why a charge item was placed on hold, when an awaiting resubmission charge item was last reviewed, etc.)
 
 ### Charge Item Statuses
 
@@ -26,7 +27,7 @@ When reviewing charge items, you can easily view the status of the charge items 
 
 - Charge items are created with status **Scheduled**.
 - When the related encounter service is started (and becomes 'In Progress'), charge items become **Awaiting Submission**.
-- When the related encounter service is submitted, charge items become **New**.
+- When the related encounter service is submitted, charge items become **New**. 
 - Charge items that are fit to be included on Claims should be marked as **Ready to Bill** by the biller who reviewed them.
 - Charge items can be marked as **On Hold** to indicate that they should not be billed yet (e.g., if they are waiting on remaining sessions in conducted in that charge period to be submitted).
 - When the related encounter service is scheduled against a [pending authorization](../Patients/Authorization.md/#pending-authorizations), charge items are set to **Pending Authorization**.

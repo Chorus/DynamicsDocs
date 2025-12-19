@@ -30,7 +30,7 @@ Recurring Encounter Services can be created by clicking 'New Recurring Encounter
     :::note
     An authorization service for an authorization covered by [secondary coverage](../Patients/Coverages.md) cannot be selected on an encounter service. This is to ensure sessions are always billed to primary coverage before they are resubmitted to secondary.
     :::
-    - *Mileage* - If your organization reimburses for mileage, enter the miles travelled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
+    - *Mileage* - If your organization reimburses for mileage, enter the miles traveled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
     - *Payroll Modifiers* - add modifiers if a different rate should be applied to this session based on the payroll fee schedule on the practitioner's contract.
     - *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Read more about locations](../AdminSetup/Location.md).
     - *Telecare* - Toggle on when the session was conducted over telecare.
@@ -61,7 +61,7 @@ Recurring Encounter Services can be created by clicking 'New Recurring Encounter
 4. Click **Generate Occurrences**.
 
 ## Create a Group Recurring Encounter
-Group Recurring Encounters set a group of encounter services (e.g., for group behavior treatment, or supervisison and direct care scheduled together, etc.) to repeat on a recurring schedule.
+Group Recurring Encounters set a group of encounter services (e.g., for group behavior treatment, or supervision and direct care scheduled together, etc.) to repeat on a recurring schedule.
 
 Click 'New Group Recurring Encounter" on any Encounter Services grid to create a group recurring encounter.
 

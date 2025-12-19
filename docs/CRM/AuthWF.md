@@ -52,7 +52,8 @@ When an assessment authorization is received, click 'Next Stage' to move the aut
 <summary>Assessment</summary>
 
 The **Assessment** stage is for assigning a BCBA to write an assessment report, and tracking it is received in a timely fashion.
-- Assessment BCBA - select the BCBA who is assigned to write the assessment report. Only practitioners with a current BCBA [practitioner role](../Practitioners/PractitionerRoles.md) will show as options here.
+- **Coming Soon!* : Assessment Assignment - choose an assessment care team assignment from the assessment/expiring authorization, or create a new one by clicking +New.  
+- Assessment BCBA - the Assessment BCBA will be populated based on the Assessment Assignment. 
 - Assessment Assigned Date - enter the date the BCBA was assigned to write the report. This will auto-populate with today's date when the assessment BCBA is populated.
 - Assessment Due Date - enter the due date the BCBA was given for submitting the completed report. This will auto-populate with today's date plus the number of weeks populated on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization.
 - Assessment Received Date - enter the date the BCBA submitted the completed report.
@@ -90,6 +91,7 @@ The **Service Authorization** stage is for requesting an authorization from the 
 </details>
 
 When the service authorization was approved and entered onto the authorization workflow, click Finish to set the status reason to Completed and deactivate the workflow.
+At this point, the opportunity is completed, and the patient's [episode of care](../Patients/EpisodeOfCare.md) will automatically move from Planned to Active to show they have completed intake and are ready for services.
 
 ## Auth Workflow Emails
 
