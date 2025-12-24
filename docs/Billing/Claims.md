@@ -47,7 +47,7 @@ The **Outstanding Amount Details** section displays on a claim when a remit was 
 - *Total Paid* - the sum of the payment amounts on any remits posted to any submissions of this claim.
 - *Total Cost Share Adjustments* - the sum of the adjusted amount on any cost share adjustments on any remit lines or remits on any submission of this claim.
 - *Total Write-Offs* - the sum of the write-off amount on any [write-offs](../RCM/RCMworkflow.md/#write-offs) posted to this claim or any lines of this claim, on any submissions of this claim.
-- *Total Outstanding* - the difference between the Total Expected and the Total Paid. Write-offs and Cost Share Adjustments are deducted from this total so that it presents the balance due from the payer.
+- *Total Outstanding* - the difference between the Total Expected and the Total Paid. Write-offs and Cost Share Outstanding amounts are deducted from this total so that it presents the balance due from the payer.
 - *Total Cost Share Outstanding* - the difference between the Total Cost Share Adjustments and the Total Cost Share Paid, with cost share write-offs deducted. This represents the cost share balance.
 
 The **Submission Details** section displays on a claim when the claim has been modified and resubmitted.
