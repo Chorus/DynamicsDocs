@@ -10,10 +10,12 @@ Dashboards can be created and personalized according to your needs.
 
 Dashboards in the system include:
 
-- **Authorization Workflow** - View count of authorization workflows per status.
+- **Opportunity Dashboard** - View monthly progress based on opportunities opened per month per business unit or referral channel. [Learn more about the opportunity dashboard](../CRM/Opportunity.md/#opportunity-dashboard).
+- **Authorization Workflow** - View authorization workflows at each stage, so you can efficiently work through assessments to assign, overdue assessments, assessments to review, authorizations to request, and more. [Learn more about the authorization workflow dashboard](../CRM/AuthWF.md/#auth-workflow-dashboard).
+- **Intake Efficiency** - View the average days per stage of specific CRM workflows and measure improvement over time. [Learn more about the Intake Efficiency dashboard](../CRM/IntakeEfficiency.md).
+- **Patient Documents Dashboard** - View expired/expiring patient documents. [Learn more about the Patient Documents dashboard](../Patients/PatientDocuments.md/#patient-documents-dashboard).
 - **Authorizations Dashboard** - View count of authorizations per payer, business unit, or expiring month.
-- **Opportunity Dashboard** - View count of opportunities per status.
-- **Qualifications Dashboard** - View expired/expiring practitioner qualifications, qualifications per status reason, practitioners per qualification, and insurance plan benefit required qualifications.
+- **Qualifications Dashboard** - View expired/expiring practitioner qualifications, qualifications per status reason, practitioners per qualification, and insurance plan benefit required qualifications. [Learn more about the Qualifications dashboard](../Practitioners/Qualifications.md/#qualifications-dashboard).
 - [RCM Dashboards](../RCM/RCMDashboards.md)
 
  <img src ="/img/dashboards.png " width="650"/>
@@ -22,7 +24,7 @@ Dashboards in the system include:
 
 The Session Data Dashboard gives your clinical managers a bird's eye view of the clinical data being collected in your organization.
 
-The **Data Analysis** report gives you visibility to data collection and treatment progress accross your entire organization. Filter by practitioner, patient, skill acquisition domain/subdomain, or target status and review target graphs for the selected date range. Hover on a data point or a condition change line to review its details.
+The **Data Analysis** report gives you visibility to data collection and treatment progress across your entire organization. Filter by practitioner, patient, skill acquisition domain/subdomain, or target status and review target graphs for the selected date range. Hover on a data point or a condition change line to review its details.
 
 The **BT Data Per Day** report allows easy monitoring of practitioner performance. Filter by practitioner or patient to ensure the amount of data collection per day is meeting your organization's standards.
 

@@ -9,7 +9,7 @@ A Practitioner refers to the ABA provider who is servicing a client. The practit
 
 ## Create a Practitioner Contact
 
-The 'Contact Type' fied in the header sets the form as either Patient, Practitioner, or Related Person.
+The 'Contact Type' field in the header sets the form as either Patient, Practitioner, or Related Person.
 
 The Contact Main Form for a Practitioner is divided into multiple tabs for an organized view of the complete practitioner record.
 
@@ -20,22 +20,22 @@ The Contact Main Form for a Practitioner is divided into multiple tabs for an or
         - *A practitioner must sign out and back in to the Note app any time the email address on their practitioner contact is updated, to ensure they continue syncing against the correct contact.*
     - *Provider Preferences* - This section does not have to be populated. The information listed here is based on what the practitioner prefers. When using the [Schedule Assistance](../Scheduling/ScheduleAssistance.md) tool to find a practitioner to service a patient, the filters are populated with the patient's preferences.  
     - *Documents* - This section is for uploading and accessing practitioner documents, such as resume, photo ID, or I-9 forms.
-    - *Roles* - This subgrid displays the Practioner Role for the practitioner: either BCBA or Behavior Technician. [Read more about Practitioner Roles](PractitionerRoles.md).
+    - *Roles* - This subgrid displays the primary role and other Practitioner Roles for the practitioner. Entering or updating the primary role automatically creates a new practitioner role. [Learn more about Practitioner Roles](PractitionerRoles.md).
     - *Timeline* - This is the last section on this tab. It displays all communication related to the practitioner: emails, calls, appointments, notes, or tasks.
         
 - The **Qualifications** tab is for information regarding the practitioner's certification to practice. A practitioner can have multiple qualifications, such as a Behavior Technician who gets certified as a BCBA, or a BCBA-LBA.
 
-- The **Care Team Assignments** tab is for assigning a utilization of hours authorized for a certain authorization service to a practitioner. [Read more about Care Team Assignments](../Scheduling/CareTeamAssignments).
+- The **Care Team Assignments** tab is for assigning a utilization of hours authorized for a certain authorization service to a practitioner. [Learn more about Care Team Assignments](../Scheduling/CareTeamAssignments).
 
 - The **Encounters** tab lists the scheduled encounters for the practitioner. This tab is divided into 3 sub grids: 
-    - *Recurring Encounters* - The top subgrid displays encounters that are recurring for a period of time. [Read more about Recurring Encounters](../Scheduling/RecurringEncounters.md).
-    - *Single Encounters* - The middle subgrid displays individual encounters (encounter occurrences). [Read more about Single Encounters](../Scheduling/SingleEncounters.md). The default view is set to 'Upcoming Encounters' - all Encounters where the Start Date/Time is in the future and the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
-    - *Encounter Services* - The bottom subgrid displays the encounter services from this practitioner's encounters. [Read more about Encounter Services](../Scheduling/SingleEncounters.md/#encounter-services). The default view is set to 'Upcoming Encounter Services' - all Encounter Services where the Start Date/Time is in the future.
+    - *Recurring Encounters* - The top subgrid displays encounters that are recurring for a period of time. [Learn more about Recurring Encounters](../Scheduling/RecurringEncounters.md).
+    - *Single Encounters* - The middle subgrid displays individual encounters (encounter occurrences). [Learn more about Single Encounters](../Scheduling/SingleEncounters.md). The default view is set to 'Upcoming Encounters' - all Encounters where the Start Date/Time is in the future and the Schedule Type is 'Single Encounter' or 'Encounter Occurrence'.
+    - *Encounter Services* - The bottom subgrid displays the encounter services from this practitioner's encounters. [Learn more about Encounter Services](../Scheduling/SingleEncounters.md/#encounter-services). The default view is set to 'Upcoming Encounter Services' - all Encounter Services where the Start Date/Time is in the future.
 
-- The **Calendar** tab displays the practitioner's calendar of encounter services scheduled for them. [Read more about the practitioner's Calendar](Calendar.md).
+- The **Calendar** tab displays the practitioner's calendar of encounter services scheduled for them. [Learn more about the practitioner's Calendar](Calendar.md).
 
 - The **Payroll** tab is for tracking the practitioner's contract and payroll information.  This tab is divided into 2 sub grids:
-    - *Payroll Items* - The left subgrid displays payroll items for the practitioner. The default view is set to 'Payroll Items - Current Payroll Periods' - all payroll items in the open payroll period. [Read more about Payroll Items](../Payroll/PayrollItems.md).
+    - *Payroll Items* - The left subgrid displays payroll items for the practitioner. The default view is set to 'Payroll Items - Current Payroll Periods' - all payroll items in the open payroll period. [Learn more about Payroll Items](../Payroll/PayrollItems.md).
     - *Practitioner Contracts* - The right subgrid displays the [Practitioner's contracts](../Payroll/Contracts.md). 
 
 ## Search Contacts

@@ -20,7 +20,7 @@ A remit can also include a Remit Adjustment (can be positive or negative amount)
 3. Enter the Paid Amount on each Remit Line.
 4. Once you have entered the total paid on the remit lines, go back to claim and refresh or click 'Recalculate' to get the updated totals.
 
-Remits can be set as cost share remits to pay up the Cost Share Oustanding (cost share balance) on claims and claim lines, rather than the Total Outstanding (payer balance). [Read more about posting cost share payments](../RCM/RCMworkflow.md/#posting-cost-share-payments).
+Remits can be set as cost share remits to pay up the Cost Share Oustanding (cost share balance) on claims and claim lines, rather than the Total Outstanding (payer balance). [Learn more about posting cost share payments](../RCM/RCMworkflow.md/#posting-cost-share-payments).
 
 
 ## Search Remits

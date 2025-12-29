@@ -16,7 +16,7 @@ To create a new Authorization, click 'New Authorization' on the Authorization su
 - *Coverage* - Populated with the Active Coverage record with the latest End Date (or no End Date) for this Patient.
     - If a patient has more than one active coverage, ensure that the selected coverage is the one the authorization is covered by, otherwise select the correct coverage.
 - *Authorization Number* - Enter the authorization number. This will be included on the claims created against this authorization.
-- *Authorization Type* - Select whether this is an assessment authorization (authorizing an initial/follow-up assessment to be completed) or a service authorization. Only service authorizations will generate authorization workflows prior to expiration. [Read more about authorization workflows](../CRM/AuthWF.md).
+- *Authorization Type* - Select whether this is an assessment authorization (authorizing an initial/follow-up assessment to be completed) or a service authorization. Only service authorizations will generate authorization workflows prior to expiration. [Learn more about authorization workflows](../CRM/AuthWF.md).
 - *Period Start Date* - Enter the start date that the authorization is valid from.
 - *Period End Date* - The End Date is prepopulated to 6 months after the Start Date, and you can edit it as needed. This is the date the authorization is valid until. 
 - *Practitioner* - Select the practitioner on the authorization, if the billing provider on the claim will be an individual (rather than organization). Otherwise, leave blank.
@@ -29,7 +29,7 @@ This section displays fields related to billing Claims.
 
 **Rendering Provider Assignments**
 
-- When a claim is generated, the rendering provider will be the practitioner on the session, unless that practitioner does not have the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications) for the service code.
+- When a claim is generated, the rendering provider will be the practitioner on the session, unless that practitioner does not have the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualifications) for the service code.
 - If the practitioner on the session does not have the required qualifications for the claim, the rendering provider will be populated with the practitioner on the Rendering Provider Assignment on the authorization (provided that the assignment date range includes the date of the session).
 
 Designate a Rendering Provider for claims based on existing care team assignments, helping your team handle mid-auth restaffing and ensuring rendering providers performed services. Here’s how:
@@ -47,7 +47,7 @@ With this set-up, if there is a mid-auth change to who should be the rendering p
 
 <img src ="/img/RenderingProviderAuth.png" width="800"/>
 
-Once a Rendering Provider Assignment is set up for the authorization, the authorization is validated to ensure the practitioner has all of the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications) for the authorization services on the authorization.
+Once a Rendering Provider Assignment is set up for the authorization, the authorization is validated to ensure the practitioner has all of the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualifications) for the authorization services on the authorization.
 
   <img src ='/img/authValidation.png' width='900'/> 
 

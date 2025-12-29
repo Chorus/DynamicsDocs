@@ -26,7 +26,7 @@ The **Patient & Coverage Details** section of a claim display information from t
 - *Payer*
 
 **Rendering Provider Details**
-- *Rendering Provider* - populated based on the practitioner who performed the session if they have the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications). If they do not, rendering provider is populated based on the [rendering provider assignment](../Patients/Authorization.md/#claim-settings) on the authorization.
+- *Rendering Provider* - populated based on the practitioner who performed the session if they have the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualifications). If they do not, rendering provider is populated based on the [rendering provider assignment](../Patients/Authorization.md/#claim-settings) on the authorization.
 - *NPI* - NPI of the practitioner populated as the Rendering Provider.
 
 :::note
@@ -55,7 +55,7 @@ The **Submission Details** section displays on a claim when the claim has been m
 - *Original Reference Number* 
 - *Delay Reason Code*
 
-The **Claim Lines** subgrid displays the claim items on the claim. [Read more about claim items](../Billing/ClaimItems.md).
+The **Claim Lines** subgrid displays the claim items on the claim. [Learn more about claim items](../Billing/ClaimItems.md).
 
 The **Additional Claim Info** tab contains other information sometimes relevant to claims:
 - *Billing Provider*
@@ -98,13 +98,13 @@ Claims will be set to status Draft if they are missing any information that woul
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Patient: Date of Birth                                | Click on the patient contact on the claim, enter the date of birth, and save.                                                                                                                               |
 | Patient: Address Line 1, City, State, Zip             | **To correct for this claim**: click on the patient contact on the claim, enter the address, and save. **To prevent for future claims**: open the patient's profile in Autism Care and set a home address as 'Billing Address'. [Learn more about locations](../AdminSetup/Location.md). |
-| Diagnosis Code             | **To correct for this claim**: add the appropriat diagnosis code(s) to the claim. **To prevent for future claims**: open the patient's profile in Autism Care and add a condition for the appropriate diagnosis code. [Learn more about conditions](../Patients/Conditions.md). |
+| Diagnosis Code             | **To correct for this claim**: add the appropriate diagnosis code(s) to the claim. **To prevent for future claims**: open the patient's profile in Autism Care and add a condition for the appropriate diagnosis code. [Learn more about conditions](../Patients/Conditions.md). |
 | Policy Holder                                         | Click on the coverage on the claim, and enter a policy holder.                                                                                                                                               |
 | Policy Holder Name, DOB, Address, Gender              | Click on the coverage on the claim. Clear the policy holder and choose the correct one, or click on the policy holder to enter the missing information on their contact profile.                             |
 | Rendering Provider                                    | Enter the rendering provider on the claim. [Learn more about how rendering provider is set on claims](../Patients/Authorization.md/#rendering-provider-assignments).                                                                                      |
 | Rendering Provider: Qualification Identifier (NPI)    | Click on the rendering provider on the claim, enter the NPI Number and save, or clear the rendering provider and choose a different practitioner.                                                           |
 | Rendering Provider: Primary Taxonomy Code             | Click on the rendering provider on the claim, enter the primary taxonomy code and save, or clear the rendering provider and choose a different practitioner.                                                |
-| Rendering Provider lacks required qualifications | Review the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications) for this insurance plan benefit. Clear the rendering provider on the claim and choose a different practitioner who has the required claim qualifications. |
+| Rendering Provider lacks required qualifications | Review the [required claim qualifications](../AdminSetup/InsurancePlan.md/#required-qualifications) for this insurance plan benefit. Clear the rendering provider on the claim and choose a different practitioner who has the required claim qualifications. |
 | Referring Provider                                    | **To correct for this claim**: enter the referring provider on the claim. **To prevent for future claims**: open the patient's profile in Autism Care, Medical Info tab, episode of care, and enter the referring provider. |
 | Referring Provider NPI                                | Click on the referring provider on the claim, enter the NPI Number and save, or clear the referring provider and choose a different practitioner.                                                           |
 | Payer: Trading Partner                               | Click on the payer on the claim, enter the trading partner (or create a new one to enter on the payer), and save.                                                          |

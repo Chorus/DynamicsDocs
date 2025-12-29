@@ -42,7 +42,7 @@ Upon clicking 'Working hours', a form will open on the side of the screen.
 - *Capacity* - This is a toggle. 
     - By default, the toggle is off.
     - Upon switching the toggle to on, the capacity field displays next to the time/date range. Then you can set a capacity limit.
-    - When the Capacity toggle is on, you can add a 'split' to their day. [Read more below](#add-split-to-working-hours).
+    - When the Capacity toggle is on, you can add a 'split' to their day. [Learn more below](#add-split-to-working-hours).
 - *Date* 
     - When the 'All Day' toggle is off, 1 Date field displays.
     - When the 'All Day' toggle is on, 2 Date fields display for you to set a date range.
@@ -55,7 +55,7 @@ Upon clicking 'Working hours', a form will open on the side of the screen.
         - When the 'Custom' option is selected, the 'All Day' and 'Capacity' toggle disappear.
 - *Time*
     - If the 'All Day' toggle is off, the 'Time' field displays. 
-    - Upon clicking on the 3 dots next to the time, you can add a break or a split to the work hours. [Read more below](#add-break-to-working-hours).
+    - Upon clicking on the 3 dots next to the time, you can add a break or a split to the work hours. [Learn more below](#add-break-to-working-hours).
 - *Time Zone*
 
 #### Add Break to Working Hours

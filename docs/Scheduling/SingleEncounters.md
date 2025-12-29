@@ -33,7 +33,7 @@ An authorization service for an authorization covered by [secondary coverage](..
 - *Payroll Modifiers* - add modifiers if a different rate should be applied to this session based on the payroll fee schedule on the practitioner's contract.
 
 **Location Information**
-- *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Read more about locations](../AdminSetup/Location.md).
+- *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Learn more about locations](../AdminSetup/Location.md).
 - *Telecare* - Toggle on when the session was conducted over telecare.
 - *Cancelation Reason* displays on form when Status Reason is Canceled.
 
@@ -130,10 +130,10 @@ An authorization service for an authorization covered by [secondary coverage](..
 - *End Date/Time* - prepopulated with the end date/time of the Encounter you are adding the Encounter Service to.
 - *Mileage* - If your organization reimburses for mileage, enter the miles travelled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
 - *Payroll Modifiers* - add modifiers if a different rate should be applied to this session based on the payroll fee schedule on the practitioner's contract.
-- *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Read more about locations](../AdminSetup/Location.md).
+- *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Learn more about locations](../AdminSetup/Location.md).
 
 **Location Information**
-- *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Read more about locations](../AdminSetup/Location.md).
+- *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Learn more about locations](../AdminSetup/Location.md).
 - *Telecare* - Toggle on when the session was conducted over telecare.
 
 When an encounter service is saved, encounter participants are created automatically.
