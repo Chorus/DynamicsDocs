@@ -46,7 +46,7 @@ To view your organization's templates, or upload new ones:
 
 1. Search "System" and open the contact with the name System.
 2. On the timeline, there are three notes: "InitialAssessment-Report-Template", "Reassessment-Report-Template", and "Graphs-Template". *Do not modify the titles of the notes*.
-    - The inital assessment report template will be available from sessions in Note that are created for [healthcare services](../AdminSetup/HealthcareService.md) with service type 'initial assessment.'
+    - The initial assessment report template will be available from sessions in Note that are created for [healthcare services](../AdminSetup/HealthcareService.md) with service type 'initial assessment.'
     - The reassessment report template will be available from sessions in Note that are created for healthcare services with service type 'follow-up assessment.'
     - The graphs template will be the template onto which graphs are exported when the practitioner exports graphs from a learner in Note.
 
@@ -61,7 +61,7 @@ In order for the Note app to insert care plan data into the assessment report, t
 - {{Skill Acquisition}}
 - {{Behaviors}}
 
-Read about the care plan data that is inserted into the report on our [Note Documentation](https://notedocs.chorus.cloud/docs/Reports/AssessmentReport#assessment-data).
+Learn about the care plan data that is inserted into the report on our [Note Documentation](https://notedocs.chorus.cloud/docs/Reports/AssessmentReport#assessment-data).
 
 Other placeholders you can include in your template to automate patient information into the report:
 - *patientName* inserts the patient's first name.

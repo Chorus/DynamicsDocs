@@ -11,7 +11,20 @@ The following fields and settings on an account should be set:
 - *Name* – The payer’s name
 - *Phone, Fax, Website, Address*
 
-Once the Payer account is saved, you can add [Insurance Plans](../AdminSetup/InsurancePlan.md) and [Required Patient Documents](../AdminSetup/).
+Once the Payer account is saved, you can add [Insurance Plans](../AdminSetup/InsurancePlan.md) and [Required Patient Documents](../AdminSetup/Account.md/#required-patient-documents).
+
+### Required Patient Documents
+
+**Coming Soon!**
+
+Required documents can be set up on a payer to represent which documents that payer requires for you to have on file for the patient (diagnostics, referrals, evaluations, etc.).
+
+- *Payer* - auto-populated to the payer that requires the document.
+- *Document* - select from document definitions. [Learn how to set up patient document definitions](../AdminSetup/Definitions.md/#document-definitions). 
+
+The required documents for a payer will automatically be created on the patient's [opportunity](../CRM/Opportunity.md/#create-a-patient-opportunity) so that you can track when the documents were received, as well as when they expire. Expired and expiring documents will show on the [Patient Documents Dashboard](../Patients/PatientDocuments.md/#patient-documents-dashboard).
+
+[Learn more about Patient Documents](../Patients/PatientDocuments.md).
 
 ### Ghost Payers
 One generic payer account and insurance plan ("ghost insurance") can be created per organization to use in the case where an organization elects to service a patient that has not (yet) been authorized for services by their insurance. 

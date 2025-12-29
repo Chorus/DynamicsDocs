@@ -32,7 +32,7 @@ Recurring Encounter Services can be created by clicking 'New Recurring Encounter
     :::
     - *Mileage* - If your organization reimburses for mileage, enter the miles traveled to this session to create a mileage [payroll item](../Payroll/PayrollItems.md).
     - *Payroll Modifiers* - add modifiers if a different rate should be applied to this session based on the payroll fee schedule on the practitioner's contract.
-    - *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Read more about locations](../AdminSetup/Location.md).
+    - *Location* - filtered to display addresses related to this Patient (if location type is home, must be a service address) and general addresses (e.g. a school where multiple Patients are serviced). The location will be included as the Place of Service on the Claim. [Learn more about locations](../AdminSetup/Location.md).
     - *Telecare* - Toggle on when the session was conducted over telecare.
     <img src ="/img/estemplate.png" width="900" height="200"/>
 

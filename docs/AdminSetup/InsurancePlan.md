@@ -20,7 +20,7 @@ The following fields should be set on an Insurance Plan Benefit:
 - *Insurance Plan* – Select the Insurance Plan that this Insurance Plan Benefit belongs to.
 - *Service* – Select the [Healthcare Service](HealthcareService.md) that best fits this Insurance Plan Benefit. 
 :::note
-The Service here will control the behavior of the session in the Note app, for each encounter scheduled against this Insurance Plan Benefit. [Read more about Healthcare Service Types](HealthcareService.md).
+The Service here will control the behavior of the session in the Note app, for each encounter scheduled against this Insurance Plan Benefit. [Learn more about Healthcare Service Types](HealthcareService.md).
 :::
 - *Procedure Code* – Select the procedure code that this service should be billed with. See [Product Codes](#product-codes).
 - *Requires Assignment* – Set as ‘Yes’ if you want to restrict scheduling encounters against this service code without an assignment, otherwise set as ‘No’.
@@ -38,7 +38,7 @@ This is the list of products – service codes – that you will be providing to
 Additional product codes can be set up for your organization by support. 
 
 
-### Required Qualifications{#RequiredQualifications}
+### Required Qualifications
 In each Insurance Plan Benefit, add Required Qualifications- the credentials that are required by this plan for this service. On each required qualification, you can choose from [qualification definitions](../AdminSetup/QualificationDefinition.md) in your system, and choose whether that qualification is required to perform the session (Encounter), or required in order to be listed on the claim as the rendering provider (Claim). To streamline compliance, add claim required qualifications to every insurance plan benefit, and encounter required qualifications when relevant.
 
 <img src ="/img/ReqType.png" width="800"/>
@@ -72,7 +72,7 @@ Insurance Plan Billing Requirements control how Claims for an insurance plan are
 <details>
 <summary> How to add an Insurance Plan Billing Requirement</summary>
 
-1. In the Setup area, go to Insurance Plans on the site menu and open the insurance plan you'd like to add a requirment to.
+1. In the Setup area, go to Insurance Plans on the site menu and open the insurance plan you'd like to add a requirement to.
 2. Click 'Related' and select Insurance Plan Billing Requirements
 3. Click 'New Insurance Plan Billing Requirement'
 4. Fill out the rule by selecting from existing billing rules.

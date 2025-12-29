@@ -104,4 +104,4 @@ This applies to sessions where:
 - The [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits) is set to Requires Patient Present.
 - The patient's location that the session is scheduled at has location type "home" or "other".
 
-[Learn when a session passes or fails for EVV validations.](../Scheduling/EncounterValdations.md/#visit-not-verified--evv-validations)
+[Learn how a session passes or fails for EVV validations](../Scheduling/EncounterValdations.md/#visit-not-verified--evv-validations).

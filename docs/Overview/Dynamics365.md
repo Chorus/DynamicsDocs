@@ -7,7 +7,7 @@ Our apps are built on Dynamics 365, which enables us to customize a secure and s
 
 Our system is built around the FHIR entities. An entity is a type of record. Example: The Contact Entity is a type of record that stores information related to people (patients, practitioners, etc.)
 
-**Views** can be configured for any entity in the system to display results of all records that meet your filter and sort criteria. [Read more about Views](ViewsCharts). 
+**Views** can be configured for any entity in the system to display results of all records that meet your filter and sort criteria. [Learn more about Views](ViewsCharts). 
 
 
 **Forms** are available for any entity in the system to create records of that entity. 

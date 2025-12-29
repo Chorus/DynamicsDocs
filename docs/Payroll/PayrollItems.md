@@ -19,7 +19,7 @@ Encounter service payroll items are visible on each payroll item form.
 
 ## Payroll Items
 
-The pay amount for the encounter service is calculated based on the duration of the session and the practitioner's contracted hourly pay rate (or the biling amount for that service on the fee schedule on the practitioner's contract). [Read more about Practitioner Contracts](../Payroll/Contracts.md).
+The pay amount for the encounter service is calculated based on the duration of the session and the practitioner's contracted hourly pay rate (or the biling amount for that service on the fee schedule on the practitioner's contract). [Learn more about Practitioner Contracts](../Payroll/Contracts.md).
 
 For group sessions, the largest duration from all encounter service payroll items, and the highest rate from payroll fee schedules are applied to the payroll item.
 

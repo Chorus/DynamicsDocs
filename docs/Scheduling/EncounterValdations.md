@@ -62,7 +62,7 @@ This validation ensures that the authorized units per week/month/authorization p
 The authorized units can be set to hours/units per week/month/authorization period. When set to hours/units per week/month, you can choose whether encounters are validated as authorized, or based on how the authorized units would convert to total units per authorization period.
 
 This allows for tracking utilization on a weekly/monthly basis, while validating encounters based on total units for the entire authorization period.
-Read more about [authorization services](../Patients/AuthorizationServices.md).
+Learn more about [authorization services](../Patients/AuthorizationServices.md).
 :::
 
 <details>
@@ -263,7 +263,7 @@ This validation is optional and only runs when 'Grace Period Days' on the [busin
 </details>
 
 ### Visit Not Verified- EVV Validations
-This validation ensures sessions can only be submitted with a verified start time, end time, and location. [Read more about Electronic Visit Verification](../AdminSetup/EVVSetUp.md).
+This validation ensures sessions can only be submitted with a verified start time, end time, and location. [Learn more about Electronic Visit Verification](../AdminSetup/EVVSetUp.md).
 
 This validation is optional and only runs when 'EVV Required' is added as a billing requirement to the insurance plan, and only applies to the following sessions:
 - The [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits) is set to Requires Patient Present.

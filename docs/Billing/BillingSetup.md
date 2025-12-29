@@ -64,6 +64,6 @@ If your organization uses an external billing system, when you are ready to bill
     - Billing Unit Type (on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits))
     - Procedure Code (on the [insurance plan benefit](../AdminSetup/InsurancePlan.md/#insurance-plan-benefits))
     - Authorization #
-    - Rendering Provider (based on the practitioner who performed the session if they are [qualified](../AdminSetup/InsurancePlan.md/#required-qualificationsrequiredqualifications), or the [rendering provider assignment](../Patients/Authorization.md/#claim-settings) if they are not.)
+    - Rendering Provider (based on the practitioner who performed the session if they are [qualified](../AdminSetup/InsurancePlan.md/#required-qualifications), or the [rendering provider assignment](../Patients/Authorization.md/#claim-settings) if they are not.)
     - Rendering Provider NPI
 4. You will be prompted whether you'd like to mark the exported charge items as 'billed externally' to track that these charge items have been exported for billing through an external system.
