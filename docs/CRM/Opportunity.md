@@ -225,11 +225,11 @@ Go to 'Opportunities' on the site menu in the CRM Area to open the Opportunity M
 - Open Opportunities
     - The Open (Patient/Practitioner) Opportunities view displays patient/practitioner opportunity records that are not completed.
 - My Open Opportunities
-    - Open opportunities where the intake specialist is the user viewing the records.
+    - The My Open Opportunities view displays opportunity records where the intake specialist is the user viewing the records.
 - Completed Opportunities
     - The Completed (Patient/Practitioner) Opportunities view displays patient/practitioner opportunity records that were completed.
 - Lost Opportunities
-    - The Lost (Patient/Practitioner) Opportunities view displays patient/practitioner opportunity records that were completed.
+    - The Lost (Patient/Practitioner) Opportunities view displays patient/practitioner opportunity records that were closed as lost.
 
 Pair a view with a chart to visualize your data and measure improvement over time. Click 'Show Chart' and choose from:
 - Opportunities Per Week, Month, or Quarter

@@ -135,6 +135,26 @@ You can **qualify the lead** into an opportunity at any point once you have gath
 
 <img src ="/img/disqualifylead.png" width="900"/>
 
+## Lead Views
+Go to 'Leads' on the site menu in the CRM Area to open the Lead Main Grid and choose from available views:
+- All Leads
+    - The All (Patient/Practitioner) Leads view displays all the leads in the system. This includes qualified, open, and disqualified leads.
+- Open Leads
+    - The Open (Patient/Practitioner) Leads view displays patient/practitioner lead records that are not qualified/disqualified.
+- My Open Leads
+    - The My Open (Patient/Practitioner) Leads view displays patient/practitioner lead records where the intake specialist is the user viewing the records.
+- Qualified Leads
+    - The Qualified (Patient/Practitioner) Leads view displays patient/practitioner lead records that were qualified to opportunities.
+- Disqualified Leads
+    - The Disqualified (Patient/Practitioner) Leads view displays patient/practitioner lead records that were disqualified.
+
+Pair a view with a chart to visualize your data and measure improvement over time. Click 'Show Chart' and choose from:
+- Leads Per Week, Month, or Quarter
+- Leads By Status Reason or Lead Type
+- Leads By Intake Specialist, Marketer, Marketing Source, Referral Account, or Business Unit
+- Leads By Lead Type per month
+  <img src ='/img/leadchart.png' width='650'/> 
+
 ## Open Leads Intake Stream
 Use the **Open Leads** Intake Stream to efficiently work through open patient or practitioner leads. Filter by any visual on the dashboard to filter your stream and allow you to take next steps on open records easily:
 
