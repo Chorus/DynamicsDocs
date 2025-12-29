@@ -22,6 +22,8 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
     :::
 
     - *Related Contacts* - This is a list of any people that you are in contact with regarding the patient – parent/s, other guardian, school personnel, etc. The Patient's primary contacts display first. [Learn more about how to set up a patient's related contacts](Connection.md).
+    - *Documents* - This section is for uploading and accessing Patient documents, such as assessment reports, diagnoses, or consent forms.
+    - *Patient History* - *Coming Soon!* - This section is for managing a patient’s status. Click 'New Episode of Care History' to choose the status you are updating the patient to, and the date of the change. [Learn more about Episodes of Care](../Patients/EpisodeOfCare.md).
     - *Patient Preferences* - This section lists a patient’s preferences. When using the [Schedule Assistance](Scheduling/ScheduleAssistance.md) tool to find a Practitioner to service a Patient, the filters are populated with the Patient's preferences, and display practitioners who fit these criteria. 
         - Preferred Languages - Select the languages that the patient is comfortable communicating in.
         - Practitioner Gender Preference – if the patient has a preference to the practitioner gender, set it here.
@@ -30,13 +32,13 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
         - Preferred Service Times - Select the general timing the patient requested to receive services at (morning, afternoon, evening, weekend).
         - Preferred Start Date - enter the desired start date for services.
         - Case Management Notes - Enter any current relevant information that can affect the patient's case, so that everyone that opens the patient’s contact record can see it at a glance. It is best to include a date here - either the date this note was entered, or specific dates this note is relevant for.
-    - *Documents* - This section is for uploading and accessing Patient documents, such as assessment reports, diagnoses, or consent forms.
     - *Timeline* - This is a running timeline of any communications or interactions with or regarding the patient. Emails, phone calls, encounters, tasks, and notes related to this patient are all tracked here. You can also initiate emails, phone calls, and tasks directly from the timeline, and the details will be automatically populated. Click the ‘+’ button to add a communication log to the timeline.
 
 - The **Medical Info** tab is for information regarding the patient's diagnosis and treatment. This tab is divided into 2 subgrids:
     - *Conditions* - The left subgrid displays the conditions diagnosed to the patient. The conditions added here are included on the claims created for this patient. [Learn more about conditions](Conditions.md).
         - Current Conditions - This view only displays the current conditions of a patient. Once the Historical As Of date passed, the condition is no longer current. 
         - All Conditions - This view displays all the conditions except where the Verification Status is entered in error.
+    - *Patient Documents* - The middle subgrid displays the documents that the payer requires for you to have on file for the patient (diagnostics, referrals, evaluations, etc.). These are automatically created on the opportunity based on the payer's required documents, and they can be added directly to the profile here as well. [Learn more about patient documents](../Patients/PatientDocuments.md).
     - *Episode of Care* - The right subgrid displays the episodes of care. In order for a patient to be actively serviced, they must have an active episode of care. A patient with an active episode of care cannot be deactivated. [Learn more about Episodes of Care](EpisodeOfCare.md).
 
 - The **Coverage & Auth** tab is for information regarding the patient's insurance coverage and authorizations. This tab is divided into 2 sub grids:
@@ -56,6 +58,10 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
 
 - The **Utilization** tab displays the utilized and remaining hours for the patient's authorization services. [Learn more about Utilization](../Overview/Dashboards.md/#utilization).
 
+- *Coming Soon!* - The **Workflows** tab allows you to easily access the patient's intake workflows:
+    - *Opportunities* - The top subgrid displays the patient's [opportunity(s)](../CRM/Opportunity.md).
+    - *Authorization Workflows* - The bottom subgrid displays the patient's [authorization workflows](../CRM/AuthWF.md).
+
 ## Search Contacts
 
 Select 'Contacts' on the site menu in the Clinical Area to open the Contact Main Grid. The Contact Main Grid has 3 views related to Patient contacts. All views display the First Name, Last Name, Known As, Date of Birth, Address and Status Reason.  
@@ -73,7 +79,7 @@ When discharging a patient, click 'Archive Contact' so that practitioners who ha
 If the patient's sessions have all been billed already, the contact can be deactivated through the deactivate button:
 
 1. Place end dates on any active, current care team assignments for the patient.
-2. Place an end date on the patient's episode of care to mark it as finished, or deactivate the episode of care.
+2. Place an end date on the patient's [episode of care](../Patients/EpisodeOfCare.md/#episode-of-care-history) to mark it as finished, or deactivate the episode of care.
 3. Click deactivate on the patient contact.
 
 ## Export Patient Session Notes
