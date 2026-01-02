@@ -13,6 +13,7 @@ Create a new Coverage by clicking 'New Coverage' on the Coverages subgrid (on a 
 **Coverage Information**
 - *Status Reason* - Select ‘Active’ when creating a patient’s active coverage record. 
 - *Coverage Level* - Set whether this is the patient’s primary or secondary coverage.
+- *Eligibility Status* - Verified / Pending Review. Eligibility Status is set when [eligibility is checked](../Patients/Coverages.md/#check-eligibility) on the coverage, but can be manually set or updated by a user as well.
 - *Member* (Patient) - prepopulated as the patient whose profile you’re on when adding this record.
 - *Member ID* - Enter the Member ID as it appears on the patient’s insurance card. The member ID is transferred to the claim. It also enables you to run eligibility checks from within the Autism Care app and receive accurate responses.
 - *Medicaid ID* - For coverages from Medicaid plans, enter the patient's Medicaid ID assigned by the state. Medicaid ID is used when [sending EVV Transmissions to Sandata](../AdminSetup/EVVSetUp.md/#evv-through-sandata).
@@ -52,10 +53,31 @@ On some authorization services, the service code will be locked for edit, since 
 
 </details>
 
+## Check Eligibility
+**Coming Soon!**
+
+:::note
+Speak to your account manager if you'd like to enable eligibility checks for your organization.
+:::
+
+Click 'Check Eligibility' on a coverage (or select multiple coverages from a [coverage main view](../Patients/Coverages.md/#search-coverages) to check eligibility in bulk) to verify the eligibility status in waystar for this coverage (either active or not active).
+
+
+After eligibility is checked on the coverage, the following fields will be set on the coverage and will show on the [main coverage views](../Patients/Coverages.md/#search-coverages) and the coverage views on the opportunity and the patient profile.
+- *Eligibility Status* - Verified or Pending Review
+- *Eligibility Last Checked* - date of last eligibility check
+
+You can review the Eligibility tab on Pending Review coverages to assess why eligibility could not be verified. If needed, you can manually update the eligibility status to verified once eligibility has been determined, or cancel/create new coverages when relevant.
+
+<img src ="/img/eligibility.png" width="950" height="200"/>
+
 ## Search Coverages
 
-Select 'Coverages' on the site menu in the Clinical Area to open the Coverages Main Grid. The Coverages Main Grid has 3 different views, all sorted by the Policy End Date with the older dates displaying first.
+Select 'Coverages' on the site menu in the Clinical Area to open the Coverages Main Grid. The Coverages Main Grid has 5 different views:
 
 - The **Active Coverages** view displays all the Active Coverage records in the system. 
 - The **Draft Coverages** view displays all the Draft Coverage records in the system. 
 - The **Expiring Coverages** view displays all the Coverage records in the system where the Policy End Date is in the next 30 days.
+- The **Pending Eligibility Check** view displays active, current coverage records where [eligibility](../Patients/Coverages.md/#check-eligibility) was not yet checked.
+- The **Pending Eligibility Review** view displays active, current coverages where the [eligibility status](../Patients/Coverages.md/#check-eligibility) is pending review.
+ 

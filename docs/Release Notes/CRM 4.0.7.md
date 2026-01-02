@@ -1,3 +1,55 @@
+---
+id: CRM 4.0.7
+title: CRM 4.0.7
+---
+# CRM 4.0.7 - Coming January 2026
 
-
+**Coming Soon!**
+- **New in CRM: Leads** are potential patients or practitioners captured from automated sources like website forms or ad responses. Learn how to configure your website form-fills to create leads in Autism Care [here](../CRM/Leads.md).
+    - Learn about the [patient lead workflow](../CRM/Leads.md/#patient-lead-workflow).
+    - Learn about the [practitioner lead workflow](../CRM/Leads.md/#practitioner-lead-workflow).
+- **[Patient Opportunity](../CRM/Opportunity.md/#create-a-patient-opportunity)** Updates:
+    - Create opportunities faster by adding information directly to the opportunity- we’ll save the information into related contacts, locations, coverages, and conditions in the background when you save the opportunity. Fewer clicks, faster intake.
+    - New fields on opportunities to keep your CRM streamlined and organized! Learn about patient opportunities.
+        - Intake Specialist- track which team member is responsible for that patient/practitioner during intake.
+        - New Preferences: you can now set the patient’s and practitioner’s Preferred Start Date and Cultural Background. Daycare has been added as a preferred service location option.
+        - Clear Referral Information: get crystal clear tracking of your strongest referral channels and marketing campaigns.
+            - [Learn how to add referral accounts](../AdminSetup/Account.md/#referral-accounts).
+            - [Learn how to add marketing sources](../AdminSetup/Definitions.md/#marketing-source-definitions).
+        - School: track the patient’s school on their opportunity/contact.
+        - Referring Provider: set the referring provider on the opportunity to save it to the patient’s episode of care.
+    - The [Application Review](../CRM/Opportunity.md/#patient-opportunity-workflow) stage after Application Pending and before Assessment Authorization will help you track which opportunities you have received applications for and are reviewing / requesting revisions for. 
+        - New fields for Application Revisions Requested and Application Approved dates so you can report around every step of the application process!
+    - The patient opportunity timeline is now synced with primary contact email, so users with outlook syncing enabled will see emails to/from the parent tracked to the timeline.
+    - [Check Eligibility](../Patients/Coverages.md/#check-eligibility) from the coverage on the opportunity or from any coverage.
+    - Configure Required Patient Documents on [payers](../AdminSetup/Account.md/#required-patient-documents)- these documents will be created for patients when a coverage for this payer is added on the opportunity, so you can fill out the received date and expiration date if relevant of each document. Learn more about [patient documents](../Patients/PatientDocuments.md).
+- **[Practitioner Opportunity](../CRM/Opportunity.md/#create-a-practitioner-opportunity)** Updates:
+    - Primary Role field makes it easier see the practitioner’s role on views and charts! For new practitioners, when a primary role is filled out, the practitioner role will automatically be created to give them that level of access to Note. Learn how to create custom practitioner role definitions.
+    - We’ve redesigned the [Practitioner Opportunity workflow](../CRM/Opportunity.md/#practitioner-opportunity-workflow) to give you the fields and stages you need to efficiently interview, hire, and onboard practitioners. [Learn more about practitioner opportunities](../CRM/Opportunity.md/#create-a-practitioner-opportunity).
+        - Any opportunities previously at the Application Pending stage will now be at the Prospect stage.
+        - Any opportunities previously at the Role Pending stage will now be at the Offer stage.
+- Other Key Opportunity Updates:
+    - Close opportunities as lost in bulk.
+    - More status reasons to choose from when closing opportunities as lost.
+    - Closing opportunities deactivates the related episode of care, authorization workflow, and contact.
+    - Reopen opportunities that were closed as lost.
+    - Opportunities can be closed from the authorization workflow.
+    - Updating a contact’s name will update the related records (opportunity, authorization workflow, etc.)
+- **Authorization Workflow** Updates:
+    - Assign a BCBA assessment hours directly from the [authorization workflow](../CRM/AuthWF.md)! In the Assessment Assignment field, you can either choose a Care Team Assignment from the assessment/expiring authorization, or create a new one.
+    - Assessment Due Date is set based on the *Assessment Due Weeks* setting on the [business unit](../AdminSetup/BusinessUnit.md).
+    - Episodes of care are moved from Planned to Active (not waitlist) when a patient opportunity/authorization workflow is completed. [Learn more about episode of care history updates](../Patients/EpisodeOfCare.md/#episode-of-care-history).
+- **CRM Streams and Dashboards**
+    - Check out the site menu in the CRM section of Autism Care, where you can use the Lead, Patient Intake, Practitioner Intake, or Auth Workflow Streams to efficiently work through open records! Filter by any visual on the dashboard to filter your stream and allow you to take next steps on open records easily. Learn more below!
+        - [Open Leads Stream](../CRM/Leads.md/#open-leads-intake-stream)
+        - [Patient Intake Stream](../CRM/Opportunity.md/#patient-intake-stream)
+        - [Practitioner Intake Stream](../CRM/Opportunity.md/#practitioner-intake-stream)
+        - [Open Auth Workflows Stream](../CRM/AuthWF.md/#open-auth-workflows-stream)
+    - Dashboard enhancements:
+        - [Opportunity Dashboard](../CRM/Opportunity.md/#opportunity-dashboard) now shows monthly progress based on opportunities opened per month (patient and practitioner).
+        - [Authorization Workflow Dashboard](../CRM/AuthWF.md/#auth-workflow-dashboard) now shows separate views for each step of the workflow.
+        - New! [Intake Efficiency Dashboard](../CRM/IntakeEfficiency.md) reports the average time spent in each stage of an opportunity / authorization workflow!
+- **Managing Patient Statuses in Autism Care**
+    - You can now manage a patient’s status directly from the Patient History section on the main tab of the [patient’s profile](../Patients/Overview.md)! Click New Episode of Care History to choose the status you are updating the patient to, and the date of the change.
+    - Trying to see all patient statuses in one place, regardless of whether they are in intake, actively being serviced, or awaiting reauthorization? You can now see the opportunity status and authorization workflow status on any patient view to get the full picture of where the patient is up to in any open workflow.
 

@@ -41,7 +41,7 @@ Click '+ Patient Opportunity' on the Opportunities main view in the CRM to creat
         - Diagnosed By - select the contact that diagnosed the patient, or create a new contact (contact type can be set to 'External Contact').
         - Onset - enter the date this condition began or was diagnosed on.
      
-    - *Coverages* - When the opportunity is saved, a coverage will be created based on the information filled out in these fields. [Learn more about coverages](../Patients/Coverages.md).
+    - *Coverages* - When the opportunity is saved, a [coverage](../Patients/Coverages.md) will be created based on the information filled out in these fields. You will then be able to [check eligibility](../Patients/Coverages.md/#check-eligibility) from the coverage subgrid on the opportunity.
         - Plan - Select the [insurance plan](../AdminSetup/InsurancePlan.md) the patient is covered under.
         - Member ID - Enter the Member ID as it appears on the patient’s insurance card. The member ID is transferred to the claim. It also enables you to run eligibility checks from within the Autism Care app and receive accurate responses.
         - Start Date - Enter the start date for this coverage.
@@ -94,6 +94,10 @@ Once an application has been sent to the parent to complete, enter the Applicati
 Once the application has been received, enter the Application Received Date and click 'Next Stage' to move the opportunity to the **Application Review** stage.
 
 Once the application has been reviewed and approved, click 'Next Stage*. The remaining stages of the opportunity take place on the authorization workflow. [Learn more about authorization workflows](../CRM/AuthWF.md).
+
+Patient Opportunities are closed as 'Won' when the authorization is populated on the [authorization workflow](../CRM/AuthWF.md) and the workflow is marked as Finished.
+
+  <img src ='/img/wonopp.png' width='600'/> 
 
 
 ### Patient Intake Stream
@@ -206,16 +210,23 @@ You can also jump to your open tasks or phone calls from the tiles on the right 
 The filter at the top right of the report can be ignored- at any time, all open patient opportunities will show regardless of when they were created.
 :::
 
-## Close Opportunities
+## Close Opportunities as Lost
 
-- **Patient Opportunities** are closed as 'Won' when the authorization is populated on the [authorization workflow](../CRM/AuthWF.md) and the workflow is marked as Finished.
+Click 'Close as lost' to close patient/practitioner opportunities as lost and choose the reason. A description of why the opportunity was lost can also be recorded. 
 
-  <img src ='/img/wonopp.png' width='600'/> 
+- When closing patient opportunities as lost, the opportunity's contact, episode of care, and authorization workflow are deactivated.
+- When closing practitioner opportunities as lost, the opportunity's contact is deactivated.
 
-- **Practitioner Opportunities** are closed as 'Won' when the practitioner is given a qualification and the workflow is marked as Finished.
-- Click 'Close as lost' to close patient/practitioner opportunities as lost. A description of why the opportunity was lost can be recorded.
+(Patient opportunities can be closed as lost while within the authorization workflow stages.)
 
-  <img src ='/img/closeopp.png' width='600'/> 
+<img src ='/img/closeopp.png' width='950'/> 
+
+## Reopen Lost Opportunities
+A lost opportunity can be reopened by clicking 'Reopen Opportunity'. The opportunity will be reactivated at the stage it was at prior to being closed as lost.
+
+The opportunity's contact, episode of care, and authorization workflow will also be reactivated.
+
+<img src ='/img/reopenopp.png' width='950'/> 
 
 ## Opportunity Views
 
