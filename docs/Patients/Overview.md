@@ -23,7 +23,7 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
 
     - *Related Contacts* - This is a list of any people that you are in contact with regarding the patient – parent/s, other guardian, school personnel, etc. The Patient's primary contacts display first. [Learn more about how to set up a patient's related contacts](Connection.md).
     - *Documents* - This section is for uploading and accessing Patient documents, such as assessment reports, diagnoses, or consent forms.
-    - *Patient History* - *Coming Soon!* - This section is for managing a patient’s status. Click 'New Episode of Care History' to choose the status you are updating the patient to, and the date of the change. [Learn more about Episodes of Care](../Patients/EpisodeOfCare.md).
+    - *Patient History* - This section is for managing a patient’s status. Click 'New Episode of Care History' to choose the status you are updating the patient to, and the date of the change. [Learn more about Episodes of Care](../Patients/EpisodeOfCare.md).
     - *Patient Preferences* - This section lists a patient’s preferences. When using the [Schedule Assistance](Scheduling/ScheduleAssistance.md) tool to find a Practitioner to service a Patient, the filters are populated with the Patient's preferences, and display practitioners who fit these criteria. 
         - Preferred Languages - Select the languages that the patient is comfortable communicating in.
         - Practitioner Gender Preference – if the patient has a preference to the practitioner gender, set it here.
@@ -58,7 +58,7 @@ The Contact Main Form for a Patient is divided into multiple tabs for an organiz
 
 - The **Utilization** tab displays the utilized and remaining hours for the patient's authorization services. [Learn more about Utilization](../Overview/Dashboards.md/#utilization).
 
-- *Coming Soon!* - The **Workflows** tab allows you to easily access the patient's intake workflows:
+- The **Workflows** tab allows you to easily access the patient's intake workflows:
     - *Opportunities* - The top subgrid displays the patient's [opportunity(s)](../CRM/Opportunity.md).
     - *Authorization Workflows* - The bottom subgrid displays the patient's [authorization workflows](../CRM/AuthWF.md).
 

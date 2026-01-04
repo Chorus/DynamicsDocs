@@ -52,7 +52,7 @@ When an assessment authorization is received, click 'Next Stage' to move the aut
 <summary>Assessment</summary>
 
 The **Assessment** stage is for assigning a BCBA to write an assessment report, and tracking it is received in a timely fashion.
-- *Coming Soon!* Assessment Assignment - choose an assessment care team assignment from the assessment/expiring authorization, or create a new one by clicking '+ New'.  
+- Assessment Assignment - choose an assessment care team assignment from the assessment/expiring authorization, or create a new one by clicking '+ New'.  
 - Assessment BCBA - the Assessment BCBA will be populated based on the Assessment Assignment. 
 - Assessment Assigned Date - enter the date the BCBA was assigned to write the report. This will auto-populate with today's date when the assessment BCBA is populated.
 - Assessment Due Date - enter the due date the BCBA was given for submitting the completed report. This will auto-populate with today's date plus the number of weeks populated on the [business unit](../AdminSetup/BusinessUnit.md) of the authorization.
@@ -109,7 +109,6 @@ The email template can be customized to your organization's needs. Speak to your
 - The **Reassessment Email** includes relevant patient information to help the BCBA complete a reassessment report. The details of the previous authorization services are listed in the email. It also specifies the due date of the report.
 
 ## Auth Workflow Dashboard
-**Coming Soon!**
 Go to 'Dashboards' on the site menu and select the Authorization Workflow Dashboard to review:
  - Assessments to assign (no assessment BCBA populated on auth workflow yet)
  - Assessments in progress (auth workflows at the assessment stage, with the assigned date populated and received date blank)
@@ -123,7 +122,6 @@ Go to 'Dashboards' on the site menu and select the Authorization Workflow Dashbo
 
 
 ## Open Auth Workflows Stream
-**Coming Soon!**
 
 Use the **Open Auth Workflows** Stream to efficiently work through open authorization workflows opportunities. Filter by any visual(s) on the dashboard to filter your stream and allow you to take next steps on open records easily:
 

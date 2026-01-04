@@ -102,8 +102,6 @@ Patient Opportunities are closed as 'Won' when the authorization is populated on
 
 ### Patient Intake Stream
 
-**Coming Soon!**
-
 Use the **Patient Intake** Stream to efficiently work through open patient opportunities. Filter by any visual on the dashboard to filter your stream and allow you to take next steps on open records easily:
 
 - Intake specialist
@@ -191,7 +189,6 @@ Once the practitioner has accepted the position, click 'Next Stage' to move the 
 When a practitioner has been onboarded and trained and is ready to begin services, click 'Finish' on the onboarding stage to complete the opportunity.
 
 ### Practitioner Intake Stream
-**Coming Soon!**
 
 Use the **Practitioner Intake** Stream to efficiently work through open practitioner opportunities. Filter by any visual on the dashboard to filter your stream and allow you to take next steps on open records easily:
 
@@ -253,7 +250,6 @@ Pair a view with a chart to visualize your data and measure improvement over tim
 
 ## Opportunity Dashboard
 
-**Coming Soon!** 
 Go to 'Dashboards' on the site menu and select the Opportunity Dashboard to review:
  - How many patient vs practitioner opportunities were created each month (for open opportunities, lost opportunities, or all opportunities)
  - How many opportunities that were created each month were won vs lost vs still open (for patient or practitioner opportunities, or all opportunities)

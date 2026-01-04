@@ -15,7 +15,6 @@ Once the Payer account is saved, you can add [Insurance Plans](../AdminSetup/Ins
 
 ### Required Patient Documents
 
-**Coming Soon!**
 
 Required documents can be set up on a payer to represent which documents that payer requires for you to have on file for the patient (diagnostics, referrals, evaluations, etc.).
 
@@ -36,7 +35,6 @@ For example, when a BCBA was late in submitting a reassessment, causing a delay 
 Other scenarios can include a patient that has a lapse in coverage while switching from one payer and plan to another. 
 
 ## Referral Accounts
-**Coming Soon!**
 A referral account is an organization that refers patients or practitioners to your organization. You'll be able to associate opportunities to referral accounts to help you measure growth based on referral partnerships.
 
 - *Account Type* – Referral

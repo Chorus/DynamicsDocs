@@ -2,7 +2,6 @@
 id: Leads
 title: Leads
 ---
-**Coming Soon!**
 
 Leads are potential patients or practitioners captured from automated sources like website forms or ad responses. They help manage large volumes of inquiries before qualification. Unlike opportunities, which track confirmed cases moving toward onboarding, Leads are for early-stage interest.
 
