@@ -4,7 +4,6 @@ title: Intake Efficiency
 ---
 
 # Intake Efficiency Dashboard
-**Coming Soon!**
 Go to 'Dashboards' on the site menu and select the Intake Efficiency Dashboard to review:
  - Average Days Per Stage of Workflow for:
     - Practitioner Leads

@@ -4,7 +4,6 @@ title: CRM 4.0.7
 ---
 # CRM 4.0.7 - Coming January 2026
 
-**Coming Soon!**
 - **New in CRM: Leads** are potential patients or practitioners captured from automated sources like website forms or ad responses. Learn how to configure your website form-fills to create leads in Autism Care [here](../CRM/Leads.md).
     - Learn about the [patient lead workflow](../CRM/Leads.md/#patient-lead-workflow).
     - Learn about the [practitioner lead workflow](../CRM/Leads.md/#practitioner-lead-workflow).

@@ -36,10 +36,10 @@ Each Episode of Care History record updates the Status Reason of the Episode of 
 
 **Automatic History Updates**
 - Episodes of Care created from [opportunities](../CRM/Opportunity.md) are created at status Planned.
-- *Coming Soon!* - When the patient's opportunity is completed, the episode of care is updated to Active.
+- When the patient's opportunity is completed, the episode of care is updated to Active.
 
 **Manual History Updates**
-- *Coming Soon!* - To update the status of an Episode of Care further (e.g., to place on hold or on wait list), open the Patient record, click 'New Episode of Care History' on the Patient History section, and select the status the episode of care should be updated to and the start date on the new status. The previous history record's end date will be automatically populated as one day before the new status began.
+- To update the status of an Episode of Care further (e.g., to place on hold or on wait list), open the Patient record, click 'New Episode of Care History' on the Patient History section, and select the status the episode of care should be updated to and the start date on the new status. The previous history record's end date will be automatically populated as one day before the new status began.
 
 <img src ="/img/EOChistoryQC.png" width="600" height="200"/>
 

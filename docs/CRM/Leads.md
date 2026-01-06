@@ -2,7 +2,6 @@
 id: Leads
 title: Leads
 ---
-**Coming Soon!**
 
 Leads are potential patients or practitioners captured from automated sources like website forms or ad responses. They help manage large volumes of inquiries before qualification. Unlike opportunities, which track confirmed cases moving toward onboarding, Leads are for early-stage interest.
 
@@ -11,19 +10,68 @@ Leads are potential patients or practitioners captured from automated sources li
 <details>
 <summary>How to set your forms to create leads in CRM:</summary>
 
-1. Reach out to your account manager for your Chorus API key.
-2. Set your form to send a GET request to the following endpoint when the form is submitted:
+**Overview**
 
-        Api.chorus.cloud/lead/create?subscriptionkey ={APIKEY}&leadtype={LeadType}
-        &firstName={FirstName}&lastName={LastName
-        &primaryContactFirstName={PrimaryContactFirstName}&primaryContactLastName={PrimaryContactLastName}
-        &email={EmailAddress}&phone={PhoneNumber}&addressState={State}&address1_postalcode={ZipCode}
-        &message={Description/Message}&hasDiagnosis={HasAutismDiagnosis}&marketingSourceId={MarketingSourceId}
-        
- - Replace {APIKEY} with the API key provided by your organization.
- - Replace {LeadType} with Patient or Practitioner depending on what type of lead should be created. 
- - Replace {MarketingSourceId} with the ID of the [marketing source](../AdminSetup/Definitions.md/#marketing-source-definitions) you'd like listed on the lead/opportunity (the ID is found in the URL).
-    
+The Create Lead API allows you to create Patient or Practitioner leads in the Autism Care CRM when a parent or practitioner submits a form on your website/ad/etc.
+
+**Authentication**
+
+This API requires an API key.
+To obtain your API key, please contact your Chorus account manager.
+The API key must be included as a query parameter in every request.
+
+**Endpoint**
+
+- Method: GET
+- URL: https://api.chorus.cloud/lead/create
+
+**Request Parameters**
+
+All parameters are passed as query parameters in the request URL.
+
+| **Name**| **Type**  | **Description** |
+|----------------|---------------------------|---------------------------|
+| subscriptionkey	| string	| API key provided by Chorus |
+| leadtype |	string	| Type of lead to create. Must be "Patient" or "Practitioner" |
+|firstName |	string	| First name of the patient or practitioner|
+|lastName |	string|	Last name of the patient or practitioner|
+|email	|string|	Primary contact email address |
+| primaryContactFirstName	| string	|Primary contact first name|
+|primaryContactLastName	|string|	Primary contact last name|
+|phone	|string	|Primary contact phone number|
+|state|	string	|State|
+|address1_postalcode|	string	|ZIP / Postal code|
+|message	|string |	Description or message submitted from the form |
+|hasDiagnosis	|boolean	|Indicates whether the patient already has an Autism diagnosis|
+|marketingSourceId	|string	| ID of the [marketing source](../AdminSetup/Definitions.md/#marketing-source-definitions) you'd like listed on the lead (the ID is found in the URL of the marketing source definition)| 
+
+**Example Request**
+
+        https://api.chorus.cloud/lead/create?subscriptionkey=YOUR_API_KEY
+        &leadtype=Patient
+        &firstName=Jane&lastName=Doe
+        &primaryContactFirstName=John&primaryContactLastName=Doe
+        &email=jane.doe@example.com&phone=5551234567
+        &state=CA&address1_postalcode=90210
+        &message=Looking%20for%20ABA%20therapy
+        &hasDiagnosis=true
+        &marketingSourceId=a6ff93a4-f7fe-ed11-8f6e-00224805c0bb
+
+**Form Integration Example**
+
+You can configure your website form to submit directly to the API endpoint.
+
+    <form action="https://api.chorus.cloud/lead/create" method="get">
+        <input type="hidden" name="subscriptionkey" value="YOUR_API_KEY" />
+        <input type="hidden" name="leadtype" value="Patient" />
+
+        <input name="firstName" placeholder="First Name" />
+        <input name="lastName" placeholder="Last Name" />
+        <input name="email" placeholder="Email" />
+        <input name="phone" placeholder="Phone" />
+
+        <button type="submit">Submit</button>
+        </form>
 
 </details>
 

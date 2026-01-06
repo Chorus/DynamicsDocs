@@ -54,7 +54,6 @@ On some authorization services, the service code will be locked for edit, since 
 </details>
 
 ## Check Eligibility
-**Coming Soon!**
 
 :::note
 Speak to your account manager if you'd like to enable eligibility checks for your organization.
