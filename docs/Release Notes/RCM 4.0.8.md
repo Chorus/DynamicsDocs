@@ -2,9 +2,7 @@
 id: RCM 4.0.8
 title: Claims/RCM 4.0.8
 ---
-# Claims/RCM 4.0.8 - January 2026
-
-**Coming Soon!**
+# Claims/RCM 4.0.8 - February 2026
 
 New in Billing:
 - **Automatic Duplicate Prevention**: [approve charge items](../Billing/BillingSetup.md/#approve-charge-items) efficiently and prevent billing charges with open / already billed duplicates! Skip the duplicate report and set thousands of charge items to ready to bill at once while automatically avoiding charges with “duplicates” that are not submitted yet, or were already billed.

@@ -18,10 +18,6 @@ A [charge item](../Billing/ChargePeriods.md) is automatically created when an en
 - When the session is started in the Note app, the charge item is set to status 'Awaiting Submission.'
 - When the session is submitted in the Note app, the charge item is set to status 'New.'
 
-Manually update the status of the New charge item to 'Ready to Bill' after reviewing it, individually or through bulk-editing charge items.
-
-**Coming Soon! Easily approve charge items:**
-
 On any charge item view, on a [charge period](../Billing/ChargePeriods.md/#charge-periods), or on an individual charge item, click 'Approve Charges'.
 - When on a charge item view, select the date range and business unit(s) of charges to mark as ready to bill.
 - Keep 'Don't approve duplicates' checked off if you would only like to approve charge items that do not have duplicates (i.e., for the same patient, date of service, service code, and place of service if relevant) already billed / not submitted yet. 
