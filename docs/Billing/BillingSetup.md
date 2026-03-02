@@ -12,7 +12,7 @@ The Billing workflow happens primarily in the **Claims** app. There are 2 parts 
 2. [Generate Claims](../Billing/BillingSetup.md/#generate-claims)- this will create claims for all Ready to Bill charge items. Claims are automatically submitted the clearinghouse every hour, unless they fail any [claim validations](../Billing/Claims.md/#claim-validations).
 
 
-## Approve Charge Items
+## Approve Charge Items- Coming soon!
 
 A [charge item](../Billing/ChargePeriods.md) is automatically created when an encounter service is created. The status of the charge item is set to 'Scheduled.'
 - When the session is started in the Note app, the charge item is set to status 'Awaiting Submission.'
