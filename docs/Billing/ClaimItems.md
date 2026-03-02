@@ -24,6 +24,8 @@ Claim lines with the same Patient, Auth Number, Rendering Provider, Place of Ser
 - *Quantity* - the quantity of units billed for that service.
 - *Billed Unit Price*
 - *Billed* - the dollar amount billed.
+- *Expected Amount* - the dollar amount expected.
+- *Fee Schedule Item* - the [fee schedule item](../AdminSetup/FeeSchedules.md/#fee-schedule-items) controlling the billed and expected amounts for this claim line.
 
 **Diagnosis Pointers**
 - Condition code for this patient.

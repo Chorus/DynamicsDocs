@@ -23,10 +23,10 @@ The **Address Information** section contains the basic information to differenti
 
     | **Location Type** | **Place of Service Code**                                                                 |
     |-------------------|------------------------------------------------------------------------------------------|
-    | Home              | 12 (or 10 if the session was scheduled as telehealth at a home location)                     |
+    | Home              | 12 (or 10 if the session was scheduled as telehealth at a home location, for some [insurance plans](../AdminSetup/InsurancePlan.md/#insurance-plan-billing-requirements))                     |
     | Office            | 11                                                                                       |
     | School            | 03                                                                                       |
-    | Other             | 99, or (or 02 if the session was scheduled as telehealth at a home location)                                                                                 |
+    | Other             | 99, or (or 02 if the session was scheduled as telehealth at a home location, for some [insurance plans](../AdminSetup/InsurancePlan.md/#insurance-plan-billing-requirements))                                                                                 |
 
     - *Address Type* - If the Location Type is 'Home,' the address type must be specified as 'Billing Address', 'Service Address' or both. A Patient can only have 1 address as their 'Billing Address' at any time.
 - *Patient* - This field defines the patient this address is related to. This address will display as an encounter location option when an encounter is scheduled for this patient. If this Location is a general location (e.g., a school), where numerous patients are serviced, this field would be left empty. 
