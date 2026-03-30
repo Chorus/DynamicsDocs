@@ -7,10 +7,6 @@ title: Claims/RCM 4.0.8
 New in Billing:
 - **Automatic Duplicate Prevention**: [approve charge items](../Billing/BillingSetup.md/#approve-charge-items) efficiently and prevent billing charges with open / already billed duplicates! Skip the duplicate report and set thousands of charge items to ready to bill at once while automatically avoiding charges with “duplicates” that are not submitted yet, or were already billed.
 - Place of Service can be updated on [charge items](../Billing/ChargePeriods.md/#charge-items) and is included in charge item views.
-- **New [Modifier Automations](../AdminSetup/InsurancePlan.md/#insurance-plan-billing-requirements)**
-    - Billing Requirement Modifier XE
-    - Billing Requirement Modifier 76
-    - Billing Requirement Modifier 77, Don't split by Rendering Provider
 
 New in RCM:
 - Fee schedule item can be edited on draft [claim lines](../Billing/ClaimItems.md).

@@ -104,5 +104,9 @@ module.exports = {
   'Release Notes/AC 4.0.0',
  ],
 
-  },
+  'Get Help Now':[
+      'Overview/SelfHelp'
+ ],
+
+}
 };
