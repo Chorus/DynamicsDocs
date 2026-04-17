@@ -7,6 +7,10 @@ title: Claims/RCM 4.0.8
 New in Billing:
 - **Automatic Duplicate Prevention**: [approve charge items](../Billing/BillingSetup.md/#approve-charge-items) efficiently and prevent billing charges with open / already billed duplicates! Skip the duplicate report and set thousands of charge items to ready to bill at once while automatically avoiding charges with “duplicates” that are not submitted yet, or were already billed.
 - Place of Service can be updated on [charge items](../Billing/ChargePeriods.md/#charge-items) and is included in charge item views.
+- **Generate claims as Draft**: Claims can now be [generated in a Draft status](../Billing/BillingSetup.md/#generate-claims), allowing teams to review claims before they are submitted to the clearinghouse.
+    - Draft Claims – Failed Validation view: A new view makes it easy to identify draft claims that failed validation and require attention.
+- **Save and Submit in bulk**: Move draft claims that have passed claim validations to Ready to Submit in bulk to save you time and allow you to review claims in batches.
+
 
 New in RCM:
 - Fee schedule item can be edited on draft [claim lines](../Billing/ClaimItems.md).

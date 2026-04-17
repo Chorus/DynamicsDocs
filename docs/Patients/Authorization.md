@@ -52,7 +52,7 @@ Once a Rendering Provider Assignment is set up for the authorization, the author
   <img src ='/img/authValidation.png' width='900'/> 
 
 :::note
-[Session Note exports](../Patients/Overview.md/#export-patient-session-notes) will print the Supervising BCBA for the case based on the rendering provider on the Claim for that session.
+[Session Note exports](../Billing/Export%20Session%20Notes.md) will print the Supervising BCBA for the case based on the rendering provider on the Claim for that session.
 If there is not yet a claim for the session, Supervising BCBA will be the practitioner on the rendering provider assignment that covers the date of the session.
 :::
 

@@ -65,6 +65,7 @@ module.exports = {
   'Billing/ClaimSettings',
   'Billing/ClaimItems',
   'Billing/Claims',
+  'Billing/SessionNotes',
  ],
  'RCM':[
   'RCM/RCMworkflow',

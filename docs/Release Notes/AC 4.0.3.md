@@ -25,7 +25,7 @@ This makes viewing and editing recurring encounters more intuitive and organized
     - Filter by Case Manager to see your patients.
     - See services with 0% utilization included in your results for quick action
 
-- [Session Note Export](../Patients/Overview.md/#export-patient-session-notes) Enhancements:
+- [Session Note Export](../Billing/Export%20Session%20Notes.md) Enhancements:
     - Want to mention a practitioner’s qualifications next to their signature on a session note? Simply turn on “Show on Session Notes” on the qualification definition, and that qualification will be listed next to any Practitioner who has it.
     - Units Rendered are based on the session’s charge item (rather than claim) for increased accuracy.
 

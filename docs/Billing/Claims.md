@@ -72,40 +72,11 @@ The **Write-Offs** tab shows [write-offs](../RCM/RCMworkflow.md/#write-offs) and
 The **Cases** tab shows [cases](../RCM/Cases.md) that were opened against this claim.  Switch between cases that were opened for this submission of the claim, or all submissions of this claim.
 
 
-## Claim Generation
-
-Claims are generated from billable charge items and grouped into claims based on billing rules and configuration. 
-
-When generating claims, billers can control whether claims are created in **Draft** or **Ready to Submit** status.
-
-**Generate Claims Modal - Coming soon!** 
-
-When a biller clicks **Generate Claims**, a modal displays prompting them to select one or more **Business Units**. 
-
-![Generateclaimsnotif](/img/Generateclaims.png)
-
-Below the Business Unit dropdown, the following option is available: 
-
-**Generate as Draft** (checkbox, default unchecked) 
-
-When checked, all generated claims will be created in **Draft** status for review. 
-Leaving this unchecked will generate claims as **Ready to Submit** if they pass all validations.
-
-**Generate as Draft Behavior - Coming soon!**
-
-- When **Generate as Draft** is selected: 
-    - All ready-to-bill charge items in the selected Business Unit(s) are generated as **Draft claims**
-    - Claims are created in Draft status **regardless of validation results**
-- When **Generate as Draft Claims** is not selected: 
-    - Claims that pass all validations are created as **Ready to Submit**
-    - Claims that fail validation are created as **Draft**
-
-
 ### Claim Statuses
 
 - **Draft** - Claim has not yet been submitted and fields can be edited. Claims may be created in Draft status for one of the following reasons:
     - Required information is missing and validation failed 
-    - The claim was intentionally generated as Draft using the **Generate as Draft Claims** option (Coming soon!) 
+    - The claim was intentionally [generated](../Billing/BillingSetup.md/#generate-claims) as Draft using the **Generate as Draft** option
 - **Ready to Submit** - Claim has been saved and submitted and can no longer be edited.
 - **Submitted Submission** - Claim has been submitted to the clearinghouse.
 - **Historical Submission** - Claim has since been modified and resubmitted, and this is a historical record of a previous submission.
@@ -113,7 +84,7 @@ Leaving this unchecked will generate claims as **Ready to Submit** if they pass 
 There are many views configured for easy access to viewing claims based on their statuses:
 1. All Claims
 2. Draft Claims
-3. Draft Claims – Failed Validation (Coming soon!)
+3. Draft Claims – Failed Validation 
 4. Historical Claims
 5. Ready to Submit Claims
 6. Submitted Claims
@@ -150,14 +121,7 @@ Correct the missing information, then click 'Save & Submit' to rerun validation.
 
 ## Submit Claims
 
-To submit claims, click 'Save & Submit' on any draft claim. The claim status will become 'Ready to Submit.' All 'Ready to Submit' claims are submitted to the clearinghouse on an hourly basis.
+To submit claims, open a draft claim or select multiple draft claims on a view and click 'Save & Submit'. The claims will be revalidated and the status will become 'Ready to Submit' if they pass all [claim validations](../Billing/Claims.md/#claim-validations). All 'Ready to Submit' claims are submitted to the clearinghouse on an hourly basis.
 
-
-**Bulk Save & Submit - Coming soon!** 
-
- Billers can select multiple Draft claims and use Save & Submit to: 
-- Rerun validations in bulk 
-- Move eligible claims to Ready to Submit status 
-
-Claims that still fail validation will remain in Draft status with updated validation messages. To modify and resubmit a claim, see [Correcting Claims](../RCM/RCMworkflow.md/#correcting-claims)
+Claims that still fail validation will remain in Draft status with updated validation messages.
 
