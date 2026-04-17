@@ -27,7 +27,7 @@ title: Autism Care 4.0.2
     - If some of the selected sessions were already submitted, edits will only apply if the service code is the same as the original submission.
     - If a session has already been billed, the charge item status will be set to Awaiting Resubmission, ensuring billers can review any changes in authorization numbers or coverage.
 
-- [Session Note Export](../Patients/Overview.md/#export-patient-session-notes) Updates:
+- [Session Note Export](../Billing/Export%20Session%20Notes.md) Updates:
     - Zeros on behavior objectives are now included.
     - The “Other Individuals Present” section will no longer print when left blank.
 

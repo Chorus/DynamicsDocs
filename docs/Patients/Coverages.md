@@ -40,7 +40,7 @@ Creating an authorization against a coverage will allow you to create an authori
 
 2. Open each authorization service, and change the service code to the corresponding service code on the coverage's new plan (the service code field will only show insurance plan benefits from the insurance plan on the coverage). 
 
-On some authorization services, the service code will be locked for edit, since some sessions were already billed. When that is the case:
+On some authorization services, the service code will be locked for edit, since some sessions were already started (past the "scheduled" status). When that is the case:
 
 **Create a new authorization service, move encounter services and care team assignments to the new one, and deactivate the old one:**
 
