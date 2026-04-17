@@ -1,4 +1,3 @@
-
 ---
 id: SessionNotes
 title: Session Notes
@@ -48,9 +47,9 @@ A session note export can only be created for one patient's sessions at a time. 
 
     | Behavior Category | Behavior | Behavior Objective | Count |
     |-|-|-|-|
-- Rendering Provider Name, and their [Qualifications that are configured]](../AdminSetup/QualificationDefinition.md) to show on session notes.
+- Rendering Provider Name, and their [Qualifications that are configured](../AdminSetup/QualificationDefinition.md) to show on session notes.
 - Electronically Signed By / Date Signed (for submitted sessions)
-- Footer ()
+
 
 ### 97153 Narrative
 The following narrative template shows on any services where the [healthcare service type](../AdminSetup/HealthcareService.md/#healthcare-services) is Direct Treatment or Direct Treatment by BCBA.
@@ -65,7 +64,7 @@ The following narrative template shows on any services where the [healthcare ser
 
 4. A **count of problem behaviors** that posed as barriers to treatment during the session.
  
-5. Text added within 2 **Free‑text fields**
+5. Text added within 2 **free‑text fields**
     - **Setting Events** - disruptions or barriers that affected the learner's engagement in the session.
     - **Preferences and Reinforcers** that were effective in keeping the learner engaged.
 
@@ -106,11 +105,13 @@ The following narrative template shows on any services where the [healthcare ser
 
 3. **Barriers to treatment** that were identified if the user selects to add barriers.
 
- <img src ='/img/97155.png' width='900'/> 
+ <img src ='/img/97155.png' width='300'/> 
 
 The auto-generated narrative may be modified by the practitioner to best summarize the session.  
 
-**Best Practice**: Users should add detail including the specific targets that were addressed in the free-text boxes that open within each activity
+:::note
+**Best Practice**: Users should add detail including the specific targets that were addressed in the free-text boxes that open within each activity.
+:::
 
 ### 97156 Narrative
 This narrative template shows on any services where the [healthcare service type](../AdminSetup/HealthcareService.md/#healthcare-services) is Family Training.
@@ -129,11 +130,13 @@ This narrative template shows on any services where the [healthcare service type
     - *Reviewed targets in patient's care plan* - user can add custom text.
     - *Reviewed behavior intervention plans* - user can add custom text.
 
-3. **Barriers to treatment** that were identified if the BCBA selects to add barriers.
+3. **Barriers to treatment** that were identified if the user selects to add barriers.
 
-**Best Practice**: Users should add detail including the specific targets that were addressed in the free-text boxes that open within each activity
+:::note
+**Best Practice**: Users should add detail including the specific targets that were addressed in the free-text boxes that open within each activity.
+:::
 
 
- <img src ='/img/97156.png' width='900'/> 
+ <img src ='/img/97156.png' width='300'/> 
 
  The auto-generated narrative may be modified by the practitioner to best summarize the session.  
