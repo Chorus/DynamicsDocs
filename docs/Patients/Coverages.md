@@ -70,6 +70,11 @@ You can review the Eligibility tab on Pending Review coverages to assess why eli
 
 <img src ="/img/eligibility.png" width="950" height="200"/>
 
+
+
+[Learn more about our eligibility api.](../Patients/Eligibilityapi.md)
+
+
 ## Search Coverages
 
 Select 'Coverages' on the site menu in the Clinical Area to open the Coverages Main Grid. The Coverages Main Grid has 5 different views:
