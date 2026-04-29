@@ -53,7 +53,7 @@ module.exports = {
   'Scheduling/EncounterValidations',
   'Scheduling/DeactivateEncounters',
   'Scheduling/UnsubmitEncounters',
-  'Scheduling/Utilization',
+  //'Scheduling/Utilization',
  ],
  'Payroll':[
   'Payroll/Contracts',

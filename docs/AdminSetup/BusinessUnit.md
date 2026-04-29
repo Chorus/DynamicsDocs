@@ -51,3 +51,4 @@ In the Users subgrid, you can view the members of your organization who have acc
 **Billing Specifications**
 
 Fill in your organization's billing details properly to ensure Claims are submitted properly. Billing details include NPI, Tax ID, and full address.
+
