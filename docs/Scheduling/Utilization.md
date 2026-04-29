@@ -1,9 +1,13 @@
 ---
 id: Utilization
-title: Authorization Utilization- Retiring July 2025
+title: Authorization Utilization- Retired July 2025
 ---
 
-# Authorization Utilization- Retiring July 2025
+:::note
+The Authorization Utilization view was retired in July 2025. Instead, learn about monitoring utilization from the [Utilization Dashboard](../Overview/Dashboards.md/#utilization).
+:::
+
+# Authorization Utilization- Retired July 2025
 
 To easily monitor how many authorized units were utilized per service per authorization, click 'Utilization' on the Insights section of Clinical area of the site menu.
 
@@ -28,31 +32,5 @@ The following aggregates are tracked:
 - *Remaining* - how many authorized units remain to be utilized this week/month.
 - *% Utilized* - percent of utilized units out of total authorized units this week/month.
 
-:::note
-The default way a week is calculated is from Sunday to Saturday.
-This setting can be adjusted in Advanced Settings.
-:::
->1.	Click on the ‘Settings’ icon in the app, then Advanced Settings on the drop-down menu. 
->
->    <img src ='/img/Settings-AdvancedSettings.png' width='400'/> 
->
->   You will be redirected to a new tab, displaying business management settings. 
->
->2.	Click on the drop-down button next to ‘Settings’ to display the settings sub-menu. Then click >>‘Administration’ in the ‘System’ group. 
->
->   <img src ='/img/AdvancedSettings-Administration.png' width='400'/> 
->
->   The system administration settings will appear on the screen. 
->
->3.	Click ‘System Settings’. 
->
->    <img src ='/img/Administration-SystemSettings.png' width='400'/> 
->
->4.	On the ‘System Settings’ dialog box that opens, navigate to the ‘Formats’ tab, and click on ‘Customize’.
->
->   <img src ='/img/System-SettingsFormats-Customize.png' width='400'/> 
->
->5.	The ‘Customize Regional Options’ dialog box will appear. Navigate to the ‘Date’ tab where you can change the ‘First Day of the Week’ to align with your organization's first day of the week. 
->
->   <img src ='/img/CustomizeRegionalOptions.png' width='400'/> 
+
 
