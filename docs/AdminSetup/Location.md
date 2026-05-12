@@ -18,7 +18,7 @@ Locations can be created from a patient's contact in the Clinical area, or from 
 - Setup Area - In the setup area, go to Locations on the left site menu. Click 'New Location' to create a new location. Leave the patient field blank to make it a general location that is available to the entire organization. 
 
 The **Address Information** section contains the basic information to differentiate locations. This section has the following fields. 
-- *Description* - This field can be populated to give the location a clear name for easy reference for the provider (e.g., Steven's summer home).
+- *Description* - This field can be populated to give the location a clear name for easy reference for the practitioner (e.g., Steven's summer home).
 - *Location Type* - This field defines the location type – home, school, office, or other. On the claim, the place of service code will be based on the value in this field, for all encounters taking place at this address.
 
     | **Location Type** | **Place of Service Code**                                                                 |
@@ -35,10 +35,10 @@ The **Address Information** section contains the basic information to differenti
     - Once the record is saved, the Patient field locks and cannot be changed.
 
 :::note
-- The Location Description and address is displayed on a practitioner's session details view in the Note app. 
+- The Location Description and address are displayed on a practitioner's session details view in the Note app. 
 - Only home addresses where the address type is Service Address (or service and billing) will display in the Note app.
 :::
-The **Address Details** section contains the address. Search for the address to populate the fields. The *Additional Directions* field can be used to record any directions that will help practitioners find their way easily (e.g., "first door on the right side of the house").  
+The **Address Details** section contains the address. Search for the address to populate the fields.
 
 ## Search Locations
 
