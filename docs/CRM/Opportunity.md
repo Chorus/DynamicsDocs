@@ -61,12 +61,13 @@ Click '+ Patient Opportunity' on the Opportunities main view in the CRM to creat
         - Insurance Card - toggle on when the insurance card has been received.
 
     - *Patient Preferences* -
+        - Preferred Schedule - enter the patient's availability for services.
+        - Preferred Start Date - enter the desired start date for services.
+        - Service Location - select the patient's requested service location(s) (home, clinic, school, etc.).
+        - Telehealth Staffing - if the patient is comfortable with receiving services via telehealth, set this to yes.
         - Preferred Languages - Select the languages that the patient is comfortable communicating in.
         - Provider Gender Preference – if the patient has a preference to the practitioner gender, set it here. 
         - Preferred Cultural Background - if the patient has a preference to the practitioner cultural background, set it here.
-        - Service Location - select the patient's requested service location(s).
-        - Preferred Service Times - select the patient's preferred service times (morning/afternoon/evening/weekend).
-        - Preferred Start Date - enter the desired start date for services.
 
     - *Timeline* - This is a running timeline of any communications or interactions with or regarding the patient. Emails, phone calls, encounters, tasks, and notes related to this patient are all tracked here. This timeline is also present with all entries on the patient's contact profile. You can also initiate emails, phone calls, and tasks directly from the timeline by clicking the ‘+’ button on the timeline.
 
@@ -148,18 +149,21 @@ Click '+ Practitioner Opportunity' on the Opportunities main view in the CRM to 
         - Marketer - select the individual at your organization responsible for bringing in this opportunity.
 
     - *Interview Info*
+        - Interview Needed - toggle on if an interview is required as part of the hiring process for this opportunity.
         - Interview Date - enter the date of the interview once it has been scheduled.
         - Interview Notes - take notes from the interview
         - References - enter reference contact information if relevant.
         - References Notes - take notes from contacting references.
 
     - *Practitioner Preferences*
+        - Preferred Schedule - enter the practitioner's availability for services.
+        - Preferred Start Date - enter the practitioner's desired start date.
+        - Preferred Service Location - if the practitioner has a preference to where they will be providing services (home, clinic, school, etc.), set it here.
+        - Travel Preferences - enter the practitioner's travel preferences, if any (e.g, willing to travel 30 minutes by bus for sessions).
+        - Telehealth Staffing - if the practitioner is providing services via telehealth, set this to yes.
         - Preferred Languages - select the languages that the practitioner is comfortable communicating in.
         - Patient Gender Preference - if the practitioner has a preference to the patient gender, set it here. 
         - Preferred Cultural Background -  if the practitioner has a preference to the patient cultural background, set it here.
-        - Preferred Service Location - if the practitioner has a preference to where they will be providing services, set it here.
-        - Preferred Service Times - select the practitioner's preferred service times (morning/afternoon/evening/weekend).
-        - Preferred Start Date - enter the practitioner's desired start date.
 
     - *Timeline* - This is a running timeline of any communications or interactions with or regarding the practitioner. Emails, phone calls, encounters, tasks, and notes related to this practitioner are all tracked here. This timeline is also present with all entries on the practitioner's contact profile. You can also initiate emails, phone calls, and tasks directly from the timeline by clicking the ‘+’ button on the timeline.
 
@@ -167,7 +171,12 @@ Click '+ Practitioner Opportunity' on the Opportunities main view in the CRM to 
 
     - *Practitioner Qualifications* - click 'New Practitioner Qualification' to create qualifications for the practitioner. The qualifications you create here will be available on the practitioner contact profile. [Learn more about practitioner qualifications](../Practitioners/Qualifications.md).
 
-    - *Onboarding Info* - enter the [practitioner's contract](../Payroll/Contracts.md) here.
+    - *Onboarding Info*
+        - Practitioner Contract - enter the [practitioner's contract](../Payroll/Contracts.md) here.
+        - Background Check - set whether the practitioner's background check was approved or flagged.
+
+
+- The **Documents** tab is for uploading practitioner intake documents such as resume, application, or other relevant documents. These documents will be available on the documents subgrid on the practitioner contact profile.
 
 
 ### Practitioner Opportunity Workflow

@@ -14,7 +14,7 @@ The Claim Form is divided into multiple tabs for an organized view of the comple
 - *Claim Type* - the category of claim (e.g. professional, institutional, oral, pharmacy, vision).
 - *Place of Service* - the location on the encounter.
 - *Total Billed* - the sum of the amounts billed for each claim line in the claim.
-- *Diagnosis Codes*
+- *Diagnosis Codes* - the active [condition](../Patients/Conditions.md) for the patient, or the condition marked as primary for a client with multiple active conditions.
 
 The **Patient & Coverage Details** section of a claim display information from the [patient](../Patients/Overview.md) record and the patient's [coverage](../Patients/Coverages.md).
 - *Patient*

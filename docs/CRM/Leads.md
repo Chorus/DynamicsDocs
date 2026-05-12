@@ -12,18 +12,39 @@ Leads are potential patients or practitioners captured from automated sources li
 
 **Overview**
 
-The Create Lead API allows you to create Patient or Practitioner leads in the Autism Care CRM when a parent or practitioner submits a form on your website/ad/etc.
+The Create Lead API allows you to create Patient or Practitioner leads in the Autism Care CRM when a parent or practitioner submits a form from your website, ad, or intake flow.
+There are two supported versions:
+- API 1.0 (GET) – Create leads without attachments
+- API 2.0 (POST) – Create leads with optional file attachments (resume, insurance card, etc.)
+Both versions create the same Lead record in CRM.
 
 **Authentication**
 
-This API requires an API key.
-To obtain your API key, please contact your Chorus account manager.
-The API key must be included as a query parameter in every request.
+All requests require an API key.
+- The API key must be passed as a query parameter
+- Either of the following parameter names is accepted, case-insensitive:
+    - SubscriptionKey
+    - Key
+
+To obtain an API key, please contact your Chorus account manager.
 
 **Endpoint**
 
-- Method: GET
-- URL: https://api.chorus.cloud/lead/create
+https://api.chorus.cloud/lead/create
+
+**Supported Methods**
+
+| **Method**| **Purpose** |
+|----------------|------------------------------------------------------|
+| GET	| Create a Lead (no attachments) |
+| POST |	Create a Lead with optional attachments |
+
+<details>
+<summary>API 1.0 – Create Lead (No Attachments)</summary>
+
+**Method**
+
+GET
 
 **Request Parameters**
 
@@ -31,49 +52,143 @@ All parameters are passed as query parameters in the request URL.
 
 | **Name**| **Type**  | **Description** |
 |----------------|---------------------------|---------------------------|
-| subscriptionkey	| string	| API key provided by Chorus |
-| leadtype |	string	| Type of lead to create. Must be "Patient" or "Practitioner" |
+|subscriptionkey	| string	| API key provided by Chorus |
+|leadtype |	string	| Type of lead to create. Must be "Patient" or "Practitioner"(case-insensitive) |
 |firstName |	string	| First name of the patient or practitioner|
 |lastName |	string|	Last name of the patient or practitioner|
-|email	|string|	Primary contact email address |
-| primaryContactFirstName	| string	|Primary contact first name|
+|email	|string|	Primary contact email address, or practitioner email address |
+|primaryContactFirstName	| string	|Primary contact first name|
 |primaryContactLastName	|string|	Primary contact last name|
 |phone	|string	|Primary contact phone number|
-|state|	string	|State|
-|address1_postalcode|	string	|ZIP / Postal code|
+|cellPhone | string | Practitioner phone number |
+|addressState|	string	| State or Province|
 |message	|string |	Description or message submitted from the form |
-|hasDiagnosis	|boolean	|Indicates whether the patient already has an Autism diagnosis|
-|marketingSourceId	|string	| ID of the [marketing source](../AdminSetup/Definitions.md/#marketing-source-definitions) you'd like listed on the lead (the ID is found in the URL of the marketing source definition)| 
+|hasDiagnosis	|boolean	|'true' or 'false' - Indicates whether the patient already has an Autism diagnosis|
+|insurance| string| Patient insurance|
+|marketingSourceId	|string (GUID)	| ID of the [marketing source](../AdminSetup/Definitions.md/#marketing-source-definitions) you'd like listed on the lead (the ID is found in the URL of the marketing source definition)| 
+|businessUnitId | string (GUID)| ID of the [business unit](../AdminSetup/BusinessUnit.md) you'd like listed on the lead (the ID is found in the URL of the business unit) |
 
 **Example Request**
 
-        https://api.chorus.cloud/lead/create?subscriptionkey=YOUR_API_KEY
+        https://api.chorus.cloud/lead/create
+        ?subscriptionkey=YOUR_API_KEY
         &leadtype=Patient
-        &firstName=Jane&lastName=Doe
-        &primaryContactFirstName=John&primaryContactLastName=Doe
-        &email=jane.doe@example.com&phone=5551234567
-        &state=CA&address1_postalcode=90210
+        &firstName=Jane
+        &lastName=Doe
+        &primaryContactFirstName=John
+        &primaryContactLastName=Doe
+        &email=jane.doe@example.com
+        &phone=5551234567
+        &addressState=CA
         &message=Looking%20for%20ABA%20therapy
         &hasDiagnosis=true
+        &insurance=Aetna
+        &businessUnitId=3f2c1a14-2d9b-ee11-bdf4-00224805c0bb
         &marketingSourceId=a6ff93a4-f7fe-ed11-8f6e-00224805c0bb
 
 **Form Integration Example**
 
 You can configure your website form to submit directly to the API endpoint.
 
-    <form action="https://api.chorus.cloud/lead/create" method="get">
+        
+        <form action="https://api.chorus.cloud/lead/create" method="get">
         <input type="hidden" name="subscriptionkey" value="YOUR_API_KEY" />
         <input type="hidden" name="leadtype" value="Patient" />
 
         <input name="firstName" placeholder="First Name" />
         <input name="lastName" placeholder="Last Name" />
+        <input name="primaryContactFirstName" placeholder="Primary Contact First Name" />
+        <input name="primaryContactLastName" placeholder="Primary Contact Last Name" />
         <input name="email" placeholder="Email" />
         <input name="phone" placeholder="Phone" />
+        <input name="addressState" placeholder="State" />
+        <input name="insurance" placeholder="Insurance" />
+
+        <input type="hidden" name="businessUnitId"
+                value="3f2c1a14-2d9b-ee11-bdf4-00224805c0bb" />
 
         <button type="submit">Submit</button>
         </form>
 
+
 </details>
+
+
+<details>
+<summary>API 2.0 – Create Lead WITH Attachments</summary>
+
+**Method**
+
+POST
+
+**Request Parameters**
+- All lead fields are sent as form fields
+- Files are sent as multipart/form-data
+- Query parameters are not read (except authentication)
+- Required form encoding: multipart/form-data
+
+| **Name**| **Type**  | **Description** |
+|----------------|---------------------------|---------------------------|
+|subscriptionkey	| string	| API key provided by Chorus |
+|leadtype |	string	| Type of lead to create. Must be "Patient" or "Practitioner" (case-insensitive) |
+|firstName |	string	| First name of the patient or practitioner|
+|lastName |	string|	Last name of the patient or practitioner|
+|email	|string|	Primary contact email address, or practitioner email address |
+|primaryContactFirstName	| string	|Primary contact first name|
+|primaryContactLastName	|string|	Primary contact last name|
+|phone	|string	|Primary contact phone number|
+|cellPhone | string | Practitioner phone number |
+|addressState|	string	| State or Province|
+|message	|string |	Description or message submitted from the form |
+|hasDiagnosis	|boolean	|'true' or 'false' - Indicates whether the patient already has an Autism diagnosis|
+|insurance| string| Patient insurance|
+|marketingSourceId	|string (GUID)	| ID of the [marketing source](../AdminSetup/Definitions.md/#marketing-source-definitions) you'd like listed on the lead (the ID is found in the URL of the marketing source definition)| 
+|businessUnitId | string (GUID) | ID of the [business unit](../AdminSetup/BusinessUnit.md) you'd like listed on the lead (the ID is found in the URL of the business unit) |
+| file | file | Attach one or more files (repeatable) |
+
+**Attachments**
+- Files are stored in CRM as notes on the Lead timeline
+- Any file type is accepted (subject to CRM size limits)
+- Multiple files are supported by repeating the file field
+
+**Form Integration Example**
+
+You can configure your website form to submit directly to the API endpoint.
+
+
+        <form action="https://api.chorus.cloud/lead/create"
+            method="post"
+            enctype="multipart/form-data">
+
+        <input type="hidden" name="subscriptionkey" value="YOUR_API_KEY" />
+        <input type="hidden" name="leadtype" value="Patient" />
+
+        <input name="firstName" placeholder="First Name" />
+        <input name="lastName" placeholder="Last Name" />
+        <input name="primaryContactFirstName" placeholder="Primary Contact First Name" />
+        <input name="primaryContactLastName" placeholder="Primary Contact Last Name" />
+        <input name="email" placeholder="Email" />
+        <input name="phone" placeholder="Phone" />
+        <input name="addressState" placeholder="State" />
+        <input name="insurance" placeholder="Insurance" />
+
+        <input type="hidden" name="businessUnitId"
+                value="3f2c1a14-2d9b-ee11-bdf4-00224805c0bb" />
+
+        <label>Upload documents:</label>
+        <input type="file" name="file" multiple />
+
+        <button type="submit">Submit</button>
+        </form>
+
+
+</details>
+
+
+
+
+</details>
+
 
 ## Patient Leads
 After patient leads are created from your website forms or ad responses, you can open the lead to fill out additional information about the patient as you obtain that information:
@@ -120,7 +235,8 @@ A patient lead is created at the **Prospect** stage.
 
 Once an application has been sent to the parent to complete, enter the Application Sent Date and click 'Next Stage' to move the lead to the **Application Pending** stage.
 
-You can either **qualify the lead** into an [opportunity](../CRM/Opportunity.md) once you have sent the parent the application (qualify to Application Pending), or once you have received the application (qualify to Application Review). All information from the lead will be copied into the opportunity.
+You can either **qualify the lead** into an [opportunity](../CRM/Opportunity.md/#create-a-patient-opportunity) once you have sent the parent the application (qualify to Application Pending), or once you have received the application (qualify to Application Review). All information from the lead will be copied into the opportunity.
+
 
 **Disqualify the lead** if the patient is not proceeding or not qualified for services, and choose why they were disqualified.
 
@@ -177,7 +293,7 @@ Practitioner Leads have 3 stages:
 - Once an interview has been offered to the practitioner, enter the Interview Date and click 'Next Stage' to move the lead to the **Interview Pending** stage.
 - Once the interview was completed, click 'Next Stage' to move the lead to the **Candidate Review** stage.
 
-You can **qualify the lead** into an opportunity at any point once you have gathered the information you'd like to review (qualify to Candidate Review), or once you have reviewed the candidate and are ready to hire (qualify to Offer).
+You can **qualify the lead** into an [opportunity](../CRM/Opportunity.md/#create-a-practitioner-opportunity) at any point once you have gathered the information you'd like to review (qualify to Candidate Review), or once you have reviewed the candidate and are ready to hire (qualify to Offer).
 
 **Disqualify the lead** if the practitioner is not proceeding, and choose why they were disqualified.
 

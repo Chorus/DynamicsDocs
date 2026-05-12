@@ -7,6 +7,8 @@ title: Healthcare Services
 A healthcare service is a service you will be providing to your clients. This is where you’ll be setting up the friendly titles to use for various insurance service codes, so that everyone can refer to and understand service terms in the same way. 
 - *Name* – title for the service
 - *Service Type* – select an appropriate service type from the list of options.
+- *Comprehensive* - intensive, individualized therapy targeting multiple skill areas. Toggle on if the service will be billed as comprehensive (and requires related [modifier rules](../AdminSetup/InsurancePlan.md/#insurance-plan-billing-requirements))
+
 :::note
 The healthcare service type defines the session's behavior in the Note app: 
   - Initial Assessment: Assessment report can be generated from the session
