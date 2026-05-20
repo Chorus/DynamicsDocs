@@ -30,7 +30,7 @@ Scheduling may be affected if UTC Offset (time zone) is not configured properly.
 - *Grace Period Days* - enter the number of days after a session takes place that a session can still be submitted. Sessions will fail validation this number of days after the date of the session if not yet submitted. [Learn more about grace period encounter validation](../Scheduling/EncounterValdations.md/#encounter-service-is-not-within-grace-period).
 - *Block Supervision Submission* - when set to Yes, a Direction of Technician session will fail validation until an overlapping Direct Treatment session is submitted. This puts additional accountability on BCBAs to encourage timely session submission for sessions they supervise. [Learn more about overlapping session validations](../Scheduling/EncounterValdations.md/#overlapping-direct-care-session-was-not-yet-submitted).
 - *EVV Enabled* - when set to Yes, [EVV Transmission Items](../AdminSetup/EVVSetUp.md/#evv-through-sandata) will be sent to your Sandata account. Reach out to you account manager to set up your Sandata connection.
-- *Business Logo* - where your business logo is stored to be inserted on [session note exports](../Billing/Export%20Session%20Notes.md) and [automated emails](../Patients/Connection.md/#primary-contact-engagement-emails).
+- *Business Logo* - where your business logo is stored to be inserted on [session note exports](../Billing/Export%20Session%20Notes.md) and [automated emails](../CRM/AuthWF.md/#auth-workflow-emails).
 - *Charge Period Frequency* - select whether [charge periods](../Billing/ChargePeriods.md) will be created weekly or monthly.
 
 <img src ="/img/BU.png" width="900"/>
