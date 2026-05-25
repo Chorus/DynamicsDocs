@@ -31,12 +31,12 @@ A session note export can only be created for one patient's sessions at a time. 
     - Time in / Time out
     - Session Duration
     - Units utilized (based on [charge item](../Billing/ChargePeriods.md/#charge-items))
-    - Place of service (location type and address of encounter [location](../AdminSetup/Location.md))
+    - Place of service (location name and address of encounter [location](../AdminSetup/Location.md))
     - Conducted over Telecare (when telecare is indicated on the encounter service)
     - Service rendered (procedure code and service name)
-    - Rendering Provider (practitioner on encounter service)
-    - Supervising BCBA / NPI number (rendering provider on the [claim](../Billing/Claims.md), or the rendering provider assignment on the [authorization](../Patients/Authorization.md/#claim-settings) when the claim has not been generated yet)
-    - Other individuals present (name of practitioner from overlapping encounter)
+    - Rendering Provider (practitioner on encounter service), and their [Qualifications that are configured](../AdminSetup/QualificationDefinition.md) to show on session notes.
+    - Supervising BCBA / NPI number (rendering provider on the [claim](../Billing/Claims.md), or the rendering provider assignment on the [authorization](../Patients/Authorization.md/#claim-settings) when the claim has not been generated yet), and their [Qualifications that are configured](../AdminSetup/QualificationDefinition.md) to show on session notes.
+    - Other individuals present (name of practitioner from overlapping encounter, and their [Qualifications that are configured](../AdminSetup/QualificationDefinition.md) to show on session notes.)
 - Notes: the session Narrative completed in the Note app.
     - For [97153](#97153-narrative), [97155](#97155-narrative), and [97156](#97156-narrative), a template is provided in the Note app. For all other services, the narrative is completed in a free text-box requiring at least 100 characters.
 - Primary Targets addressed in this session (for direct treatment sessions)

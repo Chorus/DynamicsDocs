@@ -38,6 +38,8 @@ The Contact Main Form for a Practitioner is divided into multiple tabs for an or
     - *Payroll Items* - The left subgrid displays payroll items for the practitioner. The default view is set to 'Payroll Items - Current Payroll Periods' - all payroll items in the open payroll period. [Learn more about Payroll Items](../Payroll/PayrollItems.md).
     - *Practitioner Contracts* - The right subgrid displays the [Practitioner's contracts](../Payroll/Contracts.md). 
 
+- The **Workflows** tab allows you to easily access the practitioner's [opportunity(s)](../CRM/Opportunity.md).
+
 ## Search Contacts
 
 Select 'Contacts' on the site menu in the Clinical Area to open the Contact Main Grid. The Contact Main Grid has 4 views related to Practitioner contacts. All views display the First Name, Last Name, Known As, Date of Birth, Address and Status Reason.  

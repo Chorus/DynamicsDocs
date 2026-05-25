@@ -92,6 +92,7 @@ module.exports = {
  ],
 
   'Release Notes':[
+          'Release Notes/AC 4.0.9',
       'Release Notes/RCM 4.0.8',
  'Release Notes/CRM 4.0.7',
   'Release Notes/RCM 4.0.7',

@@ -17,5 +17,6 @@ To create a new Condition, click 'New Condition' on the Conditions subgrid (on a
 - *Severity* - select the severity of this condition in the patient – mild, moderate, or severe.
 - *Onset* - enter the date this condition began or was diagnosed on.
 - *Historical As Of* - this field tracks the end date for a condition. It is usually left blank for ASD conditions.
+- *Primary Diagnosis on Claim* - when a patient has multiple active conditions tracked, the one set as primary will be listed on their claims. Only one active diagnosis can be set as primary.
 
 If there is more than one diagnosis tracked on the patient, then ‘Autism Disorder’ is populated as the first diagnosis on the claim, and the other ones follow.
